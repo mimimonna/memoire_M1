@@ -129,13 +129,13 @@ def smart_assistant(user_question, embed_model, question_embeddings, answers, to
 with st.sidebar:
     st.markdown("## 🌸 Navigation")
     page = st.radio("", [
-        "🏠 Accueil",
-        "💬 Assistant NLP",
-        "🔮 Prédiction Ovulation",
-        "📊 Visualisations"
+        " Accueil",
+        "Assistant NLP",
+        "Prédiction Ovulation",
+        "Visualisations"
     ])
     st.markdown("---")
-    st.markdown("### ℹ️ À propos")
+    st.markdown("### À propos")
     st.info("Ce projet combine **Machine Learning** et **NLP** pour accompagner la compréhension de la santé menstruelle.\n\n⚠️ *Ne remplace pas un avis médical.*")
 
 # ─── CHARGEMENT ───────────────────────────────────────────────────────────────
@@ -162,31 +162,31 @@ if page == "🏠 Accueil":
         </div>""", unsafe_allow_html=True)
     with col2:
         st.markdown("""<div class='metric-card'>
-            <h2>🔮</h2><h3>Prédiction ML</h3>
+            <h2> </h2><h3>Prédiction ML</h3>
             <p>Prédisez l'ovulation à partir de vos données physiologiques</p>
         </div>""", unsafe_allow_html=True)
     with col3:
         st.markdown("""<div class='metric-card'>
-            <h2>📊</h2><h3>Visualisations</h3>
+            <h2> </h2><h3>Visualisations</h3>
             <p>Explorez les données du cycle menstruel interactivement</p>
         </div>""", unsafe_allow_html=True)
 
     st.markdown("---")
     st.markdown("""
-    ### 🧠 Approche Hybride
+    ###  Approche Hybride
     Ce projet repose sur deux composantes complémentaires :
     - **Machine Learning** (Random Forest, XGBoost) pour analyser des données tabulaires et prédire l'ovulation
     - **NLP** (Sentence-BERT) pour comprendre les questions en langage naturel et y répondre
     """)
 
     if data_loaded:
-        st.success(f"✅ Données chargées — {len(period_log):,} entrées cycle | {len(train_text):,} paires Q&R")
+        st.success(f" Données chargées — {len(period_log):,} entrées cycle | {len(train_text):,} paires Q&R")
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # PAGE ASSISTANT NLP
 # ═══════════════════════════════════════════════════════════════════════════════
-elif page == "💬 Assistant NLP":
-    st.markdown("# 💬 Assistant Santé Menstruelle")
+elif page == " Assistant NLP":
+    st.markdown("# Assistant Santé Menstruelle")
     st.markdown("Posez votre question en anglais ou en français sur la santé menstruelle.")
 
     if not data_loaded:
@@ -195,7 +195,7 @@ elif page == "💬 Assistant NLP":
         with st.spinner("Chargement du modèle NLP..."):
             embed_model, questions, answers, question_embeddings, df_nlp = load_nlp_model(train_text)
 
-        st.markdown("#### 💡 Exemples de questions")
+        st.markdown("#### Exemples de questions")
         exemples = [
             "How can I reduce menstrual cramps?",
             "What causes irregular periods?",
@@ -210,7 +210,7 @@ elif page == "💬 Assistant NLP":
 
         st.markdown("---")
         user_question = st.text_input(
-            "🔍 Votre question :",
+            " Votre question :",
             value=selected_example if selected_example else "",
             placeholder="Ex: How can I reduce menstrual cramps?"
         )
@@ -224,13 +224,13 @@ elif page == "💬 Assistant NLP":
             if main_answer is None:
                 st.warning("Je n'ai pas trouvé de réponse suffisamment pertinente. Essayez de reformuler votre question.")
             else:
-                st.markdown("#### ✅ Réponse principale")
+                st.markdown("#### Réponse principale")
                 st.markdown(f"<div class='answer-box'>{main_answer}</div>", unsafe_allow_html=True)
 
                 if alternatives:
-                    st.markdown("#### 💡 Suggestions alternatives")
+                    st.markdown("#### Suggestions alternatives")
                     for alt_answer, score in alternatives:
-                        st.markdown(f"<div class='alt-box'>🔹 {alt_answer}<br><small>Score de similarité : {score:.2f}</small></div>", unsafe_allow_html=True)
+                        st.markdown(f"<div class='alt-box'> {alt_answer}<br><small>Score de similarité : {score:.2f}</small></div>", unsafe_allow_html=True)
 
         st.markdown("---")
         st.caption("⚠️ Cet assistant fournit des informations générales uniquement. Il ne remplace pas un avis médical professionnel.")
@@ -238,8 +238,8 @@ elif page == "💬 Assistant NLP":
 # ═══════════════════════════════════════════════════════════════════════════════
 # PAGE PRÉDICTION ML
 # ═══════════════════════════════════════════════════════════════════════════════
-elif page == "🔮 Prédiction Ovulation":
-    st.markdown("# 🔮 Prédiction de l'Ovulation")
+elif page == " Prédiction Ovulation":
+    st.markdown("#  Prédiction de l'Ovulation")
     st.markdown("Renseignez vos données pour obtenir une prédiction basée sur le modèle Random Forest.")
 
     if not data_loaded:
@@ -248,7 +248,7 @@ elif page == "🔮 Prédiction Ovulation":
         with st.spinner("Entraînement du modèle..."):
             model_rf, feature_cols, encoders, df_processed = train_model(period_log)
 
-        st.markdown("### 📝 Vos données")
+        st.markdown("###  Vos données")
         col1, col2, col3 = st.columns(3)
 
         with col1:
@@ -266,7 +266,7 @@ elif page == "🔮 Prédiction Ovulation":
             progesterone = st.number_input("Progestérone (ng/mL)", 0.0, 30.0, 5.0)
             prev_cycle = st.slider("Durée cycle précédent (jours)", 20, 45, 28)
 
-        if st.button("🔮 Prédire"):
+        if st.button(" Prédire"):
             # Créer un échantillon avec les mêmes colonnes que X_train
             sample = pd.DataFrame(columns=feature_cols)
             sample.loc[0] = 0  # initialiser à 0
@@ -294,15 +294,15 @@ elif page == "🔮 Prédiction Ovulation":
             col_res1, col_res2 = st.columns(2)
             with col_res1:
                 if prediction == 1:
-                    st.success("✅ **Ovulation probable**")
+                    st.success(" **Ovulation probable**")
                 else:
-                    st.info("ℹ️ **Ovulation peu probable**")
+                    st.info(" **Ovulation peu probable**")
 
             with col_res2:
                 st.metric("Probabilité d'ovulation", f"{proba[1]*100:.1f}%")
 
             # Feature importance
-            st.markdown("### 📊 Variables les plus importantes")
+            st.markdown("###  Variables les plus importantes")
             importances = pd.Series(model_rf.feature_importances_, index=feature_cols).sort_values(ascending=False).head(10)
             fig, ax = plt.subplots(figsize=(8, 4))
             importances.plot(kind='bar', ax=ax, color='#9B59B6')
@@ -317,8 +317,8 @@ elif page == "🔮 Prédiction Ovulation":
 # ═══════════════════════════════════════════════════════════════════════════════
 # PAGE VISUALISATIONS
 # ═══════════════════════════════════════════════════════════════════════════════
-elif page == "📊 Visualisations":
-    st.markdown("# 📊 Exploration des Données")
+elif page == " Visualisations":
+    st.markdown("# Exploration des Données")
 
     if not data_loaded:
         st.error("Données non disponibles.")
@@ -371,5 +371,5 @@ elif page == "📊 Visualisations":
         st.pyplot(fig)
 
         st.markdown("---")
-        st.markdown("### 📋 Aperçu des données")
+        st.markdown("###  Aperçu des données")
         st.dataframe(period_log.head(10), use_container_width=True)
