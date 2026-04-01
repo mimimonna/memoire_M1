@@ -149,7 +149,7 @@ except Exception as e:
 # ═══════════════════════════════════════════════════════════════════════════════
 # PAGE ACCUEIL
 # ═══════════════════════════════════════════════════════════════════════════════
-if page == "🏠 Accueil":
+if page == "Accueil":
     st.markdown("# 🌸 Assistant Intelligent pour la Santé Menstruelle")
     st.markdown("### *Université Paris 1 Panthéon-Sorbonne — DABO Mami Monna*")
     st.markdown("---")
@@ -157,7 +157,7 @@ if page == "🏠 Accueil":
     col1, col2, col3 = st.columns(3)
     with col1:
         st.markdown("""<div class='metric-card'>
-            <h2>💬</h2><h3>Assistant NLP</h3>
+            <h2> </h2><h3>Assistant NLP</h3>
             <p>Posez vos questions en langage naturel sur la santé menstruelle</p>
         </div>""", unsafe_allow_html=True)
     with col2:
@@ -203,16 +203,18 @@ elif page == " Assistant NLP":
             "How long does a normal cycle last?"
         ]
         cols = st.columns(4)
-        selected_example = None
-        for i, ex in enumerate(exemples):
-            if cols[i].button(ex, key=f"ex_{i}"):
-                selected_example = ex
+           if 'question' not in st.session_state:
+                st.session_state.question = ""
+
+            for i, ex in enumerate(exemples):
+                if cols[i].button(ex, key=f"ex_{i}"):
+                    st.session_state.question = ex
 
         st.markdown("---")
         user_question = st.text_input(
             " Votre question :",
-            value=selected_example if selected_example else "",
-            placeholder="Ex: How can I reduce menstrual cramps?"
+                value=st.session_state.question,
+                placeholder="Ex: How can I reduce menstrual cramps?"
         )
 
         if st.button("🌸 Obtenir une réponse") and user_question:
