@@ -1,0 +1,2001 @@
+user_id,state,age,bmi,diet_quality,exercise_frequency,sleep_hours,caffeine_intake,water_intake_liters,alcohol_consumption,smoking_status,birth_control_use,pcos_diagnosed,stress_score_baseline
+U00001,Rhode Island,34,26.0,Good,5–6 days/week,5.4,1.5,2.0,Occasionally,No,1,1,4.1
+U00002,New Hampshire,32,26.6,Good,5–6 days/week,5.5,2.9,2.3,Weekly,No,0,0,5.7
+U00003,Iowa,18,16.0,Poor,1–2 days/week,6.7,0.5,2.1,Never,No,1,0,3.1
+U00004,Texas,30,24.7,Excellent,,7.3,0.4,1.8,Occasionally,No,1,0,6.6
+U00005,Delaware,32,29.2,Good,1–2 days/week,7.1,2.2,2.2,Occasionally,No,0,1,3.1
+U00006,Massachusetts,28,21.4,Average,3–4 days/week,7.6,1.5,1.9,Occasionally,No,1,0,4.8
+U00007,Rhode Island,24,20.4,Good,3–4 days/week,6.7,2.4,2.0,Occasionally,No,0,0,6.7
+U00008,Maine,38,21.1,Good,3–4 days/week,6.7,1.5,1.7,Occasionally,No,0,0,4.7
+U00009,Minnesota,29,16.2,Good,1–2 days/week,9.1,2.2,2.7,Occasionally,No,0,0,3.5
+U00010,Hawaii,35,23.6,Good,1–2 days/week,8.4,3.3,3.2,Never,No,0,0,5.4
+U00011,Hawaii,32,23.1,Good,1–2 days/week,7.5,0.5,1.7,Never,Yes,1,0,4.8
+U00012,Mississippi,28,23.9,Excellent,3–4 days/week,8.1,3.1,2.2,Never,No,0,1,7.3
+U00013,Oklahoma,23,24.9,Poor,,4.7,0.0,1.5,Weekly,No,0,0,6.7
+U00014,South Carolina,25,19.4,Average,1–2 days/week,6.0,2.5,2.6,Weekly,No,0,0,6.3
+U00015,Mississippi,24,24.2,Average,1–2 days/week,6.5,3.4,2.5,Never,No,0,0,5.5
+U00016,Arizona,19,25.0,Good,3–4 days/week,6.0,1.2,1.9,Never,No,1,0,5.2
+U00017,Michigan,29,20.8,Good,,5.1,2.5,2.2,Weekly,Yes,0,0,5.2
+U00018,Alaska,33,24.9,Good,3–4 days/week,7.5,1.3,2.9,Never,No,0,0,2.9
+U00019,Mississippi,24,23.4,Good,3–4 days/week,8.7,2.4,1.2,Never,No,0,1,5.5
+U00020,Utah,36,20.2,Good,3–4 days/week,7.0,0.0,1.4,Never,No,0,0,4.3
+U00021,New Jersey,18,24.3,Excellent,3–4 days/week,7.8,2.0,2.7,Never,No,0,0,5.4
+U00022,Pennsylvania,31,21.7,Average,1–2 days/week,6.9,2.2,2.3,Occasionally,No,0,0,5.6
+U00023,Alaska,34,26.1,Good,1–2 days/week,6.5,3.3,2.3,Never,No,0,0,4.8
+U00024,Massachusetts,24,21.9,Average,5–6 days/week,8.1,2.8,3.0,Occasionally,No,1,0,6.9
+U00025,North Carolina,25,17.2,Good,3–4 days/week,5.3,1.6,2.8,Weekly,No,0,0,3.9
+U00026,Idaho,31,24.2,Good,5–6 days/week,4.8,2.1,3.5,Never,No,1,0,4.8
+U00027,Michigan,28,24.0,Good,3–4 days/week,5.3,0.2,2.9,Never,No,1,0,5.0
+U00028,Utah,16,18.1,Average,,8.0,3.6,2.7,Occasionally,No,1,0,7.2
+U00029,Missouri,21,26.4,Average,,7.1,2.6,2.3,Occasionally,No,0,0,5.5
+U00030,Wisconsin,25,26.1,Good,3–4 days/week,7.5,0.0,2.2,Never,Yes,1,0,5.5
+U00031,Nebraska,19,19.1,Good,1–2 days/week,9.0,2.1,2.3,Never,No,1,0,6.8
+U00032,Tennessee,23,20.0,Average,1–2 days/week,5.6,2.2,2.5,Never,No,1,0,4.7
+U00033,Nevada,19,22.4,Excellent,3–4 days/week,8.4,0.9,1.5,Occasionally,No,0,0,6.8
+U00034,Kansas,24,19.6,Average,1–2 days/week,6.5,1.9,2.5,Never,No,0,0,6.1
+U00035,Iowa,24,25.9,Good,1–2 days/week,6.3,0.8,2.1,Occasionally,No,1,0,7.4
+U00036,Washington,27,23.7,Good,3–4 days/week,7.1,0.3,2.5,Never,Yes,0,0,4.9
+U00037,Utah,25,18.1,Good,3–4 days/week,7.3,1.1,1.9,Occasionally,No,0,0,5.1
+U00038,Arizona,28,19.3,Excellent,1–2 days/week,6.7,2.0,1.8,Never,No,0,0,5.7
+U00039,Oregon,27,28.3,Good,3–4 days/week,7.7,2.8,2.5,Occasionally,No,1,0,5.4
+U00040,Connecticut,31,29.9,Good,5–6 days/week,7.1,1.9,2.6,Never,No,0,0,6.7
+U00041,Massachusetts,30,25.4,Poor,1–2 days/week,6.8,2.8,1.9,Never,No,1,0,5.2
+U00042,Florida,29,22.0,Average,,6.5,2.5,3.2,Occasionally,Yes,0,0,3.9
+U00043,Rhode Island,41,21.0,Average,,7.3,0.7,3.2,Occasionally,No,0,0,7.5
+U00044,Louisiana,27,25.5,Good,3–4 days/week,5.4,2.5,1.2,Occasionally,No,0,0,8.4
+U00045,Arkansas,38,23.3,Average,1–2 days/week,5.7,2.5,1.8,Occasionally,No,0,0,3.1
+U00046,Missouri,28,16.0,Average,5–6 days/week,6.6,3.7,2.4,Never,No,0,0,6.2
+U00047,Indiana,25,27.6,Average,3–4 days/week,7.7,2.3,2.6,Occasionally,No,0,0,6.6
+U00048,Wyoming,24,29.1,Average,3–4 days/week,9.6,0.4,3.8,Never,Yes,0,0,5.9
+U00049,Florida,33,26.3,Average,5–6 days/week,6.8,1.2,2.4,Never,No,0,0,7.9
+U00050,Montana,34,18.1,Good,5–6 days/week,4.9,0.0,2.2,Occasionally,No,1,0,3.5
+U00051,Alaska,28,20.1,Good,1–2 days/week,6.1,2.4,1.5,Occasionally,No,0,0,4.7
+U00052,Maryland,31,16.0,Good,,7.8,3.6,1.2,Occasionally,No,0,0,5.7
+U00053,Nevada,19,30.2,Good,3–4 days/week,5.8,0.0,2.2,Occasionally,No,0,0,6.9
+U00054,Washington,18,21.4,Average,1–2 days/week,5.4,3.7,3.7,Weekly,No,0,0,7.3
+U00055,Connecticut,32,33.5,Good,1–2 days/week,7.8,2.3,2.2,Never,No,1,0,3.7
+U00056,Utah,25,31.8,Average,3–4 days/week,7.6,0.6,1.8,Weekly,No,0,0,2.8
+U00057,Delaware,29,18.9,Average,5–6 days/week,5.2,2.1,2.6,Occasionally,No,0,0,6.7
+U00058,Washington,22,19.8,Good,1–2 days/week,5.9,0.7,0.9,Occasionally,No,0,0,5.7
+U00059,Ohio,34,25.1,Average,3–4 days/week,8.5,2.3,2.4,Occasionally,No,1,0,5.7
+U00060,Indiana,18,16.0,Good,1–2 days/week,8.0,1.9,2.9,Occasionally,No,0,0,6.7
+U00061,Kentucky,19,21.0,Average,3–4 days/week,5.6,2.2,1.6,Occasionally,No,0,0,4.3
+U00062,Oklahoma,33,20.6,Good,,4.6,0.8,3.3,Never,No,1,0,5.1
+U00063,Wyoming,16,31.3,Good,5–6 days/week,7.3,0.9,2.8,Weekly,No,0,0,6.3
+U00064,South Carolina,27,23.7,Average,,6.6,2.4,3.3,Never,No,0,0,4.1
+U00065,Arkansas,25,21.7,Good,3–4 days/week,7.2,1.2,1.3,Never,Yes,0,0,4.7
+U00066,Alaska,22,20.2,Average,,7.8,2.0,2.2,Never,No,0,0,5.7
+U00067,Colorado,25,27.0,Good,1–2 days/week,5.9,2.3,2.9,Never,No,1,0,6.3
+U00068,Tennessee,21,20.8,Poor,1–2 days/week,6.5,1.6,1.3,Never,No,1,0,3.3
+U00069,Arkansas,33,22.8,Good,1–2 days/week,5.9,3.1,3.0,Never,No,0,0,6.5
+U00070,New Hampshire,35,20.1,Good,,6.0,1.6,2.2,Occasionally,No,1,0,6.2
+U00071,Louisiana,22,16.2,Average,1–2 days/week,7.7,1.6,3.0,Occasionally,Yes,0,0,4.2
+U00072,Montana,27,18.5,Excellent,3–4 days/week,7.2,1.1,2.5,Never,No,1,0,8.9
+U00073,Utah,19,20.7,Good,3–4 days/week,5.1,2.9,3.3,Never,No,0,0,4.1
+U00074,North Dakota,31,21.8,Good,,7.9,1.0,1.4,Weekly,No,0,0,6.6
+U00075,Georgia,31,22.0,Good,3–4 days/week,6.6,3.2,2.5,Never,Yes,0,0,5.9
+U00076,Oklahoma,24,22.6,Average,,7.9,2.0,1.2,Never,No,0,0,4.9
+U00077,Indiana,26,20.8,Good,3–4 days/week,5.8,4.8,2.6,Never,No,1,0,5.6
+U00078,New Mexico,25,29.1,Average,1–2 days/week,5.9,1.1,2.5,Never,No,0,0,6.3
+U00079,West Virginia,17,27.3,Average,3–4 days/week,7.3,3.2,2.1,Occasionally,No,0,0,9.8
+U00080,Iowa,33,22.4,Excellent,1–2 days/week,5.7,2.4,1.8,Never,No,0,0,3.3
+U00081,Delaware,22,24.1,Good,5–6 days/week,6.7,1.2,2.1,Occasionally,No,0,0,1.4
+U00082,Indiana,22,21.3,Average,1–2 days/week,5.5,2.4,2.4,Never,Yes,0,0,4.0
+U00083,Minnesota,25,16.0,Average,1–2 days/week,6.5,2.3,2.5,Occasionally,Yes,0,0,5.5
+U00084,South Carolina,30,23.1,Good,1–2 days/week,7.0,1.4,3.7,Occasionally,No,0,0,6.5
+U00085,Massachusetts,23,24.4,Poor,5–6 days/week,7.0,2.3,2.9,Never,No,0,0,5.6
+U00086,Kansas,16,16.0,Poor,3–4 days/week,6.6,3.1,1.9,Never,No,1,0,5.3
+U00087,Vermont,21,25.2,Poor,3–4 days/week,7.4,2.4,2.7,Never,No,1,0,7.8
+U00088,Louisiana,28,21.7,Good,5–6 days/week,7.2,1.3,2.9,Occasionally,No,0,0,4.3
+U00089,Washington,36,24.5,Good,5–6 days/week,6.9,1.3,1.8,Never,No,0,0,8.0
+U00090,Mississippi,19,21.9,Poor,3–4 days/week,6.2,1.7,2.8,Occasionally,No,0,0,6.4
+U00091,Montana,19,28.6,Good,,8.3,3.0,1.3,Never,No,0,0,7.7
+U00092,Missouri,18,24.0,Average,3–4 days/week,7.5,1.0,1.8,Never,No,1,0,4.1
+U00093,Vermont,17,27.5,Good,1–2 days/week,5.8,2.2,1.3,Never,Yes,0,0,5.0
+U00094,South Dakota,32,27.9,Excellent,3–4 days/week,7.8,0.1,2.2,Never,No,0,0,3.3
+U00095,New Hampshire,33,18.0,Good,3–4 days/week,8.1,2.5,2.0,Never,No,0,0,6.0
+U00096,Iowa,26,19.7,Good,3–4 days/week,6.9,2.6,2.0,Never,No,1,0,6.0
+U00097,Vermont,23,25.0,Excellent,3–4 days/week,7.0,4.0,2.9,Occasionally,No,1,0,8.5
+U00098,Alabama,34,21.4,Good,3–4 days/week,4.5,2.8,2.4,Never,No,1,0,5.6
+U00099,Missouri,26,21.9,Good,5–6 days/week,6.0,1.4,2.9,Occasionally,No,0,0,3.2
+U00100,Connecticut,31,28.8,Good,,8.0,0.1,3.4,Occasionally,No,0,0,6.9
+U00101,Florida,23,21.6,Average,1–2 days/week,6.1,2.4,3.8,Occasionally,No,1,0,4.1
+U00102,Mississippi,26,18.6,Average,3–4 days/week,6.8,1.4,2.2,Weekly,No,0,0,3.6
+U00103,Alabama,19,19.2,Excellent,5–6 days/week,6.0,2.2,2.7,Never,Yes,0,0,6.6
+U00104,Utah,29,32.8,Good,,7.3,1.0,2.2,Never,No,0,1,4.3
+U00105,Delaware,26,22.2,Average,,7.5,1.6,3.0,Occasionally,No,0,0,4.6
+U00106,Mississippi,21,16.9,Average,,7.5,0.0,2.9,Occasionally,Yes,0,0,7.6
+U00107,Hawaii,21,16.0,Good,,5.6,0.6,1.8,Occasionally,No,1,0,6.3
+U00108,Kentucky,34,20.2,Good,5–6 days/week,7.1,0.5,1.9,Never,No,0,0,6.4
+U00109,Delaware,35,22.1,Good,3–4 days/week,8.9,2.8,3.3,Occasionally,No,1,1,3.4
+U00110,Ohio,24,27.3,Good,3–4 days/week,7.9,0.9,1.9,Weekly,No,1,0,6.6
+U00111,Ohio,26,26.8,Good,3–4 days/week,7.1,3.3,2.2,Never,No,1,1,5.1
+U00112,North Carolina,28,23.0,Good,3–4 days/week,4.7,0.9,2.8,Weekly,No,0,0,4.8
+U00113,California,26,21.0,Good,,6.7,4.1,2.2,Never,No,0,0,6.1
+U00114,Tennessee,17,24.5,Good,1–2 days/week,9.0,0.0,3.4,Never,No,1,0,5.5
+U00115,Rhode Island,28,16.0,Good,1–2 days/week,8.6,2.3,3.0,Never,No,0,0,3.3
+U00116,South Dakota,16,31.9,Average,,7.6,1.8,1.7,Occasionally,No,0,0,6.9
+U00117,Nevada,22,25.9,Average,1–2 days/week,6.1,0.5,1.9,Occasionally,No,0,0,7.1
+U00118,Connecticut,28,26.9,Excellent,1–2 days/week,7.1,1.2,2.7,Occasionally,No,0,0,4.6
+U00119,Florida,28,18.2,Average,,7.9,1.5,2.3,Occasionally,No,0,0,6.4
+U00120,Delaware,21,28.8,Average,,8.1,2.1,0.9,Never,No,1,0,6.9
+U00121,Idaho,23,20.9,Good,3–4 days/week,7.4,0.8,1.6,Never,No,1,0,2.7
+U00122,North Dakota,23,18.7,Good,,8.0,2.3,2.5,Never,No,0,0,4.7
+U00123,North Carolina,25,22.8,Average,5–6 days/week,6.9,1.9,2.9,Weekly,No,1,0,2.2
+U00124,West Virginia,25,22.7,Average,,6.9,2.7,2.9,Never,No,0,0,6.5
+U00125,Minnesota,29,18.1,Poor,3–4 days/week,6.4,0.9,3.7,Occasionally,No,0,0,6.2
+U00126,Mississippi,23,19.0,Good,5–6 days/week,7.5,1.3,1.8,Never,Yes,1,0,4.5
+U00127,Oregon,27,18.6,Average,5–6 days/week,8.2,3.4,1.8,Never,No,0,0,5.3
+U00128,Ohio,28,18.7,Average,5–6 days/week,7.9,0.8,2.3,Never,Yes,1,0,4.9
+U00129,Utah,26,21.3,Average,1–2 days/week,5.5,0.3,1.1,Never,No,0,0,2.4
+U00130,South Carolina,24,16.7,Good,1–2 days/week,5.6,1.1,2.3,Weekly,No,1,0,7.5
+U00131,Michigan,26,19.9,Average,1–2 days/week,8.3,0.0,2.2,Occasionally,No,0,0,5.9
+U00132,Nebraska,29,27.7,Average,,7.2,3.6,2.9,Weekly,No,0,0,5.3
+U00133,Ohio,30,26.7,Good,,7.3,1.5,3.0,Occasionally,No,0,0,5.3
+U00134,Alabama,35,18.3,Excellent,5–6 days/week,7.2,1.5,2.6,Occasionally,No,0,0,6.6
+U00135,Ohio,21,27.3,Good,3–4 days/week,9.1,2.6,2.3,Occasionally,No,0,0,3.1
+U00136,Oregon,23,16.0,Excellent,3–4 days/week,6.5,1.0,2.6,Occasionally,No,1,0,4.2
+U00137,Washington,17,33.9,Good,5–6 days/week,8.3,1.6,1.7,Occasionally,No,0,0,5.8
+U00138,Indiana,30,28.9,Poor,3–4 days/week,7.3,1.0,2.2,Never,No,1,0,7.2
+U00139,Arizona,24,20.5,Good,3–4 days/week,5.1,0.0,2.3,Never,No,0,0,1.9
+U00140,Alabama,27,24.7,Average,3–4 days/week,6.0,1.9,2.2,Occasionally,No,0,0,7.0
+U00141,California,22,16.7,Good,,6.3,2.9,2.2,Never,No,1,0,4.4
+U00142,Montana,24,23.3,Average,1–2 days/week,8.3,1.9,1.9,Occasionally,No,1,0,5.1
+U00143,Indiana,32,22.2,Average,5–6 days/week,8.5,2.8,1.6,Occasionally,No,0,1,5.6
+U00144,Rhode Island,29,19.2,Excellent,5–6 days/week,7.4,0.6,2.2,Occasionally,No,1,0,3.8
+U00145,Nebraska,25,20.9,Average,5–6 days/week,6.4,1.0,2.7,Occasionally,No,0,0,3.6
+U00146,Florida,29,20.4,Good,1–2 days/week,5.9,0.4,1.1,Never,No,0,0,5.8
+U00147,Iowa,29,17.9,Poor,5–6 days/week,8.4,2.2,2.0,Occasionally,No,0,0,8.3
+U00148,Iowa,24,19.1,Poor,,5.5,1.5,3.7,Never,Yes,1,0,4.1
+U00149,Montana,18,16.5,Good,,6.9,1.4,2.2,Weekly,No,1,1,4.1
+U00150,Tennessee,21,26.9,Good,1–2 days/week,9.8,2.5,2.4,Weekly,No,0,0,3.7
+U00151,Illinois,19,18.8,Good,1–2 days/week,6.4,1.3,3.6,Weekly,No,1,0,5.2
+U00152,New York,31,17.5,Average,1–2 days/week,5.5,3.0,2.5,Never,No,1,0,4.0
+U00153,Rhode Island,32,26.8,Good,1–2 days/week,4.9,2.1,2.5,Never,No,0,0,4.1
+U00154,Wisconsin,33,24.7,Good,,9.9,1.4,1.7,Weekly,No,1,1,5.8
+U00155,New York,16,26.6,Good,1–2 days/week,7.4,0.1,2.5,Occasionally,No,0,0,3.3
+U00156,Arkansas,31,27.1,Good,3–4 days/week,6.0,2.5,2.3,Weekly,No,0,0,7.9
+U00157,New Jersey,37,31.7,Excellent,3–4 days/week,6.8,2.1,2.9,Occasionally,No,1,0,3.7
+U00158,Oregon,31,22.3,Good,,6.2,2.2,3.2,Occasionally,No,0,0,7.2
+U00159,Minnesota,16,16.4,Excellent,1–2 days/week,4.8,2.2,2.3,Never,Yes,0,0,8.5
+U00160,Rhode Island,34,24.2,Good,3–4 days/week,7.9,1.2,2.6,Occasionally,No,0,0,7.3
+U00161,Vermont,26,20.0,Good,3–4 days/week,7.0,1.6,1.0,Occasionally,No,1,0,7.1
+U00162,Iowa,24,18.7,Poor,1–2 days/week,7.8,1.3,0.8,Never,No,0,0,6.7
+U00163,Texas,28,23.4,Average,3–4 days/week,7.0,3.2,3.1,Never,Yes,0,0,5.8
+U00164,New Hampshire,20,26.9,Good,5–6 days/week,7.2,1.5,0.8,Occasionally,Yes,0,0,7.3
+U00165,Oklahoma,26,19.2,Average,,4.5,1.1,2.5,Occasionally,No,0,0,5.1
+U00166,Illinois,34,28.7,Average,1–2 days/week,8.1,3.3,2.2,Never,No,1,0,6.8
+U00167,New York,29,18.5,Average,1–2 days/week,5.7,3.1,3.2,Never,No,0,0,7.2
+U00168,Connecticut,26,21.9,Average,3–4 days/week,6.0,2.1,2.3,Never,No,0,0,6.3
+U00169,Michigan,26,24.7,Excellent,,6.4,1.7,3.6,Never,No,0,0,5.1
+U00170,Nevada,20,21.3,Good,,4.5,1.4,2.2,Weekly,No,0,0,6.2
+U00171,Alaska,25,16.0,Good,1–2 days/week,6.3,1.8,3.1,Occasionally,Yes,1,0,4.9
+U00172,Tennessee,17,27.2,Poor,5–6 days/week,6.2,0.8,1.3,Occasionally,No,0,0,4.7
+U00173,Vermont,31,20.2,Good,3–4 days/week,6.5,2.3,0.8,Occasionally,No,1,0,6.7
+U00174,Colorado,16,26.4,Good,3–4 days/week,5.0,3.6,2.3,Never,No,0,0,5.7
+U00175,Nevada,30,17.3,Excellent,3–4 days/week,8.1,2.4,1.3,Occasionally,No,0,0,6.7
+U00176,Nevada,30,18.1,Good,,7.5,0.6,2.3,Weekly,No,1,0,5.7
+U00177,Utah,32,26.9,Average,5–6 days/week,6.0,2.3,2.0,Occasionally,No,0,0,6.3
+U00178,Utah,26,24.5,Good,3–4 days/week,6.3,2.0,2.7,Never,No,0,0,7.6
+U00179,Maryland,30,21.0,Excellent,1–2 days/week,8.0,2.3,1.6,Occasionally,No,1,0,5.3
+U00180,New Jersey,25,24.6,Good,3–4 days/week,6.7,0.9,2.6,Weekly,No,1,0,4.9
+U00181,Hawaii,20,18.7,Good,3–4 days/week,5.5,1.8,2.9,Never,No,0,0,6.1
+U00182,Nevada,33,23.5,Average,3–4 days/week,6.9,2.8,2.2,Never,No,0,0,1.6
+U00183,Missouri,25,23.6,Good,,5.7,0.6,2.6,Weekly,No,0,0,6.6
+U00184,Rhode Island,18,21.3,Good,5–6 days/week,6.2,1.3,1.6,Weekly,No,1,0,4.2
+U00185,North Carolina,23,19.2,Average,5–6 days/week,6.9,1.5,2.0,Occasionally,No,0,0,8.0
+U00186,Alabama,23,23.3,Good,1–2 days/week,8.3,2.9,1.4,Never,No,1,0,6.7
+U00187,Nebraska,28,22.8,Average,,9.4,3.1,3.9,Never,No,0,0,6.9
+U00188,Illinois,37,20.9,Average,,8.6,0.0,3.2,Occasionally,Yes,0,1,6.9
+U00189,South Dakota,28,18.3,Poor,5–6 days/week,6.9,2.9,3.5,Weekly,No,0,0,4.8
+U00190,Arizona,27,23.1,Average,3–4 days/week,9.7,3.1,3.2,Never,No,0,0,5.1
+U00191,Rhode Island,38,20.9,Good,1–2 days/week,7.7,3.0,1.8,Never,No,0,0,3.0
+U00192,Colorado,30,18.3,Poor,1–2 days/week,5.8,1.2,1.2,Weekly,No,0,0,7.7
+U00193,Delaware,27,23.2,Average,1–2 days/week,7.1,1.5,2.0,Never,No,1,0,3.6
+U00194,Nebraska,23,30.2,Good,3–4 days/week,6.2,0.1,2.6,Occasionally,No,0,0,5.5
+U00195,Florida,27,21.3,Good,1–2 days/week,5.5,0.0,2.1,Never,No,0,0,7.3
+U00196,Oregon,25,29.7,Good,5–6 days/week,5.6,1.4,0.8,Occasionally,No,1,0,7.8
+U00197,North Carolina,26,32.5,Average,3–4 days/week,6.8,1.9,2.8,Weekly,Yes,1,1,5.1
+U00198,Tennessee,32,18.7,Good,3–4 days/week,7.9,2.0,1.2,Never,Yes,0,0,2.9
+U00199,Utah,23,23.0,Average,1–2 days/week,8.3,2.7,2.0,Occasionally,No,1,0,5.8
+U00200,Mississippi,28,32.5,Good,,5.5,5.2,3.5,Weekly,No,0,0,6.0
+U00201,Iowa,30,22.5,Average,1–2 days/week,6.6,1.4,2.3,Weekly,No,0,0,6.1
+U00202,New York,22,23.2,Good,1–2 days/week,7.6,0.6,3.1,Never,No,1,0,5.0
+U00203,New York,21,16.0,Average,1–2 days/week,7.2,2.4,2.5,Occasionally,No,1,0,5.3
+U00204,Mississippi,25,20.6,Good,5–6 days/week,7.8,2.0,1.6,Never,Yes,1,0,4.5
+U00205,South Dakota,23,25.5,Good,1–2 days/week,6.5,1.2,2.8,Never,No,1,1,5.7
+U00206,Wisconsin,31,33.9,Good,,8.5,2.8,2.3,Occasionally,No,0,0,6.7
+U00207,Wisconsin,20,22.1,Average,,7.0,0.9,1.3,Never,No,0,0,5.9
+U00208,Idaho,26,16.0,Good,1–2 days/week,7.9,1.7,1.1,Occasionally,No,0,0,5.4
+U00209,Rhode Island,38,16.7,Excellent,5–6 days/week,6.5,1.7,2.6,Occasionally,No,0,0,7.2
+U00210,Alaska,28,22.8,Good,1–2 days/week,7.1,0.8,3.8,Occasionally,No,0,0,5.9
+U00211,Arizona,28,28.3,Poor,1–2 days/week,5.1,0.0,1.5,Occasionally,No,0,0,5.5
+U00212,Wisconsin,31,25.9,Average,3–4 days/week,6.0,2.0,1.6,Never,No,1,0,5.6
+U00213,Oregon,23,25.1,Excellent,1–2 days/week,6.8,3.3,2.6,Occasionally,No,1,0,3.7
+U00214,Wisconsin,20,28.9,Good,1–2 days/week,7.1,2.9,1.4,Occasionally,No,0,0,3.9
+U00215,Kentucky,26,19.8,Good,,10.0,2.9,3.9,Never,No,0,0,5.3
+U00216,Wisconsin,27,23.1,Excellent,1–2 days/week,6.5,0.9,1.7,Never,Yes,1,0,4.4
+U00217,Alaska,17,20.7,Good,,5.3,2.0,2.0,Occasionally,No,0,0,5.4
+U00218,Alaska,27,21.8,Good,,9.0,0.2,1.7,Never,No,1,0,6.8
+U00219,Nevada,31,18.5,Average,3–4 days/week,8.3,2.0,3.0,Occasionally,No,0,0,6.6
+U00220,Minnesota,21,21.5,Average,,5.6,3.3,3.8,Weekly,Yes,0,0,6.1
+U00221,Oregon,28,22.9,Good,3–4 days/week,7.6,3.4,1.8,Occasionally,No,1,0,6.8
+U00222,New York,30,21.3,Average,3–4 days/week,8.0,4.0,2.9,Occasionally,No,1,0,7.0
+U00223,North Carolina,28,22.3,Average,3–4 days/week,7.2,2.9,1.4,Never,No,0,0,7.0
+U00224,Alabama,29,24.8,Average,1–2 days/week,7.4,2.3,3.0,Occasionally,No,0,0,7.0
+U00225,Maine,24,28.6,Average,,6.2,2.8,3.5,Occasionally,Yes,1,0,3.7
+U00226,Alaska,20,28.9,Good,3–4 days/week,7.6,2.5,3.3,Never,No,0,0,2.7
+U00227,Utah,23,26.4,Good,3–4 days/week,6.4,0.9,2.4,Occasionally,No,1,0,4.3
+U00228,Montana,23,17.3,Good,3–4 days/week,4.5,0.1,1.6,Occasionally,Yes,0,0,4.8
+U00229,New York,25,21.4,Average,,7.2,2.8,2.3,Never,No,0,0,6.9
+U00230,Colorado,31,21.8,Excellent,5–6 days/week,5.0,4.1,2.1,Weekly,No,0,0,5.4
+U00231,New York,19,20.0,Poor,,8.2,2.8,2.0,Never,No,0,0,4.8
+U00232,Arkansas,26,24.5,Good,1–2 days/week,5.6,0.0,2.4,Occasionally,No,0,0,5.7
+U00233,Hawaii,20,16.0,Excellent,1–2 days/week,4.5,1.2,2.3,Never,No,0,0,6.3
+U00234,Kentucky,22,30.6,Average,,4.9,1.6,2.8,Occasionally,No,0,1,6.7
+U00235,Pennsylvania,28,28.4,Good,1–2 days/week,7.0,0.0,2.8,Occasionally,Yes,0,0,4.9
+U00236,Mississippi,20,25.2,Excellent,3–4 days/week,7.2,0.3,2.3,Occasionally,Yes,0,1,4.1
+U00237,California,29,22.7,Average,3–4 days/week,5.3,1.8,2.6,Occasionally,No,0,0,4.3
+U00238,North Dakota,19,28.5,Good,5–6 days/week,5.7,2.1,3.2,Occasionally,No,1,0,5.7
+U00239,Colorado,29,26.1,Good,1–2 days/week,7.0,0.7,1.9,Never,No,0,0,3.9
+U00240,Michigan,18,28.0,Average,3–4 days/week,8.2,0.2,2.3,Never,No,0,0,6.9
+U00241,Hawaii,22,22.7,Good,,5.5,3.1,1.6,Never,Yes,0,0,3.9
+U00242,West Virginia,35,31.1,Good,1–2 days/week,7.5,1.4,2.6,Never,No,1,0,3.2
+U00243,Kansas,34,28.3,Good,,4.9,1.5,2.4,Never,Yes,0,1,5.7
+U00244,North Carolina,23,25.3,Average,1–2 days/week,7.4,1.2,2.6,Weekly,Yes,0,0,5.1
+U00245,Florida,27,28.7,Poor,1–2 days/week,7.9,1.0,1.6,Weekly,No,0,0,6.2
+U00246,Colorado,32,21.1,Good,1–2 days/week,7.6,3.2,2.8,Never,No,1,0,4.8
+U00247,Kansas,29,17.7,Poor,3–4 days/week,8.2,0.8,2.4,Never,Yes,1,0,6.1
+U00248,New Hampshire,24,24.4,Good,5–6 days/week,8.1,2.0,3.0,Never,No,0,0,7.0
+U00249,Arizona,22,22.7,Good,1–2 days/week,9.2,1.8,2.0,Occasionally,No,0,0,4.6
+U00250,Maryland,30,22.1,Good,5–6 days/week,7.1,0.0,2.8,Occasionally,No,0,0,6.3
+U00251,Oklahoma,31,28.5,Good,3–4 days/week,9.2,2.1,2.6,Occasionally,No,0,0,8.2
+U00252,Maine,34,23.8,Average,3–4 days/week,5.9,0.1,3.4,Occasionally,No,1,1,6.7
+U00253,Montana,17,24.2,Average,3–4 days/week,6.8,2.5,2.2,Occasionally,No,0,0,4.3
+U00254,Arizona,19,21.5,Average,,6.9,0.5,1.9,Never,No,0,0,6.0
+U00255,Maine,31,27.0,Good,3–4 days/week,5.7,2.4,2.0,Never,No,0,0,3.5
+U00256,Maryland,18,26.2,Good,3–4 days/week,4.5,1.3,1.5,Never,No,0,0,3.8
+U00257,New York,32,26.9,Good,5–6 days/week,8.0,1.1,1.9,Never,No,0,0,7.7
+U00258,Connecticut,24,20.8,Good,3–4 days/week,5.9,2.0,0.8,Weekly,No,1,0,6.1
+U00259,South Dakota,23,28.9,Excellent,3–4 days/week,6.5,0.2,3.3,Never,Yes,0,0,7.8
+U00260,North Carolina,27,31.3,Average,3–4 days/week,8.9,1.7,3.7,Never,No,0,0,6.1
+U00261,South Carolina,19,26.8,Poor,1–2 days/week,7.7,2.7,2.2,Weekly,No,0,0,4.7
+U00262,Rhode Island,30,19.4,Average,1–2 days/week,9.1,2.9,2.6,Never,Yes,0,0,5.6
+U00263,Louisiana,34,19.4,Good,1–2 days/week,7.1,1.3,2.4,Never,No,0,0,5.9
+U00264,South Carolina,30,21.3,Average,1–2 days/week,7.7,1.5,1.4,Occasionally,No,0,0,8.8
+U00265,Alabama,24,20.5,Good,1–2 days/week,6.7,0.2,3.0,Occasionally,No,0,0,6.6
+U00266,Hawaii,18,22.7,Good,5–6 days/week,6.0,1.0,3.1,Never,Yes,1,0,4.4
+U00267,Nevada,18,25.8,Excellent,3–4 days/week,7.7,0.1,1.6,Occasionally,No,0,0,5.2
+U00268,Missouri,19,24.3,Excellent,5–6 days/week,6.5,2.3,2.5,Occasionally,No,0,0,6.2
+U00269,Wyoming,25,23.9,Poor,3–4 days/week,7.8,2.7,2.1,Never,No,0,0,3.9
+U00270,Minnesota,26,21.9,Good,3–4 days/week,6.3,1.3,3.1,Occasionally,No,0,1,5.5
+U00271,New Mexico,30,22.7,Good,5–6 days/week,6.8,0.6,2.2,Occasionally,No,0,0,5.2
+U00272,New Jersey,17,26.6,Average,3–4 days/week,6.9,2.1,2.3,Weekly,No,0,0,6.2
+U00273,Tennessee,32,16.0,Average,5–6 days/week,8.3,0.8,3.6,Weekly,No,0,0,5.4
+U00274,Ohio,29,22.9,Good,1–2 days/week,6.5,2.5,1.4,Never,No,1,0,3.4
+U00275,Connecticut,24,24.3,Average,1–2 days/week,8.4,3.9,2.5,Occasionally,No,0,0,5.4
+U00276,Kansas,20,26.5,Good,1–2 days/week,5.9,0.8,2.4,Never,No,0,0,6.7
+U00277,Montana,32,18.5,Good,3–4 days/week,7.3,1.0,1.9,Never,No,1,0,7.7
+U00278,West Virginia,24,18.2,Poor,3–4 days/week,6.2,0.2,3.7,Never,No,0,0,6.9
+U00279,Wisconsin,25,25.6,Good,1–2 days/week,8.3,2.0,2.5,Occasionally,Yes,0,0,3.1
+U00280,Alaska,27,16.0,Average,1–2 days/week,6.0,1.9,2.8,Occasionally,No,0,0,3.5
+U00281,Alabama,21,29.0,Good,5–6 days/week,6.1,1.5,2.9,Never,No,1,0,3.9
+U00282,West Virginia,24,24.0,Average,3–4 days/week,5.5,1.8,2.1,Occasionally,No,0,0,7.8
+U00283,Idaho,30,30.0,Good,1–2 days/week,7.1,0.7,3.2,Occasionally,No,0,0,6.2
+U00284,California,29,18.1,Average,3–4 days/week,7.7,0.0,3.0,Occasionally,No,1,0,9.5
+U00285,Oregon,29,21.0,Average,3–4 days/week,7.6,1.0,2.2,Never,Yes,0,0,7.4
+U00286,New York,20,16.0,Average,5–6 days/week,6.8,0.0,3.0,Occasionally,No,1,0,5.6
+U00287,Florida,24,19.4,Average,1–2 days/week,6.2,0.8,3.2,Weekly,No,1,0,4.8
+U00288,South Dakota,24,22.2,Average,,6.7,2.1,2.9,Never,No,0,0,6.1
+U00289,Ohio,28,16.0,Good,1–2 days/week,6.7,1.9,1.7,Never,No,1,0,6.8
+U00290,Maine,27,21.2,Good,1–2 days/week,7.3,0.0,2.2,Weekly,No,1,0,7.3
+U00291,West Virginia,26,16.0,Average,5–6 days/week,7.2,3.0,2.6,Occasionally,No,1,0,5.1
+U00292,Kansas,38,21.8,Poor,1–2 days/week,9.1,1.6,2.5,Occasionally,No,0,0,8.8
+U00293,Arizona,24,28.2,Good,5–6 days/week,7.0,0.4,1.8,Never,No,1,1,5.4
+U00294,Maryland,23,22.8,Good,1–2 days/week,7.4,1.4,2.1,Occasionally,No,0,0,7.3
+U00295,Mississippi,20,30.5,Average,5–6 days/week,7.1,1.2,2.5,Never,No,1,0,6.0
+U00296,North Carolina,18,26.5,Good,,6.6,0.8,1.2,Never,No,0,0,5.0
+U00297,Mississippi,19,29.1,Average,5–6 days/week,7.4,2.7,2.3,Occasionally,No,0,0,2.6
+U00298,Hawaii,22,19.6,Good,5–6 days/week,6.5,0.6,2.8,Never,No,0,0,3.6
+U00299,Wisconsin,32,19.4,Average,5–6 days/week,6.9,2.0,2.5,Occasionally,No,0,0,7.3
+U00300,Delaware,26,24.6,Poor,,8.4,0.3,1.7,Weekly,No,0,0,6.6
+U00301,Oklahoma,26,16.0,Excellent,,6.4,1.8,1.8,Occasionally,No,0,0,6.4
+U00302,Pennsylvania,25,25.1,Average,3–4 days/week,7.5,2.1,3.3,Occasionally,No,0,0,7.8
+U00303,South Carolina,27,21.5,Good,,4.5,2.1,1.6,Never,No,0,0,4.0
+U00304,Maryland,33,29.0,Average,,6.8,1.9,3.1,Never,No,0,0,4.8
+U00305,Ohio,16,26.1,Good,1–2 days/week,6.4,1.5,1.9,Weekly,Yes,0,0,4.9
+U00306,West Virginia,32,27.9,Good,3–4 days/week,7.1,0.6,3.1,Never,Yes,1,0,3.5
+U00307,Missouri,16,19.6,Poor,3–4 days/week,6.7,0.6,2.7,Never,No,0,0,4.3
+U00308,Ohio,26,27.7,Good,,7.2,2.1,2.1,Occasionally,No,0,0,3.9
+U00309,Missouri,36,29.5,Good,,6.5,0.4,1.1,Occasionally,Yes,0,1,3.1
+U00310,New Hampshire,29,22.8,Good,1–2 days/week,7.5,0.2,2.6,Never,No,1,1,4.2
+U00311,Louisiana,27,19.7,Good,3–4 days/week,4.9,3.4,2.4,Never,No,0,0,5.4
+U00312,Virginia,36,19.8,Good,,7.1,1.5,2.6,Occasionally,No,0,0,8.2
+U00313,Louisiana,22,28.6,Poor,1–2 days/week,5.9,2.5,2.7,Never,No,0,1,4.0
+U00314,Alaska,28,35.1,Average,5–6 days/week,8.4,2.8,1.4,Never,No,1,0,7.1
+U00315,Ohio,28,18.6,Good,5–6 days/week,5.9,1.9,2.6,Never,No,0,0,5.8
+U00316,Kansas,23,18.2,Good,5–6 days/week,8.2,1.4,2.8,Never,No,1,0,6.2
+U00317,South Dakota,23,27.1,Poor,5–6 days/week,7.0,1.4,2.8,Occasionally,No,0,0,5.7
+U00318,Oklahoma,23,19.6,Good,1–2 days/week,4.8,3.6,1.4,Occasionally,No,1,0,2.7
+U00319,North Carolina,26,27.6,Good,3–4 days/week,5.9,1.2,3.1,Occasionally,No,0,0,3.9
+U00320,Arkansas,28,25.1,Average,1–2 days/week,8.0,2.0,2.6,Never,No,0,0,6.4
+U00321,North Carolina,26,22.9,Average,3–4 days/week,7.9,2.5,2.7,Never,No,0,0,5.6
+U00322,Indiana,29,25.0,Good,1–2 days/week,5.4,2.1,1.7,Never,No,1,0,3.0
+U00323,Massachusetts,16,24.7,Average,3–4 days/week,8.9,3.0,2.8,Never,No,0,1,5.2
+U00324,West Virginia,24,22.2,Good,3–4 days/week,7.0,1.4,1.1,Never,No,0,0,6.4
+U00325,Maryland,20,16.0,Good,,8.1,2.5,1.7,Never,No,1,0,3.6
+U00326,Delaware,27,23.8,Average,3–4 days/week,5.5,0.0,3.2,Never,No,0,0,4.9
+U00327,Connecticut,27,30.1,Average,,6.5,3.3,2.8,Occasionally,No,0,0,7.8
+U00328,Arizona,25,16.0,Average,1–2 days/week,7.5,3.0,2.5,Never,Yes,0,0,6.4
+U00329,Kentucky,28,18.7,Good,,6.6,1.5,3.0,Never,No,0,0,7.9
+U00330,North Carolina,30,24.9,Good,1–2 days/week,4.5,2.3,3.0,Never,No,0,0,4.9
+U00331,West Virginia,25,23.2,Average,,6.8,2.8,2.8,Never,No,1,0,7.1
+U00332,Idaho,20,24.9,Good,5–6 days/week,4.6,0.7,2.1,Occasionally,No,0,0,4.0
+U00333,Michigan,18,19.9,Average,1–2 days/week,5.7,1.6,1.7,Never,No,1,0,6.7
+U00334,Michigan,26,28.2,Average,1–2 days/week,5.3,0.4,1.8,Never,No,0,0,4.4
+U00335,Virginia,27,23.2,Poor,1–2 days/week,8.4,3.1,3.3,Never,No,0,0,6.2
+U00336,New Jersey,21,26.1,Poor,3–4 days/week,8.7,2.7,1.4,Never,No,0,0,6.3
+U00337,Pennsylvania,29,24.4,Average,3–4 days/week,7.4,1.5,2.6,Occasionally,No,1,0,6.5
+U00338,Pennsylvania,23,23.8,Average,3–4 days/week,6.7,1.4,2.6,Weekly,No,0,0,4.0
+U00339,Vermont,17,25.8,Good,3–4 days/week,7.0,1.6,3.3,Never,No,1,0,6.0
+U00340,Delaware,32,23.8,Good,5–6 days/week,8.4,0.8,2.6,Occasionally,No,1,0,5.5
+U00341,Nebraska,31,17.6,Average,5–6 days/week,4.6,1.6,2.0,Never,No,0,0,7.4
+U00342,Nebraska,16,27.9,Average,3–4 days/week,5.7,0.7,2.0,Never,No,0,0,4.5
+U00343,North Dakota,23,26.7,Average,1–2 days/week,8.2,2.8,2.3,Never,No,0,0,3.5
+U00344,Massachusetts,22,16.0,Average,3–4 days/week,8.5,3.1,3.1,Occasionally,No,1,0,3.0
+U00345,New Jersey,34,20.1,Good,3–4 days/week,7.7,2.8,2.9,Never,Yes,0,0,5.1
+U00346,North Carolina,25,27.7,Average,3–4 days/week,5.7,0.5,1.5,Weekly,No,1,0,4.9
+U00347,Nevada,18,16.0,Average,3–4 days/week,8.2,1.6,2.5,Never,No,0,0,5.0
+U00348,Washington,30,27.2,Average,3–4 days/week,8.6,2.4,2.9,Never,No,1,0,5.1
+U00349,North Carolina,19,22.4,Poor,3–4 days/week,7.9,2.6,2.1,Occasionally,No,0,0,7.6
+U00350,California,24,29.0,Average,,4.5,0.0,0.8,Weekly,No,0,1,5.3
+U00351,West Virginia,22,23.0,Good,,7.1,2.6,2.2,Occasionally,No,1,0,7.2
+U00352,Maine,23,19.8,Average,1–2 days/week,7.7,0.4,1.3,Occasionally,No,1,0,6.1
+U00353,Arkansas,30,24.4,Good,5–6 days/week,6.4,1.6,1.1,Never,No,0,0,4.1
+U00354,Ohio,33,22.9,Good,3–4 days/week,7.2,3.2,3.0,Never,No,0,0,5.5
+U00355,Wisconsin,19,19.4,Good,3–4 days/week,6.4,3.0,4.1,Never,No,0,0,7.8
+U00356,Kentucky,29,33.0,Good,3–4 days/week,6.0,3.3,3.3,Never,Yes,0,1,7.0
+U00357,Utah,22,18.6,Good,3–4 days/week,8.8,0.6,0.8,Weekly,No,0,0,7.3
+U00358,Nevada,22,16.0,Poor,5–6 days/week,7.3,0.9,2.2,Occasionally,No,0,0,6.3
+U00359,New Jersey,28,30.1,Good,3–4 days/week,5.7,1.2,1.9,Occasionally,No,1,0,4.8
+U00360,New Hampshire,20,20.4,Good,3–4 days/week,5.3,1.6,1.3,Never,No,0,0,8.0
+U00361,Virginia,28,21.7,Poor,3–4 days/week,6.0,2.0,2.6,Occasionally,No,0,0,6.3
+U00362,Colorado,29,21.4,Good,1–2 days/week,6.0,3.2,2.2,Occasionally,No,0,0,6.9
+U00363,Ohio,23,20.4,Good,3–4 days/week,7.2,0.8,1.5,Occasionally,No,0,0,5.7
+U00364,South Dakota,32,19.6,Good,1–2 days/week,7.6,1.1,0.9,Never,No,0,0,3.9
+U00365,Oregon,19,18.5,Poor,,7.6,3.4,1.9,Occasionally,No,0,0,6.1
+U00366,Mississippi,32,23.3,Poor,3–4 days/week,6.1,0.5,2.3,Occasionally,No,0,0,8.0
+U00367,New Hampshire,16,21.2,Average,3–4 days/week,8.1,2.6,2.2,Weekly,No,1,0,6.7
+U00368,Wisconsin,39,26.3,Average,5–6 days/week,8.5,1.7,3.0,Never,No,1,1,6.3
+U00369,Virginia,23,25.2,Good,1–2 days/week,6.7,2.2,2.5,Never,Yes,0,0,4.2
+U00370,New Mexico,20,18.8,Good,1–2 days/week,5.8,0.9,2.1,Occasionally,No,0,0,7.8
+U00371,Ohio,24,23.5,Average,1–2 days/week,7.1,2.6,1.7,Never,No,1,0,7.5
+U00372,North Carolina,20,21.1,Good,,9.6,1.1,1.1,Occasionally,No,0,0,2.8
+U00373,Massachusetts,27,18.5,Average,1–2 days/week,5.7,0.2,1.5,Never,No,1,0,6.9
+U00374,New York,32,26.1,Average,1–2 days/week,6.4,2.3,3.3,Weekly,No,1,0,5.1
+U00375,Minnesota,21,22.5,Good,,7.1,0.0,2.9,Occasionally,No,1,0,5.9
+U00376,North Carolina,28,21.2,Good,1–2 days/week,7.6,1.2,2.5,Never,No,0,0,4.3
+U00377,Arizona,18,19.1,Good,1–2 days/week,4.6,2.1,2.0,Never,No,1,0,5.7
+U00378,Louisiana,31,18.4,Good,3–4 days/week,8.6,2.6,3.2,Occasionally,No,1,0,3.8
+U00379,Missouri,28,31.9,Good,,8.6,3.1,1.6,Occasionally,No,1,0,4.3
+U00380,Tennessee,31,24.5,Good,3–4 days/week,6.5,3.8,1.6,Never,No,0,0,6.3
+U00381,New Mexico,25,18.1,Average,3–4 days/week,10.0,3.4,2.2,Never,No,1,0,4.4
+U00382,Arizona,23,24.3,Good,1–2 days/week,8.5,2.0,0.8,Occasionally,No,0,0,6.1
+U00383,South Carolina,30,27.8,Excellent,5–6 days/week,8.4,3.0,1.6,Occasionally,No,0,0,5.7
+U00384,Virginia,19,23.8,Good,3–4 days/week,8.4,2.0,2.1,Never,No,0,0,9.1
+U00385,Mississippi,17,29.2,Average,3–4 days/week,8.4,2.6,2.0,Occasionally,No,1,0,4.5
+U00386,Wyoming,25,16.1,Good,,7.0,1.1,1.6,Weekly,No,1,0,5.0
+U00387,New York,24,16.0,Good,3–4 days/week,6.9,2.3,3.7,Never,No,1,0,4.4
+U00388,Washington,28,24.2,Average,3–4 days/week,5.9,1.3,3.3,Occasionally,No,0,0,7.6
+U00389,Michigan,31,24.2,Excellent,1–2 days/week,6.3,1.6,3.5,Never,No,0,0,5.7
+U00390,Minnesota,28,16.0,Average,1–2 days/week,6.6,2.3,2.2,Never,No,1,0,5.3
+U00391,Alaska,31,20.2,Average,1–2 days/week,7.1,4.1,2.0,Never,No,0,0,6.7
+U00392,Nebraska,27,18.5,Excellent,3–4 days/week,8.9,2.2,3.4,Never,No,1,0,4.2
+U00393,Tennessee,28,16.7,Good,1–2 days/week,4.5,1.8,2.4,Occasionally,No,0,0,3.5
+U00394,Alaska,25,18.5,Poor,3–4 days/week,8.6,0.9,1.6,Occasionally,No,1,0,5.9
+U00395,Montana,28,25.7,Good,,5.8,2.8,1.6,Never,No,1,0,5.7
+U00396,Kentucky,26,18.4,Good,3–4 days/week,6.9,1.4,2.1,Never,No,0,0,4.4
+U00397,South Carolina,27,18.6,Poor,1–2 days/week,6.1,2.2,2.3,Occasionally,No,0,0,6.0
+U00398,North Carolina,25,16.0,Excellent,1–2 days/week,9.2,2.6,2.4,Never,No,0,0,8.3
+U00399,Florida,30,28.7,Good,3–4 days/week,6.4,3.2,2.2,Never,No,1,0,6.2
+U00400,Texas,22,25.0,Good,,7.6,2.7,3.9,Occasionally,No,1,0,2.5
+U00401,West Virginia,25,16.0,Good,,7.7,0.5,1.4,Weekly,No,1,0,7.6
+U00402,Rhode Island,32,18.6,Good,1–2 days/week,5.6,0.0,2.8,Never,Yes,0,0,8.5
+U00403,New Hampshire,21,25.4,Average,3–4 days/week,6.9,2.6,2.0,Occasionally,No,1,0,6.3
+U00404,Tennessee,16,28.8,Average,5–6 days/week,8.4,1.9,2.3,Never,No,0,0,5.8
+U00405,Montana,27,26.8,Good,3–4 days/week,6.0,2.2,3.0,Occasionally,No,0,0,3.2
+U00406,Ohio,24,21.4,Good,1–2 days/week,8.0,3.7,1.1,Occasionally,No,1,0,4.2
+U00407,Wyoming,31,16.0,Poor,,6.6,1.1,1.6,Occasionally,No,0,0,5.0
+U00408,Missouri,25,26.9,Good,3–4 days/week,8.4,3.2,2.2,Occasionally,Yes,0,0,4.4
+U00409,Mississippi,22,21.7,Good,3–4 days/week,9.1,1.1,3.3,Never,No,0,0,4.7
+U00410,Illinois,25,23.3,Average,1–2 days/week,4.6,3.5,3.3,Never,No,0,0,5.7
+U00411,Connecticut,31,22.2,Poor,,5.4,2.6,3.2,Never,No,0,1,4.5
+U00412,Oklahoma,28,16.9,Average,1–2 days/week,6.5,0.1,0.8,Occasionally,No,0,0,7.8
+U00413,Vermont,16,24.6,Good,3–4 days/week,8.8,1.3,1.6,Occasionally,Yes,1,0,5.6
+U00414,Maryland,26,24.0,Average,1–2 days/week,7.6,3.9,1.6,Occasionally,No,0,0,6.3
+U00415,Alabama,27,21.1,Average,3–4 days/week,5.5,3.8,2.3,Occasionally,Yes,0,0,6.3
+U00416,Delaware,25,25.1,Good,1–2 days/week,7.8,2.5,1.0,Never,No,0,0,6.1
+U00417,Virginia,22,16.8,Good,,5.9,2.2,3.1,Never,No,1,0,5.6
+U00418,Kansas,31,21.8,Average,1–2 days/week,8.0,2.1,0.9,Never,No,0,0,7.0
+U00419,Indiana,32,23.1,Average,1–2 days/week,7.6,2.3,3.0,Never,No,1,0,7.3
+U00420,Idaho,16,16.0,Good,,5.9,1.6,2.9,Never,No,0,0,2.4
+U00421,Minnesota,22,22.7,Excellent,,6.9,3.1,1.5,Occasionally,No,0,0,3.3
+U00422,Iowa,25,26.3,Good,,8.5,2.4,3.2,Never,No,0,0,4.7
+U00423,Nevada,30,21.6,Good,,4.7,0.7,2.1,Occasionally,No,0,0,3.8
+U00424,North Dakota,26,22.8,Average,1–2 days/week,7.4,2.5,1.9,Occasionally,No,1,1,4.4
+U00425,Alaska,22,25.5,Average,5–6 days/week,5.7,2.0,2.0,Never,No,0,1,4.8
+U00426,New York,29,21.3,Average,3–4 days/week,7.0,1.5,2.1,Occasionally,No,0,0,5.1
+U00427,Minnesota,24,21.7,Average,3–4 days/week,7.5,3.9,2.1,Never,No,0,0,3.3
+U00428,Michigan,25,17.7,Good,1–2 days/week,9.4,1.9,2.1,Never,No,0,0,4.9
+U00429,Missouri,25,22.9,Average,1–2 days/week,7.0,0.0,1.7,Never,No,1,0,7.6
+U00430,Michigan,28,21.5,Average,,8.8,1.5,1.8,Never,No,0,0,5.1
+U00431,Michigan,24,25.2,Excellent,3–4 days/week,6.0,2.9,1.9,Occasionally,No,0,0,6.4
+U00432,Wisconsin,29,25.5,Average,1–2 days/week,6.4,0.8,3.5,Occasionally,No,0,0,5.4
+U00433,Tennessee,25,26.6,Average,,7.7,2.9,1.9,Never,No,0,1,5.7
+U00434,Colorado,20,20.7,Poor,3–4 days/week,7.2,0.7,1.9,Never,No,1,0,5.3
+U00435,Iowa,25,16.0,Good,1–2 days/week,6.6,3.3,3.4,Never,No,1,0,6.6
+U00436,Texas,20,26.3,Good,1–2 days/week,6.6,1.2,2.1,Occasionally,No,0,0,4.3
+U00437,Oregon,26,24.9,Average,,8.6,1.4,1.7,Never,No,0,0,5.8
+U00438,North Carolina,30,20.1,Good,3–4 days/week,6.7,1.3,1.5,Occasionally,No,0,0,4.6
+U00439,Delaware,20,25.5,Good,3–4 days/week,5.8,2.5,1.3,Occasionally,No,1,0,6.5
+U00440,Utah,27,16.5,Good,1–2 days/week,6.0,3.8,2.7,Never,No,0,0,3.8
+U00441,Utah,21,27.6,Excellent,1–2 days/week,7.8,1.8,1.0,Weekly,No,0,1,6.5
+U00442,California,27,21.5,Good,3–4 days/week,9.7,1.8,3.2,Never,No,0,0,5.8
+U00443,Rhode Island,30,19.3,Good,,6.4,1.2,2.2,Weekly,No,0,1,3.6
+U00444,Arkansas,16,20.2,Average,3–4 days/week,9.6,0.0,2.0,Never,No,1,0,8.1
+U00445,Colorado,20,22.0,Poor,3–4 days/week,7.0,1.3,2.1,Never,No,0,0,6.3
+U00446,Vermont,24,22.9,Poor,,6.7,0.4,2.6,Occasionally,No,0,0,3.9
+U00447,New York,27,23.2,Good,,5.9,0.0,2.0,Occasionally,Yes,0,1,5.7
+U00448,New Jersey,25,21.1,Good,3–4 days/week,6.8,1.7,2.2,Occasionally,Yes,0,0,3.0
+U00449,Washington,25,23.9,Good,1–2 days/week,6.1,1.2,3.0,Never,No,0,0,2.9
+U00450,Ohio,36,23.0,Poor,,6.0,3.3,2.5,Weekly,No,0,0,7.3
+U00451,South Carolina,19,20.1,Good,3–4 days/week,5.0,0.9,1.4,Never,No,1,0,3.7
+U00452,Kansas,31,19.4,Excellent,1–2 days/week,9.1,2.5,1.8,Never,No,0,0,6.7
+U00453,Illinois,24,25.7,Good,1–2 days/week,8.3,2.5,1.1,Never,No,1,0,7.3
+U00454,Wyoming,28,25.4,Good,1–2 days/week,7.3,3.3,2.7,Occasionally,No,0,0,4.0
+U00455,Tennessee,36,23.3,Good,3–4 days/week,6.8,1.6,2.8,Occasionally,No,0,0,8.6
+U00456,New Jersey,29,27.2,Excellent,1–2 days/week,7.0,3.3,1.6,Never,Yes,1,1,5.6
+U00457,Maine,27,16.0,Good,5–6 days/week,6.1,2.4,3.9,Never,No,1,0,5.6
+U00458,Kentucky,33,20.5,Good,3–4 days/week,5.6,3.1,4.0,Never,No,0,0,4.0
+U00459,Maine,31,17.8,Average,,7.9,4.4,2.3,Never,No,1,0,4.0
+U00460,Nevada,22,33.2,Poor,1–2 days/week,6.7,1.7,1.7,Occasionally,No,0,0,2.2
+U00461,Montana,27,26.2,Good,1–2 days/week,7.4,2.0,2.5,Occasionally,No,0,0,4.3
+U00462,Oregon,17,22.6,Average,3–4 days/week,5.0,1.4,1.7,Occasionally,No,0,0,7.2
+U00463,Montana,23,26.5,Excellent,3–4 days/week,6.6,3.5,3.0,Weekly,No,0,0,4.0
+U00464,Minnesota,27,28.0,Average,3–4 days/week,5.6,4.7,2.4,Never,No,0,0,4.1
+U00465,Florida,22,28.0,Good,,7.6,2.6,2.5,Never,No,0,0,3.6
+U00466,Idaho,27,27.1,Average,3–4 days/week,8.2,0.0,3.5,Occasionally,No,0,0,3.5
+U00467,Alabama,25,21.8,Average,,8.8,0.8,1.9,Occasionally,No,0,0,6.8
+U00468,Alabama,28,20.7,Excellent,3–4 days/week,6.2,3.1,1.9,Occasionally,Yes,1,0,3.7
+U00469,Washington,23,18.7,Average,3–4 days/week,5.6,0.5,2.9,Weekly,No,0,0,5.3
+U00470,North Dakota,21,25.3,Average,1–2 days/week,6.5,1.1,2.0,Occasionally,No,0,0,5.0
+U00471,New York,33,22.3,Average,1–2 days/week,6.2,1.1,3.4,Never,No,1,0,6.9
+U00472,West Virginia,23,21.1,Good,3–4 days/week,7.5,1.7,3.0,Never,Yes,0,0,4.2
+U00473,Missouri,29,20.9,Average,3–4 days/week,5.3,2.1,2.0,Occasionally,No,0,0,4.9
+U00474,South Carolina,33,29.5,Good,1–2 days/week,4.9,0.0,1.0,Occasionally,No,0,0,3.9
+U00475,Vermont,26,27.3,Good,1–2 days/week,6.6,0.1,1.3,Never,No,0,0,4.5
+U00476,Alabama,21,31.2,Good,3–4 days/week,7.9,0.1,2.0,Never,No,1,0,4.1
+U00477,Kansas,25,25.4,Good,,5.8,0.3,2.6,Occasionally,No,0,1,5.3
+U00478,Rhode Island,31,23.3,Good,,8.0,1.8,3.1,Occasionally,No,0,0,7.9
+U00479,California,27,22.9,Average,,7.4,2.0,2.1,Never,No,0,0,5.2
+U00480,Michigan,19,18.4,Good,,8.9,2.9,1.7,Occasionally,No,0,0,7.3
+U00481,New Hampshire,28,17.3,Average,3–4 days/week,6.0,2.4,2.2,Never,No,0,0,6.9
+U00482,Arizona,29,25.3,Good,5–6 days/week,5.1,1.2,2.3,Weekly,No,1,0,5.4
+U00483,Idaho,24,18.8,Average,3–4 days/week,7.7,2.1,3.2,Never,No,1,0,6.9
+U00484,Montana,29,24.0,Good,,7.3,3.0,3.2,Occasionally,No,1,1,5.8
+U00485,Kansas,27,28.0,Average,3–4 days/week,7.2,1.5,1.6,Occasionally,No,0,0,3.4
+U00486,Oregon,25,20.0,Average,1–2 days/week,5.7,1.5,2.6,Never,No,0,0,5.4
+U00487,Michigan,19,32.0,Good,,7.9,0.8,1.7,Occasionally,Yes,1,0,5.8
+U00488,New Hampshire,31,18.5,Good,5–6 days/week,6.2,0.9,1.7,Never,No,0,0,8.1
+U00489,Indiana,29,27.5,Average,1–2 days/week,7.2,2.6,3.0,Occasionally,No,1,0,4.1
+U00490,Nevada,28,24.9,Good,5–6 days/week,6.4,1.8,2.2,Occasionally,No,1,0,6.2
+U00491,California,33,28.4,Good,1–2 days/week,7.4,4.0,2.7,Never,No,1,0,3.7
+U00492,Washington,30,18.0,Excellent,3–4 days/week,5.6,1.1,2.7,Never,No,0,0,7.8
+U00493,Wisconsin,29,33.4,Good,,7.6,2.6,2.2,Occasionally,No,0,0,7.3
+U00494,New Jersey,16,22.2,Average,1–2 days/week,7.8,2.2,2.5,Never,No,0,0,3.7
+U00495,Virginia,31,26.0,Average,1–2 days/week,7.1,1.7,2.4,Occasionally,No,1,0,8.1
+U00496,California,26,29.5,Good,3–4 days/week,9.0,1.3,1.5,Never,No,0,0,7.1
+U00497,Idaho,27,20.3,Good,3–4 days/week,7.2,2.5,2.6,Weekly,No,1,0,7.4
+U00498,Kansas,27,26.7,Average,3–4 days/week,8.1,2.4,1.8,Occasionally,No,0,0,7.9
+U00499,Montana,29,19.5,Average,3–4 days/week,7.1,2.0,1.6,Occasionally,No,0,0,7.2
+U00500,Montana,31,29.3,Good,3–4 days/week,8.0,2.3,2.9,Never,No,1,0,5.0
+U00501,West Virginia,29,19.6,Average,1–2 days/week,5.2,1.8,1.9,Never,No,0,0,7.8
+U00502,Massachusetts,28,23.2,Average,1–2 days/week,7.0,0.0,3.1,Never,No,0,0,4.2
+U00503,Rhode Island,27,24.4,Average,3–4 days/week,5.6,1.9,3.1,Never,No,0,0,4.3
+U00504,Oklahoma,16,26.5,Average,3–4 days/week,7.2,1.5,2.0,Occasionally,No,0,0,4.8
+U00505,North Carolina,24,31.9,Average,3–4 days/week,7.5,3.9,3.0,Occasionally,No,0,1,6.0
+U00506,New Jersey,21,21.0,Good,1–2 days/week,8.0,2.5,2.0,Never,No,0,0,4.1
+U00507,Oregon,32,28.1,Average,,7.6,2.0,2.3,Occasionally,No,0,0,3.7
+U00508,Minnesota,29,31.9,Average,5–6 days/week,6.6,2.3,2.6,Never,No,1,0,4.1
+U00509,Georgia,23,23.7,Average,3–4 days/week,6.1,0.7,3.7,Never,Yes,1,0,5.0
+U00510,California,24,20.5,Good,,4.5,1.1,3.0,Occasionally,No,0,0,5.6
+U00511,Oklahoma,24,16.0,Average,3–4 days/week,7.1,1.4,2.3,Occasionally,No,0,0,4.4
+U00512,North Dakota,23,31.5,Good,5–6 days/week,8.4,2.2,2.4,Occasionally,No,0,0,3.7
+U00513,New Mexico,18,21.9,Good,,7.1,1.3,1.2,Never,No,1,0,6.1
+U00514,Georgia,17,18.5,Poor,3–4 days/week,6.9,1.2,3.0,Never,No,1,0,8.2
+U00515,Maine,26,16.9,Poor,5–6 days/week,7.2,0.6,2.9,Never,No,1,0,4.9
+U00516,New York,31,18.5,Poor,5–6 days/week,6.5,1.8,2.5,Occasionally,No,0,1,6.8
+U00517,Alabama,23,27.1,Good,5–6 days/week,7.2,2.0,2.8,Occasionally,No,1,0,5.5
+U00518,California,27,27.8,Good,3–4 days/week,6.5,2.3,0.9,Never,No,0,0,6.5
+U00519,Vermont,29,25.9,Poor,1–2 days/week,5.9,1.0,1.5,Occasionally,No,1,0,6.7
+U00520,Arkansas,21,23.6,Excellent,,6.9,2.2,3.6,Never,No,0,0,5.5
+U00521,Kansas,25,17.4,Average,,6.9,0.7,2.1,Occasionally,No,0,0,4.0
+U00522,Mississippi,22,19.7,Good,1–2 days/week,9.3,1.6,2.8,Never,No,1,0,3.7
+U00523,Kansas,34,18.0,Good,1–2 days/week,6.0,2.1,1.8,Never,No,1,0,7.2
+U00524,Alaska,33,25.6,Good,,6.8,1.5,2.0,Never,No,0,0,6.4
+U00525,Wisconsin,21,18.2,Good,1–2 days/week,6.7,0.1,3.6,Never,No,0,0,7.0
+U00526,Nevada,27,19.8,Good,,6.5,0.2,2.2,Occasionally,No,0,0,6.5
+U00527,New York,31,22.2,Good,3–4 days/week,7.6,2.0,2.7,Occasionally,No,0,0,7.1
+U00528,Nebraska,30,16.0,Good,1–2 days/week,9.7,2.4,2.4,Occasionally,Yes,0,1,5.8
+U00529,Maryland,26,23.2,Good,3–4 days/week,6.6,2.2,2.5,Occasionally,No,1,0,3.2
+U00530,Mississippi,32,22.5,Average,3–4 days/week,7.6,2.5,2.4,Never,No,0,0,5.9
+U00531,Idaho,21,28.3,Average,,4.7,1.5,0.9,Weekly,No,1,0,8.2
+U00532,Wyoming,24,19.3,Good,5–6 days/week,6.5,2.6,2.6,Weekly,No,1,0,6.0
+U00533,Ohio,21,17.2,Good,3–4 days/week,8.9,2.2,1.9,Never,No,1,0,3.7
+U00534,North Carolina,29,21.3,Good,1–2 days/week,6.9,1.1,3.5,Never,No,1,0,6.6
+U00535,North Carolina,23,18.1,Good,,7.6,2.4,1.8,Occasionally,No,1,0,8.8
+U00536,Texas,25,23.2,Good,1–2 days/week,6.3,2.1,2.0,Never,No,0,0,4.7
+U00537,Oregon,29,16.0,Good,,7.3,3.6,4.0,Occasionally,No,0,0,6.0
+U00538,Idaho,29,20.3,Good,1–2 days/week,9.0,3.3,2.8,Never,No,0,0,6.2
+U00539,Arizona,21,18.8,Good,3–4 days/week,5.6,1.7,1.6,Occasionally,No,0,0,5.8
+U00540,Alabama,31,25.6,Average,5–6 days/week,9.6,1.3,2.4,Occasionally,No,0,0,6.7
+U00541,North Carolina,28,19.4,Average,3–4 days/week,5.1,3.5,1.4,Never,No,1,1,4.9
+U00542,South Carolina,20,16.0,Good,,6.4,2.4,2.5,Never,No,0,0,6.4
+U00543,Georgia,19,22.1,Average,,6.0,1.6,1.7,Never,No,0,0,7.3
+U00544,Texas,25,24.4,Excellent,1–2 days/week,6.7,0.0,3.6,Occasionally,No,1,0,5.1
+U00545,Utah,30,21.8,Poor,,6.0,1.0,2.6,Occasionally,No,0,0,6.7
+U00546,New Hampshire,30,20.2,Poor,,5.9,0.9,2.7,Never,No,0,0,4.9
+U00547,Illinois,27,20.0,Excellent,3–4 days/week,5.6,1.6,3.0,Occasionally,No,1,0,3.4
+U00548,Idaho,26,23.5,Good,,7.8,2.5,3.0,Never,No,0,0,3.4
+U00549,New Mexico,28,19.0,Average,3–4 days/week,6.7,2.6,1.8,Occasionally,No,0,0,6.2
+U00550,Virginia,21,21.5,Good,,6.4,3.5,2.4,Weekly,No,1,0,2.7
+U00551,Alaska,34,26.4,Good,5–6 days/week,7.3,2.8,2.0,Never,No,0,0,5.6
+U00552,Wyoming,34,17.1,Good,3–4 days/week,5.2,0.4,3.8,Weekly,No,0,0,4.3
+U00553,Ohio,28,22.8,Poor,3–4 days/week,7.4,2.9,0.8,Occasionally,No,0,0,2.2
+U00554,Minnesota,26,16.0,Good,,6.9,3.7,1.9,Never,No,0,0,6.5
+U00555,Kentucky,23,24.0,Good,5–6 days/week,6.9,3.7,2.2,Occasionally,No,0,0,3.4
+U00556,Montana,28,18.6,Average,3–4 days/week,7.6,0.5,2.4,Never,No,1,0,9.0
+U00557,Delaware,22,27.6,Good,3–4 days/week,9.0,1.6,2.4,Never,No,0,0,8.0
+U00558,New Hampshire,16,16.4,Good,3–4 days/week,7.4,2.9,2.3,Occasionally,No,1,0,5.4
+U00559,Montana,16,25.0,Good,3–4 days/week,6.8,0.5,2.2,Occasionally,No,1,0,2.5
+U00560,Georgia,22,28.5,Good,,5.6,0.0,2.5,Occasionally,Yes,0,0,5.9
+U00561,Montana,26,18.4,Average,3–4 days/week,4.5,2.1,2.6,Never,No,0,0,8.3
+U00562,North Dakota,27,19.1,Average,3–4 days/week,7.2,1.1,3.6,Weekly,No,1,0,7.1
+U00563,South Dakota,23,18.8,Good,1–2 days/week,5.5,0.0,3.5,Occasionally,No,0,0,7.2
+U00564,Connecticut,26,20.8,Good,,4.5,3.2,2.5,Weekly,No,0,0,7.8
+U00565,Arkansas,24,25.3,Good,1–2 days/week,6.6,2.0,2.0,Never,No,0,0,3.6
+U00566,Wyoming,21,20.4,Good,3–4 days/week,7.3,1.2,2.0,Occasionally,No,0,0,7.1
+U00567,Vermont,25,18.0,Average,,7.9,0.7,1.4,Occasionally,No,0,0,8.4
+U00568,Hawaii,30,16.0,Poor,1–2 days/week,8.3,2.0,3.0,Never,No,0,0,4.6
+U00569,New Hampshire,21,30.2,Average,,8.1,2.4,2.3,Weekly,No,0,1,4.9
+U00570,Oklahoma,21,30.6,Poor,3–4 days/week,8.1,2.2,2.6,Never,Yes,0,0,7.8
+U00571,Missouri,20,25.5,Good,,5.2,0.1,2.5,Never,No,0,0,7.6
+U00572,Massachusetts,16,19.4,Average,3–4 days/week,6.8,2.3,1.8,Weekly,No,1,0,4.2
+U00573,Oklahoma,23,26.4,Good,1–2 days/week,7.7,2.6,1.7,Weekly,No,1,0,3.6
+U00574,Georgia,29,27.3,Average,3–4 days/week,7.1,1.4,2.0,Never,No,0,0,5.3
+U00575,Oregon,26,21.9,Good,5–6 days/week,6.8,2.9,2.6,Never,No,0,0,3.3
+U00576,Florida,25,23.2,Good,,7.0,0.9,2.2,Occasionally,No,0,0,4.2
+U00577,Mississippi,26,28.5,Poor,1–2 days/week,7.3,3.2,1.1,Weekly,No,0,0,4.5
+U00578,Ohio,23,16.0,Poor,3–4 days/week,6.9,1.9,1.6,Occasionally,Yes,1,0,7.2
+U00579,Wisconsin,16,27.5,Average,1–2 days/week,6.0,1.3,2.1,Occasionally,No,1,0,7.6
+U00580,Ohio,29,21.6,Good,1–2 days/week,5.0,1.4,2.3,Occasionally,No,1,0,7.2
+U00581,West Virginia,31,18.0,Average,3–4 days/week,6.8,2.9,2.7,Never,No,1,0,4.3
+U00582,Oklahoma,22,18.4,Good,5–6 days/week,7.1,2.1,2.3,Weekly,No,0,0,5.4
+U00583,Louisiana,25,19.1,Excellent,3–4 days/week,7.1,2.5,2.0,Never,No,1,0,4.8
+U00584,Wisconsin,24,17.6,Good,1–2 days/week,8.1,3.0,2.0,Occasionally,No,1,0,5.8
+U00585,Rhode Island,27,31.0,Average,1–2 days/week,8.4,1.2,2.4,Occasionally,No,0,0,6.6
+U00586,New York,34,25.2,Excellent,,6.9,1.9,2.6,Occasionally,No,0,0,4.8
+U00587,Mississippi,31,27.8,Poor,3–4 days/week,6.9,1.6,2.1,Occasionally,No,0,0,4.0
+U00588,Minnesota,24,25.5,Good,3–4 days/week,7.7,2.9,1.5,Weekly,No,0,0,7.9
+U00589,New York,28,23.3,Good,5–6 days/week,7.5,1.4,2.2,Occasionally,No,1,1,7.1
+U00590,Oregon,32,23.3,Good,,6.5,1.9,1.8,Occasionally,No,1,1,6.0
+U00591,Idaho,28,21.2,Average,3–4 days/week,7.8,4.3,2.5,Never,No,1,0,3.9
+U00592,Wisconsin,25,21.6,Average,1–2 days/week,6.8,3.2,3.3,Occasionally,No,0,0,6.8
+U00593,Illinois,28,16.7,Average,1–2 days/week,6.8,0.7,1.4,Never,No,1,0,5.2
+U00594,Minnesota,22,27.9,Good,3–4 days/week,7.5,2.8,3.1,Never,No,0,0,2.2
+U00595,Missouri,23,16.0,Average,,6.6,2.6,2.6,Never,No,0,0,4.7
+U00596,Ohio,20,18.2,Excellent,3–4 days/week,7.1,0.6,3.1,Occasionally,Yes,1,0,6.2
+U00597,South Dakota,27,32.1,Excellent,3–4 days/week,7.4,1.7,2.0,Weekly,No,1,1,5.2
+U00598,New Jersey,25,23.6,Good,5–6 days/week,8.0,0.8,1.3,Occasionally,No,1,0,6.3
+U00599,Kentucky,21,23.8,Average,3–4 days/week,7.9,0.0,2.4,Never,No,0,0,6.2
+U00600,Wisconsin,25,25.9,Good,3–4 days/week,7.3,1.6,3.3,Never,No,1,0,3.9
+U00601,Maryland,28,16.1,Excellent,3–4 days/week,4.5,1.2,1.6,Occasionally,No,1,0,6.5
+U00602,West Virginia,35,16.7,Good,,7.3,0.6,1.7,Never,No,0,0,6.7
+U00603,Missouri,31,21.0,Average,1–2 days/week,7.5,1.8,2.7,Never,No,1,0,5.5
+U00604,Michigan,16,18.9,Average,3–4 days/week,7.7,0.0,1.9,Occasionally,No,0,0,5.5
+U00605,Illinois,27,22.7,Poor,3–4 days/week,5.9,1.8,3.5,Weekly,Yes,0,0,5.5
+U00606,Maine,33,25.2,Good,3–4 days/week,4.5,1.8,2.8,Never,No,1,0,7.8
+U00607,Wisconsin,19,29.3,Good,1–2 days/week,8.0,2.5,1.8,Never,Yes,0,0,6.1
+U00608,Oklahoma,28,26.6,Good,1–2 days/week,5.5,0.0,1.9,Occasionally,No,0,0,5.7
+U00609,Idaho,24,18.5,Average,,8.5,4.2,1.9,Occasionally,No,1,0,6.2
+U00610,South Dakota,31,21.3,Average,3–4 days/week,6.3,3.7,2.3,Occasionally,Yes,1,1,6.2
+U00611,Maine,28,20.1,Average,3–4 days/week,5.8,0.9,2.5,Never,No,0,0,5.4
+U00612,Idaho,21,18.4,Average,3–4 days/week,7.4,3.4,2.5,Never,No,1,0,3.5
+U00613,Florida,24,17.4,Average,1–2 days/week,7.7,2.7,1.5,Weekly,No,0,0,5.7
+U00614,Connecticut,25,30.5,Good,1–2 days/week,7.7,1.3,2.9,Never,No,1,0,6.4
+U00615,Nevada,25,23.0,Good,3–4 days/week,7.6,1.1,2.1,Occasionally,No,1,0,5.9
+U00616,Indiana,31,22.0,Good,3–4 days/week,6.2,1.2,1.7,Never,No,0,0,4.8
+U00617,New Mexico,21,25.2,Average,1–2 days/week,5.2,4.9,2.0,Occasionally,No,0,1,5.2
+U00618,Maine,31,25.4,Average,3–4 days/week,6.5,3.3,3.0,Occasionally,No,0,1,7.0
+U00619,Washington,24,28.0,Good,1–2 days/week,5.6,1.6,2.4,Occasionally,No,0,0,3.0
+U00620,Kansas,27,19.7,Good,3–4 days/week,7.5,1.7,2.5,Occasionally,No,0,1,4.4
+U00621,California,26,24.8,Poor,3–4 days/week,8.0,2.7,1.5,Never,No,0,1,5.7
+U00622,Ohio,25,18.9,Good,3–4 days/week,7.2,2.7,2.4,Weekly,No,0,0,7.1
+U00623,Idaho,25,22.1,Average,3–4 days/week,7.0,0.7,3.0,Never,No,1,0,8.2
+U00624,Missouri,33,23.3,Good,1–2 days/week,6.6,2.1,1.0,Never,No,0,0,6.8
+U00625,Massachusetts,30,23.7,Good,3–4 days/week,8.2,1.2,2.0,Never,Yes,0,0,4.6
+U00626,Oklahoma,24,23.5,Average,3–4 days/week,4.8,2.0,2.7,Occasionally,No,0,0,2.9
+U00627,Minnesota,33,26.6,Good,3–4 days/week,5.6,1.7,2.4,Occasionally,No,1,0,8.3
+U00628,Kansas,27,20.3,Average,3–4 days/week,9.2,2.9,1.6,Occasionally,Yes,0,0,4.2
+U00629,Rhode Island,27,23.8,Good,,5.5,1.5,2.6,Occasionally,No,1,1,5.7
+U00630,Vermont,21,19.6,Average,5–6 days/week,7.6,1.9,1.5,Occasionally,No,0,0,5.3
+U00631,Tennessee,23,36.1,Good,3–4 days/week,7.9,0.0,1.7,Occasionally,No,0,0,5.4
+U00632,Rhode Island,22,18.9,Good,1–2 days/week,4.7,2.2,1.8,Occasionally,No,0,0,3.8
+U00633,Indiana,26,19.8,Good,3–4 days/week,4.9,0.9,3.4,Occasionally,Yes,0,0,8.2
+U00634,New Mexico,29,27.0,Average,,8.5,0.1,1.1,Occasionally,No,0,0,4.2
+U00635,California,27,21.1,Good,,5.8,3.0,1.2,Never,No,0,0,5.7
+U00636,Ohio,33,27.0,Average,1–2 days/week,5.9,1.8,2.5,Never,No,0,0,4.8
+U00637,Minnesota,21,23.7,Average,3–4 days/week,6.4,0.0,2.4,Weekly,No,1,0,6.4
+U00638,New Hampshire,26,21.2,Good,5–6 days/week,5.8,0.9,2.0,Never,No,0,0,5.2
+U00639,Texas,19,19.6,Average,3–4 days/week,7.6,1.8,2.3,Never,No,0,0,5.0
+U00640,Hawaii,21,19.5,Average,3–4 days/week,5.6,1.8,1.6,Weekly,No,1,0,7.1
+U00641,Louisiana,32,21.2,Good,1–2 days/week,4.6,1.3,2.4,Never,No,0,0,5.0
+U00642,Washington,23,22.2,Average,,8.4,0.0,2.4,Occasionally,No,0,0,7.6
+U00643,Idaho,21,19.3,Good,,5.6,1.2,3.2,Occasionally,No,1,0,3.6
+U00644,Florida,16,22.5,Average,3–4 days/week,6.1,3.0,3.6,Weekly,No,1,0,5.1
+U00645,Georgia,21,18.1,Poor,5–6 days/week,8.0,3.3,2.1,Never,No,0,0,4.2
+U00646,Utah,24,26.4,Average,1–2 days/week,7.1,1.1,1.4,Never,No,0,0,5.5
+U00647,Kentucky,19,27.3,Good,3–4 days/week,8.3,3.9,2.6,Weekly,No,0,0,3.4
+U00648,Pennsylvania,24,19.8,Good,5–6 days/week,8.0,0.0,2.2,Never,No,1,0,6.4
+U00649,Connecticut,32,19.6,Poor,,6.5,0.9,2.2,Occasionally,No,1,0,6.6
+U00650,Virginia,22,23.8,Poor,3–4 days/week,8.2,2.8,1.2,Occasionally,No,0,0,7.8
+U00651,Illinois,21,28.7,Excellent,3–4 days/week,7.2,2.6,2.4,Never,No,1,0,6.8
+U00652,South Carolina,20,29.7,Poor,3–4 days/week,6.3,1.8,2.6,Weekly,No,1,0,6.8
+U00653,Tennessee,20,16.7,Good,1–2 days/week,7.3,0.6,3.0,Occasionally,No,0,1,6.5
+U00654,Florida,28,27.5,Average,3–4 days/week,5.4,0.6,1.9,Never,No,1,1,5.2
+U00655,Wyoming,26,22.7,Good,3–4 days/week,8.0,1.0,1.7,Never,No,0,0,7.9
+U00656,Nebraska,30,22.8,Average,,7.8,0.6,1.9,Never,No,0,0,6.3
+U00657,Alaska,36,25.3,Good,3–4 days/week,7.1,1.9,3.0,Never,No,1,0,9.2
+U00658,California,16,20.8,Good,,4.7,1.7,3.3,Occasionally,No,0,0,8.1
+U00659,New Hampshire,27,27.9,Average,5–6 days/week,8.4,0.5,3.1,Never,Yes,0,0,6.0
+U00660,Oregon,20,29.4,Poor,3–4 days/week,7.5,1.4,2.8,Never,No,1,0,6.1
+U00661,Pennsylvania,29,29.6,Good,3–4 days/week,7.0,0.0,2.3,Weekly,No,1,0,6.7
+U00662,Maine,24,16.0,Good,1–2 days/week,6.8,2.2,2.4,Occasionally,No,1,0,7.9
+U00663,Delaware,26,22.0,Poor,,6.4,2.6,2.5,Never,No,0,0,3.2
+U00664,West Virginia,19,16.0,Poor,,6.6,0.8,2.1,Weekly,No,0,0,7.5
+U00665,Vermont,23,19.6,Good,1–2 days/week,7.9,0.9,2.9,Never,Yes,0,0,6.1
+U00666,Alabama,26,16.0,Average,1–2 days/week,6.4,2.1,1.1,Weekly,No,0,0,7.1
+U00667,Michigan,32,25.0,Good,3–4 days/week,6.7,1.9,1.3,Occasionally,No,1,0,4.4
+U00668,Kentucky,22,24.0,Good,,6.8,2.7,1.1,Occasionally,No,1,0,4.4
+U00669,Connecticut,23,21.1,Good,3–4 days/week,6.9,0.9,1.7,Occasionally,No,0,0,6.0
+U00670,Missouri,30,19.4,Excellent,1–2 days/week,6.3,1.1,3.2,Occasionally,No,0,0,7.0
+U00671,Vermont,21,24.4,Excellent,3–4 days/week,6.8,1.6,1.5,Occasionally,Yes,1,0,3.7
+U00672,Arkansas,31,18.4,Average,3–4 days/week,7.4,0.6,1.5,Occasionally,No,1,0,4.9
+U00673,Oklahoma,25,18.1,Good,3–4 days/week,5.9,1.5,1.7,Never,No,0,0,3.7
+U00674,Colorado,27,17.6,Average,5–6 days/week,6.8,0.6,3.1,Never,No,0,0,6.1
+U00675,New Mexico,27,22.1,Good,,9.3,2.3,3.3,Occasionally,No,0,0,8.5
+U00676,Maine,22,20.4,Good,1–2 days/week,6.9,0.8,3.0,Occasionally,No,1,0,5.0
+U00677,Utah,27,21.3,Poor,1–2 days/week,5.9,2.1,3.1,Occasionally,No,0,0,6.7
+U00678,Rhode Island,22,25.3,Excellent,1–2 days/week,5.7,3.4,3.5,Occasionally,No,1,0,5.7
+U00679,Nebraska,23,27.3,Poor,3–4 days/week,5.5,2.3,1.0,Occasionally,No,0,0,6.1
+U00680,Georgia,28,29.5,Good,1–2 days/week,9.0,2.0,1.4,Never,No,0,0,4.6
+U00681,Montana,27,23.3,Good,3–4 days/week,8.2,0.3,1.8,Never,No,0,0,6.5
+U00682,Maine,25,24.6,Good,1–2 days/week,5.5,3.3,2.4,Occasionally,No,1,0,5.2
+U00683,Rhode Island,19,23.8,Average,5–6 days/week,7.3,3.0,2.4,Occasionally,No,1,0,8.2
+U00684,Arizona,20,16.0,Average,5–6 days/week,8.5,1.6,2.4,Occasionally,No,1,0,4.7
+U00685,Vermont,27,21.3,Good,1–2 days/week,7.0,1.4,2.9,Occasionally,No,1,0,7.0
+U00686,Illinois,29,21.4,Average,,6.4,0.9,1.0,Occasionally,Yes,1,1,8.5
+U00687,Wyoming,20,20.7,Good,3–4 days/week,9.7,3.8,2.2,Occasionally,No,0,0,7.3
+U00688,Nevada,21,22.8,Average,5–6 days/week,4.7,2.7,2.5,Never,No,1,0,4.1
+U00689,Maryland,26,22.0,Good,1–2 days/week,10.0,1.0,2.1,Occasionally,No,0,0,4.0
+U00690,Nevada,26,18.6,Good,1–2 days/week,7.1,3.0,2.4,Never,No,0,0,6.2
+U00691,Delaware,17,22.3,Good,5–6 days/week,8.5,3.3,3.0,Occasionally,No,0,0,5.6
+U00692,South Dakota,26,20.1,Good,3–4 days/week,5.6,1.8,2.3,Never,No,0,0,6.3
+U00693,Rhode Island,23,16.0,Average,1–2 days/week,6.1,1.4,3.8,Never,No,1,1,7.3
+U00694,Alabama,34,16.7,Good,3–4 days/week,5.7,0.7,3.0,Never,No,0,0,5.6
+U00695,Arizona,27,23.4,Poor,5–6 days/week,6.9,2.6,2.5,Never,No,0,0,4.6
+U00696,Illinois,28,27.9,Average,3–4 days/week,7.4,1.3,2.7,Occasionally,No,1,0,5.8
+U00697,Nevada,28,16.0,Average,3–4 days/week,8.3,1.3,2.8,Weekly,No,1,0,7.8
+U00698,Wisconsin,19,19.1,Good,3–4 days/week,4.9,1.8,3.5,Never,No,0,0,5.6
+U00699,Missouri,35,24.9,Good,,7.2,0.9,3.1,Occasionally,No,0,0,8.7
+U00700,North Carolina,17,27.0,Average,3–4 days/week,8.1,3.5,2.7,Occasionally,No,0,0,6.8
+U00701,Pennsylvania,29,21.1,Average,1–2 days/week,8.3,2.9,1.8,Never,No,1,0,6.7
+U00702,Colorado,29,19.9,Average,5–6 days/week,6.5,1.9,2.6,Never,No,1,0,4.7
+U00703,Utah,23,28.5,Excellent,1–2 days/week,6.5,0.9,2.7,Never,Yes,0,0,5.3
+U00704,Vermont,29,26.6,Good,5–6 days/week,6.9,0.9,2.8,Occasionally,No,1,0,6.3
+U00705,New York,24,26.9,Poor,1–2 days/week,7.2,0.9,1.8,Never,No,0,0,5.5
+U00706,Vermont,22,20.9,Poor,3–4 days/week,8.6,0.4,2.8,Never,No,0,0,7.4
+U00707,Washington,28,28.0,Excellent,,5.5,2.2,2.9,Never,No,0,0,5.8
+U00708,Massachusetts,20,16.0,Average,3–4 days/week,6.1,1.1,1.5,Occasionally,No,0,0,4.6
+U00709,Kansas,24,28.1,Good,3–4 days/week,5.4,1.0,1.5,Occasionally,Yes,1,0,6.0
+U00710,Massachusetts,23,22.7,Poor,3–4 days/week,7.5,0.9,3.1,Never,No,0,0,5.0
+U00711,Hawaii,24,23.6,Excellent,3–4 days/week,8.3,2.9,1.7,Occasionally,No,0,0,6.6
+U00712,Oregon,28,18.7,Good,,5.3,1.0,3.4,Occasionally,No,0,0,4.8
+U00713,Oklahoma,23,16.0,Good,5–6 days/week,7.1,3.2,2.1,Never,No,0,0,8.3
+U00714,Ohio,25,23.5,Poor,3–4 days/week,8.2,1.5,2.6,Never,No,0,0,3.3
+U00715,Maine,23,25.5,Average,3–4 days/week,7.9,0.4,2.5,Occasionally,No,0,0,5.1
+U00716,Maryland,33,26.2,Average,3–4 days/week,7.9,2.3,1.8,Occasionally,No,0,0,5.9
+U00717,Louisiana,27,25.7,Good,3–4 days/week,5.6,2.8,3.3,Occasionally,No,0,0,4.9
+U00718,Washington,27,24.7,Average,1–2 days/week,7.9,0.9,2.1,Occasionally,Yes,1,0,2.2
+U00719,South Dakota,29,18.8,Poor,3–4 days/week,6.8,1.9,2.3,Never,No,1,0,8.5
+U00720,Wisconsin,23,26.5,Good,3–4 days/week,8.3,2.2,0.9,Never,Yes,0,0,6.7
+U00721,Indiana,30,18.3,Good,5–6 days/week,7.5,1.9,1.4,Occasionally,No,0,0,3.8
+U00722,Iowa,27,28.0,Average,3–4 days/week,6.0,1.3,3.1,Occasionally,No,1,0,4.0
+U00723,New Mexico,18,22.6,Poor,,7.3,2.8,2.3,Never,No,0,0,3.4
+U00724,Alabama,18,22.8,Excellent,1–2 days/week,8.0,1.5,1.9,Weekly,No,0,0,5.4
+U00725,Arizona,23,26.9,Good,,6.4,1.1,1.9,Occasionally,No,0,1,7.9
+U00726,Kansas,19,27.5,Good,,7.2,0.0,2.7,Never,No,1,0,5.2
+U00727,Minnesota,24,26.5,Good,3–4 days/week,5.4,0.0,3.2,Occasionally,No,0,0,5.0
+U00728,Hawaii,20,19.3,Poor,5–6 days/week,7.7,2.0,1.9,Never,No,0,0,7.1
+U00729,Idaho,25,26.4,Average,,6.9,1.7,3.1,Occasionally,No,0,1,6.1
+U00730,Georgia,33,19.3,Average,1–2 days/week,8.1,2.8,2.2,Occasionally,No,1,0,5.6
+U00731,New York,25,26.5,Good,5–6 days/week,7.6,3.0,2.7,Never,Yes,0,0,6.8
+U00732,Kansas,24,16.6,Good,3–4 days/week,6.5,1.5,1.1,Occasionally,No,0,0,3.0
+U00733,Delaware,27,22.6,Average,3–4 days/week,6.0,2.8,1.2,Occasionally,No,0,0,6.4
+U00734,Pennsylvania,22,19.3,Excellent,3–4 days/week,5.7,1.2,2.9,Never,Yes,0,0,7.6
+U00735,Idaho,30,26.9,Average,3–4 days/week,6.4,1.6,2.5,Never,No,0,1,3.8
+U00736,Mississippi,28,28.0,Excellent,,8.1,1.6,2.6,Never,No,0,0,5.1
+U00737,Nevada,26,23.9,Excellent,,4.9,3.5,1.5,Occasionally,No,0,0,2.7
+U00738,Delaware,26,23.7,Average,,5.8,0.4,2.0,Never,No,1,0,5.0
+U00739,Nevada,36,26.2,Average,1–2 days/week,8.0,1.9,1.1,Never,No,0,0,4.7
+U00740,Oklahoma,30,28.0,Good,5–6 days/week,8.6,1.0,1.7,Never,No,1,0,8.2
+U00741,Montana,36,23.2,Good,3–4 days/week,5.8,1.5,2.3,Never,No,0,0,5.0
+U00742,Delaware,28,20.8,Good,1–2 days/week,5.7,1.4,2.5,Occasionally,No,1,0,6.1
+U00743,Wyoming,18,25.9,Excellent,1–2 days/week,8.7,1.9,1.8,Occasionally,No,1,0,7.7
+U00744,Nevada,24,16.0,Good,1–2 days/week,6.9,3.3,2.7,Occasionally,No,0,0,2.4
+U00745,Nevada,17,27.1,Average,3–4 days/week,5.9,3.9,2.3,Occasionally,No,1,0,5.9
+U00746,Oregon,28,19.8,Average,3–4 days/week,8.3,2.5,2.1,Occasionally,No,0,0,4.0
+U00747,South Dakota,29,21.9,Good,1–2 days/week,7.6,0.7,2.4,Never,No,1,0,4.0
+U00748,Oklahoma,21,27.1,Average,,7.9,1.6,3.8,Never,No,0,0,4.4
+U00749,Nebraska,22,21.1,Good,3–4 days/week,6.0,2.1,2.2,Never,No,0,0,4.9
+U00750,Kentucky,26,25.9,Average,3–4 days/week,7.4,1.4,3.0,Occasionally,No,0,1,4.1
+U00751,Florida,20,28.1,Average,1–2 days/week,8.5,1.5,2.7,Weekly,No,0,0,5.0
+U00752,North Carolina,19,23.5,Poor,3–4 days/week,7.8,1.7,2.1,Never,No,1,0,7.1
+U00753,Maryland,32,24.4,Good,3–4 days/week,8.1,2.6,1.2,Never,No,0,0,6.4
+U00754,Illinois,26,22.5,Average,1–2 days/week,8.7,2.4,1.9,Never,No,0,0,9.7
+U00755,Nevada,23,23.5,Good,1–2 days/week,7.5,1.1,2.4,Occasionally,No,1,1,5.9
+U00756,West Virginia,17,18.0,Good,1–2 days/week,6.3,2.5,2.2,Occasionally,No,1,0,6.6
+U00757,New Hampshire,30,21.7,Good,5–6 days/week,8.1,3.7,3.2,Never,No,1,0,7.5
+U00758,Illinois,22,17.2,Good,5–6 days/week,5.7,0.1,1.8,Occasionally,No,1,0,3.9
+U00759,Virginia,35,19.0,Poor,5–6 days/week,6.7,1.3,2.2,Occasionally,No,0,0,7.5
+U00760,Ohio,30,16.0,Good,3–4 days/week,7.7,1.2,2.7,Never,No,0,0,4.2
+U00761,Colorado,21,24.2,Poor,3–4 days/week,4.5,1.9,2.1,Never,No,0,0,6.3
+U00762,Louisiana,22,30.6,Good,3–4 days/week,7.3,0.0,3.0,Occasionally,No,1,0,7.0
+U00763,California,34,20.9,Average,5–6 days/week,7.4,3.3,1.5,Never,No,0,0,2.7
+U00764,Washington,25,27.3,Good,1–2 days/week,5.6,1.9,1.2,Never,No,0,0,5.0
+U00765,Missouri,23,28.1,Excellent,3–4 days/week,7.4,2.1,2.1,Never,No,0,0,5.5
+U00766,Alaska,26,17.6,Good,3–4 days/week,7.2,2.0,2.3,Occasionally,Yes,0,0,3.9
+U00767,Georgia,23,18.6,Good,3–4 days/week,7.0,1.2,2.5,Occasionally,No,0,0,6.1
+U00768,New Jersey,27,27.5,Good,1–2 days/week,8.4,2.6,2.4,Occasionally,No,0,0,8.1
+U00769,Wyoming,25,22.6,Poor,3–4 days/week,8.1,1.8,2.0,Never,No,0,0,4.1
+U00770,Vermont,30,17.2,Excellent,3–4 days/week,7.8,0.0,1.2,Never,No,0,0,7.4
+U00771,California,24,20.1,Average,1–2 days/week,5.8,1.7,2.2,Occasionally,No,1,0,6.3
+U00772,North Carolina,21,24.9,Excellent,3–4 days/week,7.0,1.5,1.6,Never,Yes,1,0,3.5
+U00773,Alabama,24,19.4,Good,1–2 days/week,8.4,2.6,2.3,Occasionally,No,0,0,4.9
+U00774,Louisiana,24,16.0,Good,5–6 days/week,6.7,4.8,1.5,Never,No,1,0,6.0
+U00775,New York,25,21.6,Good,3–4 days/week,8.9,2.2,2.6,Occasionally,No,1,0,8.0
+U00776,Washington,29,21.9,Good,3–4 days/week,7.8,4.1,3.5,Occasionally,No,0,0,6.8
+U00777,Wisconsin,28,23.0,Good,,9.1,1.0,1.8,Occasionally,No,1,1,4.5
+U00778,Hawaii,31,28.7,Poor,,5.7,1.1,1.4,Never,No,1,0,6.2
+U00779,Massachusetts,21,23.2,Good,3–4 days/week,6.8,1.5,3.1,Occasionally,No,0,0,1.4
+U00780,Montana,27,24.1,Good,1–2 days/week,6.9,2.3,3.5,Never,No,0,0,6.9
+U00781,Missouri,29,27.7,Good,3–4 days/week,7.7,1.1,1.4,Occasionally,No,0,0,4.4
+U00782,Michigan,22,23.0,Good,,6.1,0.0,2.2,Never,No,1,0,4.0
+U00783,Nebraska,24,32.6,Poor,3–4 days/week,5.1,1.8,2.6,Occasionally,No,0,1,5.1
+U00784,Wisconsin,17,17.3,Average,3–4 days/week,7.5,0.5,2.1,Never,No,1,0,3.7
+U00785,Illinois,30,18.8,Good,,6.6,3.0,1.1,Occasionally,No,0,1,5.3
+U00786,North Carolina,24,25.8,Average,3–4 days/week,6.4,2.5,1.3,Occasionally,No,0,0,7.2
+U00787,North Dakota,30,28.6,Average,3–4 days/week,6.2,1.0,1.4,Never,No,0,0,2.6
+U00788,South Dakota,27,22.1,Good,3–4 days/week,7.1,2.3,1.6,Weekly,No,0,0,5.5
+U00789,Ohio,25,18.5,Good,1–2 days/week,5.7,1.2,2.4,Never,No,1,1,5.3
+U00790,Alabama,18,30.9,Good,3–4 days/week,6.8,1.7,3.1,Weekly,Yes,1,0,6.4
+U00791,Massachusetts,18,19.4,Average,1–2 days/week,6.0,1.8,1.3,Occasionally,No,0,0,5.3
+U00792,West Virginia,16,24.5,Good,1–2 days/week,6.3,1.4,1.7,Weekly,No,0,0,7.0
+U00793,Colorado,23,28.9,Average,1–2 days/week,7.4,2.7,1.5,Never,No,1,0,7.6
+U00794,Nevada,37,21.0,Good,3–4 days/week,7.8,0.6,2.5,Never,No,1,0,7.1
+U00795,Kentucky,19,20.2,Poor,,6.6,2.4,1.7,Occasionally,No,1,0,4.5
+U00796,California,16,20.5,Good,5–6 days/week,8.2,2.1,1.6,Weekly,No,0,0,8.5
+U00797,New Mexico,30,27.1,Good,1–2 days/week,5.8,0.3,1.2,Never,No,1,0,3.9
+U00798,California,37,27.8,Average,1–2 days/week,5.2,0.9,3.3,Never,No,1,1,6.7
+U00799,Pennsylvania,27,23.2,Good,1–2 days/week,5.4,0.6,3.8,Never,Yes,0,0,7.3
+U00800,Arizona,27,31.5,Good,1–2 days/week,5.7,1.4,2.4,Occasionally,No,0,1,8.7
+U00801,Minnesota,24,23.1,Average,3–4 days/week,5.4,1.9,3.3,Occasionally,No,0,0,7.1
+U00802,Oregon,17,28.8,Good,1–2 days/week,9.4,0.8,1.9,Never,No,1,0,4.5
+U00803,Oregon,18,21.1,Average,,5.1,2.9,2.3,Never,No,0,0,7.0
+U00804,Georgia,24,33.5,Excellent,1–2 days/week,8.1,3.0,2.8,Occasionally,Yes,0,1,5.4
+U00805,Georgia,23,30.1,Good,1–2 days/week,7.0,3.2,1.8,Never,No,0,0,7.2
+U00806,Maine,25,22.4,Average,,7.3,0.0,2.2,Occasionally,No,0,1,5.9
+U00807,Kentucky,30,29.5,Good,3–4 days/week,5.9,3.9,2.1,Never,No,0,0,7.7
+U00808,Massachusetts,23,29.2,Average,3–4 days/week,7.4,2.0,2.6,Occasionally,No,1,1,5.6
+U00809,Indiana,30,30.0,Average,3–4 days/week,5.9,1.9,2.3,Occasionally,No,0,1,7.0
+U00810,Florida,23,16.0,Excellent,3–4 days/week,8.1,1.7,1.8,Occasionally,No,0,0,4.7
+U00811,Virginia,31,26.2,Good,3–4 days/week,8.2,0.3,2.1,Never,No,0,0,7.4
+U00812,Alabama,26,25.4,Good,5–6 days/week,6.8,2.2,3.1,Occasionally,No,0,0,2.4
+U00813,Vermont,23,25.1,Average,,6.9,3.6,2.7,Never,Yes,0,0,6.7
+U00814,Illinois,26,24.0,Average,,7.5,2.0,2.6,Occasionally,No,0,0,6.1
+U00815,Arkansas,24,24.1,Excellent,,7.5,0.6,3.9,Never,No,0,0,5.8
+U00816,Alabama,26,28.8,Average,,8.2,0.1,1.5,Occasionally,No,1,0,2.3
+U00817,Wisconsin,29,25.4,Average,,8.2,1.5,2.8,Never,No,0,0,4.9
+U00818,South Carolina,25,24.0,Good,3–4 days/week,7.0,1.0,2.3,Never,No,1,0,7.4
+U00819,New York,24,28.1,Good,1–2 days/week,6.4,2.6,2.5,Never,No,0,0,4.3
+U00820,North Dakota,20,24.9,Good,5–6 days/week,8.0,3.3,2.4,Weekly,Yes,0,0,3.4
+U00821,Nevada,28,25.3,Average,1–2 days/week,6.8,2.3,1.8,Weekly,No,1,0,4.0
+U00822,New Mexico,27,31.4,Average,1–2 days/week,7.1,1.7,1.6,Never,No,0,0,7.4
+U00823,Delaware,20,21.0,Average,5–6 days/week,7.6,1.7,2.3,Never,No,1,0,6.3
+U00824,Rhode Island,30,16.2,Excellent,3–4 days/week,8.2,1.9,1.8,Never,No,0,0,7.7
+U00825,Montana,20,23.3,Average,1–2 days/week,7.3,0.5,2.0,Never,No,0,0,6.6
+U00826,North Dakota,31,24.0,Good,3–4 days/week,6.3,2.5,2.9,Occasionally,No,0,0,4.3
+U00827,Arizona,29,26.2,Good,3–4 days/week,9.2,0.6,1.4,Never,Yes,1,0,8.3
+U00828,Wyoming,28,23.5,Good,1–2 days/week,8.8,3.0,2.2,Occasionally,No,1,1,4.7
+U00829,Idaho,24,26.4,Good,1–2 days/week,5.8,1.4,3.0,Occasionally,No,0,1,4.4
+U00830,Alabama,28,34.3,Average,3–4 days/week,5.9,2.7,1.9,Occasionally,No,0,0,6.0
+U00831,Utah,31,26.6,Average,3–4 days/week,6.1,0.2,3.3,Occasionally,No,0,0,6.2
+U00832,California,28,27.4,Good,,8.0,2.7,1.2,Never,No,1,0,6.9
+U00833,New Jersey,22,22.4,Average,3–4 days/week,9.2,3.3,3.6,Never,No,0,0,5.1
+U00834,New Jersey,27,16.8,Good,1–2 days/week,6.4,0.4,2.3,Occasionally,No,0,0,7.7
+U00835,Kentucky,31,16.0,Good,5–6 days/week,7.2,1.7,1.4,Never,No,0,0,4.6
+U00836,West Virginia,36,20.7,Good,,6.1,2.2,2.9,Never,No,1,0,3.9
+U00837,Washington,24,16.0,Poor,5–6 days/week,9.0,2.2,2.6,Weekly,No,0,0,2.7
+U00838,Minnesota,30,25.3,Excellent,3–4 days/week,8.0,1.4,3.3,Occasionally,No,1,0,5.2
+U00839,Iowa,31,21.3,Average,1–2 days/week,6.0,1.2,1.2,Never,Yes,1,0,6.8
+U00840,Oregon,21,17.1,Good,,4.5,2.1,1.5,Occasionally,No,0,0,6.7
+U00841,Massachusetts,34,23.6,Average,3–4 days/week,8.2,2.2,2.8,Never,No,0,1,6.1
+U00842,Indiana,20,19.7,Good,5–6 days/week,6.3,1.1,4.1,Weekly,No,0,0,4.9
+U00843,Alaska,30,25.0,Average,1–2 days/week,8.0,0.9,2.7,Never,No,0,0,7.4
+U00844,Hawaii,27,26.2,Excellent,1–2 days/week,7.4,3.1,2.8,Occasionally,No,0,0,5.7
+U00845,Rhode Island,26,19.8,Excellent,3–4 days/week,4.8,1.9,1.8,Occasionally,No,1,0,6.2
+U00846,Pennsylvania,38,21.9,Good,3–4 days/week,6.0,0.0,2.2,Occasionally,No,1,0,3.8
+U00847,North Dakota,24,24.0,Poor,,6.6,3.1,1.9,Occasionally,No,1,0,2.8
+U00848,Pennsylvania,24,16.7,Good,3–4 days/week,6.2,1.1,2.7,Weekly,No,1,0,6.9
+U00849,Wyoming,32,24.0,Good,3–4 days/week,7.1,1.9,3.0,Occasionally,No,0,0,9.4
+U00850,North Dakota,29,16.6,Average,1–2 days/week,7.5,2.2,2.4,Never,No,0,0,6.2
+U00851,Louisiana,32,25.5,Average,1–2 days/week,9.1,0.2,2.9,Occasionally,Yes,0,1,6.9
+U00852,New Jersey,26,21.0,Average,1–2 days/week,7.6,1.5,2.3,Weekly,No,0,0,6.8
+U00853,Iowa,27,16.5,Poor,3–4 days/week,8.8,3.2,3.2,Never,No,0,0,5.7
+U00854,Nebraska,35,20.4,Good,3–4 days/week,6.4,3.0,1.7,Occasionally,No,0,0,3.2
+U00855,North Dakota,21,20.6,Excellent,3–4 days/week,8.4,1.5,3.3,Occasionally,No,1,0,6.7
+U00856,Pennsylvania,25,27.8,Average,1–2 days/week,6.5,2.6,1.8,Never,No,1,1,7.9
+U00857,North Carolina,29,23.8,Good,1–2 days/week,5.9,2.7,2.3,Never,No,1,0,6.4
+U00858,Mississippi,25,18.7,Excellent,3–4 days/week,5.8,2.7,1.5,Weekly,No,0,0,5.3
+U00859,Iowa,23,30.4,Average,1–2 days/week,4.5,0.5,2.7,Occasionally,Yes,1,0,6.2
+U00860,New Jersey,29,25.8,Good,3–4 days/week,8.0,3.6,2.4,Never,No,0,1,5.5
+U00861,Tennessee,32,21.5,Good,3–4 days/week,5.5,1.3,2.8,Occasionally,No,0,0,7.6
+U00862,Kentucky,25,16.0,Good,1–2 days/week,8.7,1.9,1.1,Occasionally,No,0,0,6.0
+U00863,California,25,21.1,Average,1–2 days/week,6.8,1.4,2.4,Occasionally,No,0,0,6.7
+U00864,New Hampshire,22,22.0,Good,,5.1,2.1,2.6,Never,No,1,0,7.3
+U00865,Arkansas,24,24.7,Poor,,5.7,0.8,1.6,Weekly,No,0,0,6.7
+U00866,Georgia,31,25.7,Good,3–4 days/week,7.2,1.6,2.7,Occasionally,No,0,0,5.7
+U00867,Kentucky,26,26.6,Average,1–2 days/week,4.7,2.0,0.8,Occasionally,No,0,0,3.4
+U00868,Georgia,21,16.0,Good,,7.7,3.1,2.2,Never,No,1,0,6.3
+U00869,Kentucky,27,23.9,Average,3–4 days/week,5.2,3.0,3.3,Never,No,0,0,7.0
+U00870,Maryland,31,22.3,Average,,6.1,3.1,2.2,Never,No,1,0,3.2
+U00871,Mississippi,23,35.1,Good,3–4 days/week,7.2,2.8,1.8,Weekly,No,1,0,6.3
+U00872,California,19,23.3,Average,1–2 days/week,7.6,3.8,2.3,Never,Yes,1,1,5.7
+U00873,North Dakota,36,20.2,Good,,8.0,1.5,2.4,Occasionally,No,0,0,2.3
+U00874,Colorado,19,23.5,Excellent,1–2 days/week,5.4,1.6,2.9,Never,No,0,0,6.2
+U00875,Alaska,24,23.0,Good,,6.6,1.6,2.4,Never,No,0,0,7.7
+U00876,Illinois,27,16.0,Poor,3–4 days/week,8.3,1.7,2.8,Never,No,1,0,5.7
+U00877,Texas,24,24.8,Good,3–4 days/week,6.6,0.2,2.4,Occasionally,No,1,0,2.5
+U00878,Texas,25,21.6,Good,,7.4,2.1,1.8,Occasionally,No,0,0,6.2
+U00879,West Virginia,28,22.9,Good,1–2 days/week,7.2,2.3,1.3,Weekly,No,0,0,7.3
+U00880,Hawaii,16,19.1,Poor,1–2 days/week,8.6,1.5,2.6,Weekly,Yes,0,0,4.4
+U00881,Washington,19,18.1,Good,,6.4,0.0,0.8,Never,No,1,0,5.3
+U00882,Minnesota,26,27.0,Good,1–2 days/week,5.3,1.8,1.1,Occasionally,No,0,0,5.1
+U00883,Kansas,23,28.0,Average,3–4 days/week,5.8,0.4,1.3,Occasionally,No,1,0,5.8
+U00884,New Mexico,26,24.9,Average,3–4 days/week,7.2,2.3,2.8,Occasionally,No,1,0,5.0
+U00885,Hawaii,27,16.0,Average,1–2 days/week,5.1,1.9,1.3,Never,No,0,0,7.6
+U00886,Kansas,16,25.2,Good,3–4 days/week,6.3,2.0,2.6,Occasionally,No,0,0,7.6
+U00887,Delaware,32,16.0,Excellent,5–6 days/week,7.1,0.6,1.6,Never,Yes,1,0,4.7
+U00888,Arkansas,23,20.0,Good,1–2 days/week,6.1,3.2,2.2,Never,No,0,0,7.6
+U00889,South Carolina,21,26.9,Average,3–4 days/week,7.4,2.0,2.3,Never,No,0,0,3.1
+U00890,Arkansas,27,26.0,Average,3–4 days/week,7.9,0.8,2.2,Never,No,0,0,4.4
+U00891,Missouri,26,25.1,Excellent,1–2 days/week,7.5,2.4,1.8,Never,No,0,0,6.5
+U00892,Arizona,31,28.9,Excellent,5–6 days/week,5.1,1.9,1.2,Occasionally,No,1,0,5.7
+U00893,New York,27,25.5,Excellent,1–2 days/week,7.1,3.8,2.3,Occasionally,No,0,0,5.8
+U00894,Arizona,31,16.0,Good,1–2 days/week,7.2,1.2,2.7,Never,No,0,0,6.2
+U00895,Nebraska,21,21.3,Average,3–4 days/week,6.5,0.4,2.8,Never,No,1,0,4.9
+U00896,New Hampshire,26,22.8,Good,1–2 days/week,7.4,2.1,2.4,Never,Yes,0,0,7.5
+U00897,New York,20,22.3,Average,1–2 days/week,7.3,2.9,2.5,Occasionally,No,0,0,6.6
+U00898,Wyoming,26,20.2,Average,,6.9,4.4,1.8,Never,No,1,0,5.5
+U00899,Maine,25,18.4,Good,3–4 days/week,5.8,5.6,2.6,Occasionally,No,1,0,7.0
+U00900,Massachusetts,25,33.8,Poor,3–4 days/week,7.0,0.1,2.6,Never,No,0,0,6.3
+U00901,California,25,21.3,Poor,3–4 days/week,9.2,1.7,2.1,Occasionally,No,0,0,5.2
+U00902,Louisiana,29,33.6,Average,5–6 days/week,6.5,0.4,2.3,Never,No,1,1,5.2
+U00903,Nevada,17,17.9,Average,1–2 days/week,8.3,1.5,2.3,Never,No,0,0,3.9
+U00904,Tennessee,21,26.0,Good,1–2 days/week,7.0,4.5,2.6,Never,Yes,0,0,4.7
+U00905,Michigan,25,24.0,Average,3–4 days/week,6.0,0.9,1.2,Never,No,0,0,5.3
+U00906,Massachusetts,20,18.9,Average,3–4 days/week,6.6,1.8,1.2,Never,No,0,0,5.7
+U00907,Colorado,26,20.9,Average,1–2 days/week,7.0,1.2,1.2,Occasionally,No,1,0,4.2
+U00908,Alabama,25,22.9,Poor,,7.8,0.7,2.0,Never,No,0,0,5.7
+U00909,California,18,19.2,Poor,3–4 days/week,9.9,3.8,2.6,Never,No,1,0,4.8
+U00910,South Dakota,18,21.8,Good,5–6 days/week,7.1,0.1,0.8,Never,No,0,0,4.5
+U00911,Idaho,16,16.0,Average,3–4 days/week,5.5,1.7,2.4,Occasionally,No,0,0,6.4
+U00912,Montana,19,26.2,Good,1–2 days/week,5.0,1.9,3.1,Occasionally,No,1,0,5.9
+U00913,Virginia,26,28.5,Excellent,5–6 days/week,6.5,1.8,2.5,Occasionally,No,0,0,5.4
+U00914,North Dakota,26,25.0,Good,5–6 days/week,5.6,1.5,0.9,Never,No,0,0,6.4
+U00915,Wisconsin,27,33.2,Poor,3–4 days/week,7.7,3.6,2.7,Never,No,0,0,3.7
+U00916,Indiana,22,26.1,Average,3–4 days/week,7.7,0.0,2.5,Never,No,0,0,3.8
+U00917,Montana,25,28.1,Good,3–4 days/week,6.8,2.3,2.1,Occasionally,No,0,0,5.0
+U00918,Vermont,27,28.6,Good,5–6 days/week,7.8,2.3,2.4,Occasionally,No,0,0,5.3
+U00919,Nebraska,19,16.0,Good,3–4 days/week,7.1,2.1,1.3,Occasionally,No,1,0,6.6
+U00920,Florida,26,24.9,Good,3–4 days/week,9.2,0.9,2.3,Occasionally,No,0,0,4.6
+U00921,Montana,29,16.8,Excellent,3–4 days/week,7.8,3.1,2.6,Never,No,1,0,4.6
+U00922,Washington,23,17.7,Excellent,1–2 days/week,8.1,3.1,1.8,Never,No,0,0,7.1
+U00923,Michigan,31,18.5,Good,3–4 days/week,5.3,0.8,2.0,Never,No,0,0,3.9
+U00924,Washington,23,21.6,Average,3–4 days/week,5.6,0.5,1.9,Never,No,0,0,7.0
+U00925,New Jersey,21,25.9,Excellent,5–6 days/week,7.6,0.3,2.0,Weekly,No,0,0,5.5
+U00926,Texas,28,25.0,Good,1–2 days/week,5.1,2.0,1.7,Never,No,0,0,4.3
+U00927,West Virginia,36,22.9,Poor,3–4 days/week,6.3,1.9,1.8,Weekly,No,0,0,3.9
+U00928,Kentucky,26,26.3,Good,1–2 days/week,8.4,1.4,2.7,Occasionally,No,1,0,5.2
+U00929,Montana,29,26.5,Good,3–4 days/week,6.2,4.1,1.1,Occasionally,No,0,1,6.5
+U00930,Oklahoma,23,25.0,Good,3–4 days/week,5.5,1.3,2.4,Never,No,0,0,5.5
+U00931,Alabama,19,16.0,Good,,7.8,2.0,2.7,Occasionally,No,0,0,6.9
+U00932,Delaware,26,19.7,Average,3–4 days/week,9.5,1.6,1.4,Occasionally,Yes,1,0,6.8
+U00933,Wisconsin,27,23.1,Excellent,,6.0,4.0,2.2,Never,No,0,0,6.7
+U00934,Ohio,24,26.3,Good,,8.5,0.0,1.7,Never,No,0,0,6.8
+U00935,Iowa,29,17.0,Good,3–4 days/week,5.9,1.5,3.1,Never,No,0,0,4.7
+U00936,Washington,22,22.9,Average,1–2 days/week,6.9,2.5,2.2,Occasionally,No,0,0,6.7
+U00937,Michigan,21,16.0,Average,1–2 days/week,6.9,1.6,3.3,Never,No,0,0,8.7
+U00938,Indiana,31,27.6,Good,,6.1,0.4,3.2,Occasionally,No,0,0,7.0
+U00939,Montana,31,24.1,Poor,,8.1,2.0,2.5,Occasionally,No,0,0,4.9
+U00940,Nevada,22,16.9,Average,3–4 days/week,5.2,0.0,3.8,Never,No,0,0,4.6
+U00941,Minnesota,34,16.9,Good,1–2 days/week,7.2,2.5,1.2,Occasionally,No,1,0,5.7
+U00942,Indiana,24,24.7,Good,5–6 days/week,8.3,1.3,3.3,Never,No,0,0,6.7
+U00943,Mississippi,26,29.2,Average,1–2 days/week,8.0,1.2,2.1,Occasionally,No,0,0,5.8
+U00944,Alaska,25,18.1,Average,1–2 days/week,7.6,3.0,2.2,Never,No,0,0,3.8
+U00945,Vermont,28,26.5,Average,1–2 days/week,8.9,0.7,2.0,Never,No,0,0,6.6
+U00946,Montana,27,20.6,Good,3–4 days/week,6.7,0.1,1.3,Never,No,0,0,6.9
+U00947,Indiana,27,26.7,Average,3–4 days/week,5.2,0.8,2.7,Occasionally,No,0,0,4.2
+U00948,Connecticut,20,26.1,Poor,5–6 days/week,7.2,4.1,1.4,Never,Yes,0,0,6.9
+U00949,Arizona,17,23.7,Good,3–4 days/week,6.8,0.7,1.9,Never,No,0,0,5.7
+U00950,Washington,31,16.0,Excellent,1–2 days/week,4.5,2.2,1.9,Never,No,1,0,6.2
+U00951,Minnesota,23,26.1,Good,3–4 days/week,5.6,2.7,3.0,Never,Yes,0,0,6.3
+U00952,Virginia,25,25.3,Average,5–6 days/week,5.5,0.8,2.2,Occasionally,Yes,0,0,5.9
+U00953,Texas,27,24.8,Average,1–2 days/week,6.0,0.8,0.8,Occasionally,No,0,0,4.9
+U00954,Washington,34,23.9,Good,1–2 days/week,6.6,2.0,1.7,Weekly,No,0,0,6.2
+U00955,Vermont,26,19.0,Average,3–4 days/week,6.6,2.0,1.2,Never,No,0,0,5.6
+U00956,Louisiana,24,27.9,Good,1–2 days/week,6.1,3.3,2.7,Never,Yes,0,1,6.0
+U00957,Pennsylvania,23,27.0,Average,5–6 days/week,5.5,1.0,1.5,Occasionally,No,0,0,5.1
+U00958,Ohio,25,18.2,Average,1–2 days/week,7.5,1.4,1.9,Occasionally,No,0,0,6.1
+U00959,Iowa,21,28.9,Good,,7.1,4.9,3.5,Never,No,0,0,5.5
+U00960,Missouri,26,23.6,Good,5–6 days/week,7.2,0.0,2.7,Occasionally,No,1,0,4.0
+U00961,Oregon,25,23.6,Good,3–4 days/week,9.1,0.0,1.5,Occasionally,Yes,0,1,6.3
+U00962,Nevada,34,22.2,Average,,7.2,0.3,2.9,Never,No,0,0,7.1
+U00963,Georgia,25,22.6,Poor,5–6 days/week,6.6,3.0,1.8,Occasionally,Yes,0,0,6.1
+U00964,Rhode Island,16,29.2,Good,1–2 days/week,6.9,1.3,2.9,Never,No,0,0,5.2
+U00965,Kentucky,39,27.6,Good,1–2 days/week,7.1,1.3,2.0,Weekly,Yes,0,0,6.1
+U00966,Rhode Island,30,27.6,Average,5–6 days/week,7.7,0.7,1.6,Occasionally,No,0,0,4.5
+U00967,Michigan,36,23.8,Poor,3–4 days/week,6.9,2.8,1.6,Never,No,0,0,6.7
+U00968,Montana,20,27.0,Poor,,4.7,0.3,2.5,Never,Yes,0,0,6.8
+U00969,Utah,24,19.2,Excellent,1–2 days/week,6.5,1.2,2.9,Weekly,No,0,0,5.5
+U00970,Missouri,29,25.6,Good,3–4 days/week,7.0,0.8,2.6,Occasionally,No,0,0,5.7
+U00971,Kentucky,28,22.3,Excellent,,8.6,0.0,2.0,Never,No,1,1,4.0
+U00972,Illinois,27,16.0,Average,3–4 days/week,6.1,1.3,1.0,Occasionally,No,1,0,6.4
+U00973,Maryland,16,16.0,Excellent,3–4 days/week,5.0,1.7,1.9,Occasionally,No,0,0,5.2
+U00974,Missouri,17,20.0,Average,1–2 days/week,7.1,0.9,1.4,Never,No,0,0,1.7
+U00975,Arkansas,33,24.9,Good,3–4 days/week,8.0,1.5,3.3,Never,No,1,0,5.7
+U00976,Georgia,34,20.0,Good,5–6 days/week,6.5,1.5,2.0,Occasionally,No,0,0,5.4
+U00977,Arizona,25,20.3,Average,1–2 days/week,9.9,1.7,2.5,Never,No,1,0,4.0
+U00978,South Dakota,32,26.4,Average,1–2 days/week,9.6,0.6,2.1,Never,No,0,0,7.0
+U00979,Vermont,20,20.5,Average,1–2 days/week,6.9,0.6,2.6,Occasionally,No,0,0,4.9
+U00980,Louisiana,22,29.0,Average,3–4 days/week,7.2,1.9,2.8,Occasionally,No,0,0,4.4
+U00981,Washington,20,28.2,Good,5–6 days/week,8.6,0.2,3.9,Never,Yes,0,0,7.2
+U00982,Oklahoma,21,23.1,Good,1–2 days/week,6.9,1.6,2.0,Never,No,0,0,6.1
+U00983,Washington,29,26.4,Good,1–2 days/week,6.0,3.6,3.0,Occasionally,No,0,0,4.1
+U00984,Michigan,21,25.8,Good,1–2 days/week,8.1,1.8,2.5,Occasionally,No,0,0,5.5
+U00985,North Dakota,37,21.9,Good,3–4 days/week,7.6,0.0,1.9,Occasionally,No,0,0,4.4
+U00986,Washington,28,26.9,Poor,1–2 days/week,6.0,2.0,1.9,Never,No,0,0,3.6
+U00987,Delaware,31,27.5,Average,3–4 days/week,7.3,2.7,2.6,Occasionally,No,1,0,3.5
+U00988,South Carolina,28,18.7,Excellent,1–2 days/week,6.8,0.9,2.1,Weekly,No,0,0,6.6
+U00989,Wisconsin,32,23.7,Poor,3–4 days/week,6.5,1.5,2.4,Never,No,0,0,4.3
+U00990,Utah,21,23.6,Good,3–4 days/week,6.1,0.8,2.8,Never,No,1,0,4.1
+U00991,Maine,33,26.8,Average,3–4 days/week,7.1,1.3,4.0,Occasionally,No,1,0,5.2
+U00992,Tennessee,26,21.0,Good,,6.7,1.1,2.3,Never,Yes,0,0,9.4
+U00993,South Dakota,32,20.3,Good,3–4 days/week,7.3,2.3,1.5,Never,No,0,0,6.2
+U00994,Oregon,18,23.8,Average,,8.0,3.6,2.6,Never,No,0,0,6.8
+U00995,Colorado,26,28.3,Average,,7.3,1.9,2.0,Never,No,0,0,4.1
+U00996,Montana,26,17.6,Good,3–4 days/week,7.3,0.1,3.6,Never,No,1,0,6.2
+U00997,North Dakota,22,18.4,Average,3–4 days/week,6.4,4.6,2.0,Never,No,1,0,5.5
+U00998,Vermont,27,20.7,Average,,8.4,2.4,2.3,Occasionally,No,0,0,4.5
+U00999,Colorado,33,21.5,Good,,6.0,2.7,2.7,Occasionally,No,1,0,5.2
+U01000,Oregon,22,16.0,Average,3–4 days/week,5.1,1.7,2.6,Occasionally,No,0,0,4.6
+U01001,North Carolina,30,29.7,Good,3–4 days/week,5.7,2.1,3.3,Never,No,1,0,5.7
+U01002,Michigan,20,22.4,Good,1–2 days/week,8.2,1.4,2.8,Occasionally,No,1,0,5.2
+U01003,Massachusetts,36,21.7,Average,3–4 days/week,7.6,2.8,3.9,Never,No,0,0,4.6
+U01004,Colorado,29,30.3,Good,1–2 days/week,8.6,1.3,2.6,Occasionally,No,0,0,5.2
+U01005,Colorado,34,26.2,Good,3–4 days/week,5.4,2.3,3.2,Occasionally,No,0,0,6.8
+U01006,West Virginia,29,20.6,Average,5–6 days/week,9.8,2.9,2.0,Occasionally,No,1,0,3.8
+U01007,Arkansas,27,23.7,Average,,6.7,3.2,3.7,Occasionally,Yes,1,0,4.7
+U01008,New Jersey,29,22.8,Average,3–4 days/week,4.9,2.9,2.1,Occasionally,No,0,0,6.0
+U01009,Hawaii,25,29.5,Average,1–2 days/week,9.6,0.7,3.3,Occasionally,No,0,0,4.6
+U01010,New Jersey,17,22.2,Average,3–4 days/week,5.4,3.5,2.9,Never,No,0,0,7.4
+U01011,New Mexico,28,16.5,Average,3–4 days/week,6.5,2.5,2.3,Never,No,1,0,7.2
+U01012,Mississippi,22,16.0,Average,5–6 days/week,6.8,2.1,3.3,Weekly,No,0,0,7.3
+U01013,Florida,20,29.6,Good,,7.5,2.3,2.3,Never,No,0,0,6.5
+U01014,Arizona,29,19.5,Good,,6.1,1.6,3.3,Occasionally,No,0,0,7.0
+U01015,New Mexico,24,26.0,Good,,8.2,1.3,2.6,Never,No,1,0,5.5
+U01016,South Carolina,31,23.3,Good,5–6 days/week,7.9,1.4,2.0,Never,No,1,0,4.7
+U01017,Oregon,22,21.1,Good,3–4 days/week,7.0,3.2,2.5,Occasionally,No,0,0,4.7
+U01018,Oklahoma,23,21.8,Good,3–4 days/week,8.6,1.9,2.3,Never,No,0,1,3.2
+U01019,Mississippi,31,30.1,Good,,6.9,2.1,2.0,Occasionally,No,1,0,5.0
+U01020,New Mexico,27,16.5,Average,5–6 days/week,6.7,1.9,2.5,Occasionally,No,1,0,5.1
+U01021,Colorado,18,21.3,Good,3–4 days/week,9.4,1.1,2.6,Occasionally,No,0,0,5.2
+U01022,Alaska,27,27.1,Poor,3–4 days/week,7.4,0.0,0.8,Occasionally,No,0,0,9.3
+U01023,Maryland,33,17.2,Average,1–2 days/week,5.8,2.6,2.7,Never,No,0,0,4.4
+U01024,Nevada,23,28.9,Good,,6.0,2.5,2.8,Never,No,0,0,5.2
+U01025,Hawaii,28,27.0,Poor,3–4 days/week,7.0,1.8,3.3,Never,Yes,0,0,8.7
+U01026,Arkansas,21,24.2,Average,3–4 days/week,4.5,0.6,1.4,Never,No,0,0,4.5
+U01027,Iowa,25,20.7,Good,,6.2,3.8,1.6,Weekly,No,0,0,4.0
+U01028,Colorado,31,16.6,Good,3–4 days/week,6.9,1.4,2.4,Occasionally,No,0,0,5.2
+U01029,Wisconsin,27,26.2,Good,1–2 days/week,6.8,2.1,1.8,Occasionally,No,0,0,4.5
+U01030,New Jersey,32,35.4,Good,3–4 days/week,5.5,1.0,1.5,Occasionally,No,0,1,7.1
+U01031,Pennsylvania,28,23.7,Average,3–4 days/week,6.5,0.3,2.0,Never,No,0,0,5.7
+U01032,Alaska,37,16.0,Poor,,8.4,2.4,2.0,Occasionally,No,0,0,3.9
+U01033,Iowa,18,25.1,Good,3–4 days/week,8.2,0.1,1.6,Occasionally,No,0,0,6.0
+U01034,Hawaii,24,26.9,Average,1–2 days/week,7.1,2.1,1.6,Never,No,1,0,5.8
+U01035,Delaware,20,18.9,Good,,6.9,2.1,2.2,Occasionally,No,0,0,3.4
+U01036,Montana,20,20.1,Average,3–4 days/week,6.8,0.6,1.3,Occasionally,Yes,0,0,6.2
+U01037,Vermont,20,19.6,Good,,7.3,0.4,1.3,Never,Yes,0,0,6.2
+U01038,Utah,26,20.6,Good,1–2 days/week,7.1,1.0,2.4,Occasionally,No,1,0,3.5
+U01039,California,27,22.2,Good,,7.4,1.1,3.4,Never,No,0,0,3.7
+U01040,Colorado,28,19.1,Good,,7.6,0.1,2.8,Never,No,0,0,5.0
+U01041,Montana,20,17.4,Good,1–2 days/week,5.5,0.6,3.2,Occasionally,No,0,0,4.6
+U01042,Arkansas,24,23.8,Average,,6.6,1.9,1.0,Occasionally,No,0,0,6.4
+U01043,Maine,21,22.2,Poor,3–4 days/week,7.2,4.0,1.3,Occasionally,No,1,0,4.9
+U01044,Maryland,30,21.0,Poor,,5.8,2.9,2.3,Occasionally,No,0,0,5.2
+U01045,North Carolina,21,23.4,Average,3–4 days/week,6.2,2.0,2.9,Weekly,Yes,1,0,3.9
+U01046,Maryland,24,16.2,Average,,6.7,3.0,2.7,Weekly,Yes,0,0,6.9
+U01047,Wisconsin,28,24.2,Good,,6.8,3.1,1.4,Never,No,1,0,4.4
+U01048,Idaho,22,21.1,Average,1–2 days/week,7.3,1.5,3.1,Occasionally,Yes,0,0,4.0
+U01049,Washington,29,24.1,Good,5–6 days/week,6.0,2.1,2.2,Never,No,1,0,5.6
+U01050,Alabama,33,24.8,Good,3–4 days/week,8.2,2.9,2.8,Occasionally,No,0,0,7.1
+U01051,Montana,26,28.1,Average,3–4 days/week,6.8,3.0,1.9,Weekly,No,0,1,6.2
+U01052,Indiana,30,23.5,Average,,7.2,3.0,1.2,Never,No,0,0,4.7
+U01053,Pennsylvania,16,27.8,Average,3–4 days/week,6.6,0.7,2.9,Occasionally,No,1,1,4.9
+U01054,Oregon,23,21.6,Good,,7.3,3.1,2.6,Occasionally,Yes,0,0,3.5
+U01055,Hawaii,26,21.8,Average,1–2 days/week,9.0,3.8,1.4,Never,No,0,0,8.4
+U01056,Oklahoma,20,22.6,Average,3–4 days/week,6.5,3.4,1.8,Never,No,0,0,7.8
+U01057,Illinois,27,26.5,Good,1–2 days/week,6.3,0.6,2.8,Occasionally,No,1,1,5.9
+U01058,Texas,31,25.8,Average,5–6 days/week,6.0,0.3,2.4,Never,No,0,0,5.5
+U01059,Arizona,16,23.6,Good,,6.9,2.3,2.7,Occasionally,No,0,0,3.8
+U01060,North Carolina,20,17.5,Good,5–6 days/week,6.9,3.4,1.9,Occasionally,No,1,0,5.3
+U01061,Colorado,26,25.8,Good,3–4 days/week,7.1,2.0,3.3,Occasionally,No,1,0,6.8
+U01062,Wyoming,28,19.1,Poor,3–4 days/week,7.6,1.5,2.2,Never,No,0,0,6.6
+U01063,Georgia,29,18.9,Good,,7.4,1.7,0.8,Occasionally,No,1,0,4.8
+U01064,California,26,17.9,Good,1–2 days/week,7.0,2.9,2.4,Never,No,0,0,6.7
+U01065,Minnesota,28,22.6,Average,5–6 days/week,9.3,1.4,2.7,Occasionally,No,0,0,7.2
+U01066,Georgia,30,28.5,Average,1–2 days/week,7.8,2.3,2.5,Never,No,1,0,5.6
+U01067,Utah,23,18.7,Average,3–4 days/week,5.7,1.7,2.0,Occasionally,No,1,0,7.0
+U01068,Alaska,22,30.6,Good,5–6 days/week,5.1,0.8,0.9,Occasionally,Yes,0,0,8.0
+U01069,Illinois,25,27.1,Good,1–2 days/week,6.2,0.7,1.8,Occasionally,No,0,1,8.4
+U01070,South Carolina,26,16.4,Good,3–4 days/week,7.2,2.4,1.9,Never,Yes,0,0,4.6
+U01071,Alaska,22,21.3,Good,3–4 days/week,6.1,0.0,1.8,Never,Yes,1,0,6.2
+U01072,Maryland,24,18.3,Poor,,6.2,2.3,2.7,Never,Yes,1,0,6.6
+U01073,Alabama,27,26.0,Poor,,7.0,1.6,2.1,Never,No,0,0,5.5
+U01074,Oregon,26,18.6,Excellent,1–2 days/week,6.6,2.8,3.3,Weekly,No,1,0,7.4
+U01075,Florida,25,16.0,Good,1–2 days/week,4.5,2.5,2.1,Never,No,0,0,5.6
+U01076,Kentucky,17,21.5,Good,3–4 days/week,8.3,1.8,3.2,Weekly,No,1,0,5.3
+U01077,Florida,25,28.3,Good,,8.0,0.6,2.5,Occasionally,No,0,0,3.5
+U01078,Hawaii,21,22.1,Excellent,5–6 days/week,5.5,0.7,2.5,Never,No,0,0,3.0
+U01079,Iowa,30,24.8,Good,,7.1,1.1,1.8,Occasionally,Yes,0,0,5.0
+U01080,Mississippi,24,25.0,Good,3–4 days/week,5.7,2.8,1.4,Never,No,1,0,1.1
+U01081,Pennsylvania,21,16.2,Good,3–4 days/week,6.3,3.7,2.2,Never,No,0,0,7.4
+U01082,Ohio,25,19.0,Average,,7.6,2.2,3.5,Never,No,0,0,6.8
+U01083,New Jersey,32,23.0,Good,,8.0,1.2,2.0,Weekly,No,1,0,6.5
+U01084,New Mexico,29,20.5,Average,3–4 days/week,7.9,1.3,1.9,Occasionally,No,0,0,7.2
+U01085,Wisconsin,27,30.7,Good,5–6 days/week,7.3,1.3,2.2,Occasionally,No,0,0,5.1
+U01086,California,19,17.5,Good,1–2 days/week,8.5,2.9,3.5,Never,No,0,0,5.8
+U01087,Utah,34,18.9,Good,1–2 days/week,6.3,1.3,2.9,Occasionally,No,1,0,4.9
+U01088,Wyoming,22,24.3,Good,1–2 days/week,6.5,1.8,3.1,Never,No,0,0,7.2
+U01089,Indiana,30,20.2,Poor,,4.5,3.3,0.9,Never,No,0,0,1.7
+U01090,Hawaii,24,16.0,Average,3–4 days/week,6.9,1.2,1.7,Never,No,0,0,7.2
+U01091,Florida,30,31.7,Excellent,3–4 days/week,7.7,2.4,1.7,Never,No,1,0,2.8
+U01092,North Dakota,32,18.2,Excellent,1–2 days/week,7.3,2.8,3.1,Occasionally,No,0,0,5.2
+U01093,Idaho,29,25.5,Average,5–6 days/week,6.3,1.9,2.8,Never,No,0,0,3.9
+U01094,Ohio,29,17.4,Excellent,,8.0,3.9,3.0,Weekly,No,0,0,5.3
+U01095,Ohio,25,19.1,Good,3–4 days/week,6.9,3.6,1.0,Never,No,0,0,4.7
+U01096,Alabama,23,16.0,Good,1–2 days/week,7.9,2.1,3.1,Occasionally,No,0,0,4.9
+U01097,South Carolina,26,19.7,Poor,1–2 days/week,7.6,0.9,2.8,Never,No,1,0,6.3
+U01098,Michigan,24,20.1,Excellent,1–2 days/week,8.7,1.0,1.7,Never,No,0,0,5.8
+U01099,New Hampshire,38,22.4,Good,1–2 days/week,7.4,2.0,2.2,Weekly,No,1,0,7.0
+U01100,Delaware,21,21.3,Good,3–4 days/week,7.7,0.6,1.7,Occasionally,No,1,0,6.1
+U01101,Hawaii,31,16.5,Good,3–4 days/week,6.9,2.1,2.2,Occasionally,No,0,0,3.1
+U01102,South Dakota,28,20.6,Good,1–2 days/week,6.4,3.7,2.6,Occasionally,No,0,0,9.0
+U01103,Oregon,27,29.5,Good,3–4 days/week,7.6,1.9,3.3,Occasionally,No,1,0,2.5
+U01104,Indiana,33,29.0,Average,1–2 days/week,8.8,1.8,1.6,Occasionally,No,1,0,6.0
+U01105,New Jersey,27,25.1,Average,3–4 days/week,6.3,2.7,2.0,Occasionally,No,0,0,6.6
+U01106,Ohio,22,26.0,Average,,6.7,2.4,1.5,Never,No,0,0,5.9
+U01107,Massachusetts,27,32.3,Poor,,7.0,0.5,2.8,Occasionally,No,0,0,5.2
+U01108,Oregon,25,25.6,Good,1–2 days/week,7.8,1.3,1.2,Occasionally,No,0,0,7.7
+U01109,California,28,25.9,Good,3–4 days/week,7.4,3.9,2.4,Never,No,0,1,7.2
+U01110,Maine,30,16.0,Good,3–4 days/week,8.1,2.2,1.4,Occasionally,Yes,1,0,5.5
+U01111,Indiana,21,18.0,Average,1–2 days/week,9.4,0.7,2.3,Never,No,0,0,4.8
+U01112,Montana,31,22.9,Good,,6.2,1.6,3.1,Occasionally,Yes,1,0,4.3
+U01113,Arkansas,24,19.4,Poor,1–2 days/week,7.7,0.0,1.9,Never,No,1,0,4.4
+U01114,Missouri,28,18.5,Poor,3–4 days/week,7.4,0.0,2.5,Never,No,0,0,5.4
+U01115,Vermont,29,19.0,Poor,3–4 days/week,7.0,2.9,1.7,Never,No,1,0,3.0
+U01116,Tennessee,27,16.6,Good,,7.7,1.8,2.2,Occasionally,Yes,0,0,5.5
+U01117,Missouri,25,19.4,Poor,,6.7,2.4,1.2,Never,No,0,0,6.7
+U01118,Louisiana,23,24.5,Good,3–4 days/week,7.4,3.1,2.8,Occasionally,No,0,0,4.7
+U01119,South Carolina,24,31.1,Average,,5.4,2.2,2.0,Occasionally,No,0,0,5.5
+U01120,Delaware,33,26.6,Good,,6.4,2.6,2.2,Never,No,0,0,6.0
+U01121,Rhode Island,21,25.9,Good,,8.3,2.1,2.3,Weekly,No,1,0,6.2
+U01122,South Carolina,22,16.0,Excellent,1–2 days/week,8.2,3.2,0.9,Never,No,1,0,5.2
+U01123,Indiana,22,23.5,Good,3–4 days/week,7.3,3.8,1.8,Occasionally,No,0,0,8.1
+U01124,New York,26,22.7,Excellent,3–4 days/week,6.5,2.0,2.4,Occasionally,No,1,0,5.5
+U01125,Pennsylvania,18,24.3,Good,1–2 days/week,8.0,2.0,2.2,Never,Yes,0,1,3.5
+U01126,North Carolina,19,21.4,Good,3–4 days/week,8.5,2.2,3.8,Never,No,0,0,4.9
+U01127,Minnesota,24,30.5,Average,,6.5,1.7,3.2,Occasionally,Yes,0,0,7.4
+U01128,Iowa,19,23.2,Average,3–4 days/week,5.3,1.4,2.4,Weekly,No,0,0,7.3
+U01129,North Carolina,19,23.7,Average,3–4 days/week,7.5,3.0,1.6,Never,No,0,0,2.9
+U01130,Missouri,19,16.0,Good,3–4 days/week,8.1,1.4,2.0,Never,No,0,0,5.1
+U01131,Kentucky,21,22.5,Good,1–2 days/week,7.7,1.3,2.8,Weekly,No,0,0,4.7
+U01132,North Carolina,29,28.2,Good,,8.9,2.8,2.4,Never,No,0,0,6.7
+U01133,Washington,30,25.5,Excellent,1–2 days/week,8.9,2.9,3.2,Occasionally,No,1,0,3.8
+U01134,Alaska,35,16.0,Average,3–4 days/week,6.6,4.4,2.3,Occasionally,No,1,0,7.8
+U01135,Indiana,35,21.0,Good,,7.2,3.1,2.4,Never,No,1,0,3.3
+U01136,South Carolina,29,30.8,Excellent,5–6 days/week,6.4,2.7,3.4,Occasionally,No,0,0,5.3
+U01137,South Carolina,31,22.3,Average,5–6 days/week,5.8,2.9,1.5,Weekly,No,1,0,3.7
+U01138,Rhode Island,26,24.5,Good,3–4 days/week,5.8,1.6,3.5,Occasionally,Yes,1,0,6.5
+U01139,Colorado,28,30.3,Average,5–6 days/week,7.9,2.4,2.8,Occasionally,No,1,0,2.4
+U01140,Colorado,35,22.3,Good,,7.4,2.5,4.5,Occasionally,No,0,0,5.2
+U01141,Arizona,27,26.6,Average,,8.1,1.2,1.8,Occasionally,No,0,0,5.2
+U01142,Connecticut,31,24.9,Good,,10.0,1.7,3.4,Never,No,0,0,4.2
+U01143,Delaware,21,25.8,Good,3–4 days/week,7.6,2.8,2.4,Occasionally,No,0,0,7.3
+U01144,Tennessee,22,24.7,Average,,6.1,1.8,2.2,Never,Yes,0,1,8.1
+U01145,Iowa,27,20.5,Average,5–6 days/week,8.2,2.5,2.5,Never,No,1,0,4.9
+U01146,Washington,26,21.0,Good,,6.0,2.8,2.4,Weekly,No,1,0,5.7
+U01147,New Hampshire,22,19.2,Excellent,1–2 days/week,9.1,2.7,1.8,Occasionally,No,0,0,4.6
+U01148,North Carolina,38,16.0,Good,3–4 days/week,4.6,3.7,2.2,Weekly,No,0,0,3.6
+U01149,New Jersey,26,28.6,Good,1–2 days/week,6.3,1.2,2.5,Never,Yes,0,0,3.8
+U01150,Rhode Island,23,23.0,Average,1–2 days/week,7.7,3.6,2.0,Occasionally,No,0,0,3.9
+U01151,Nebraska,26,28.4,Good,3–4 days/week,8.4,2.3,2.7,Occasionally,No,0,0,7.4
+U01152,Oklahoma,26,30.0,Good,1–2 days/week,6.2,2.7,2.1,Weekly,No,1,0,6.1
+U01153,New Hampshire,26,23.2,Good,1–2 days/week,6.0,2.6,2.6,Weekly,No,0,0,4.1
+U01154,Pennsylvania,18,17.1,Average,1–2 days/week,7.2,2.5,2.5,Weekly,No,1,0,4.2
+U01155,North Carolina,32,22.1,Good,1–2 days/week,9.3,1.1,2.6,Weekly,No,1,1,4.0
+U01156,Oregon,32,20.0,Good,5–6 days/week,5.2,2.7,1.4,Never,No,1,0,2.7
+U01157,Nebraska,33,16.0,Excellent,3–4 days/week,6.6,0.2,3.1,Occasionally,Yes,0,0,6.3
+U01158,North Carolina,27,20.7,Excellent,1–2 days/week,7.3,4.1,1.7,Never,No,0,0,5.3
+U01159,Arkansas,29,22.7,Good,1–2 days/week,6.0,2.2,2.2,Occasionally,No,0,0,8.1
+U01160,Michigan,21,20.1,Good,1–2 days/week,6.0,3.1,1.8,Weekly,No,0,0,2.4
+U01161,Alaska,30,19.5,Average,5–6 days/week,6.7,2.5,2.3,Never,No,0,0,6.8
+U01162,Georgia,27,17.3,Good,,7.4,1.8,2.2,Occasionally,No,1,0,6.9
+U01163,California,23,23.9,Average,1–2 days/week,6.8,1.2,2.8,Occasionally,No,1,0,7.1
+U01164,Georgia,30,31.4,Average,3–4 days/week,8.8,1.0,2.3,Never,Yes,1,0,5.9
+U01165,North Carolina,30,28.8,Average,5–6 days/week,7.7,2.7,2.0,Never,No,0,0,6.9
+U01166,Pennsylvania,26,25.9,Good,,7.5,2.6,1.0,Never,No,0,0,6.0
+U01167,Illinois,28,26.0,Average,1–2 days/week,8.2,2.4,2.9,Never,No,0,0,4.4
+U01168,New Mexico,20,22.4,Good,1–2 days/week,7.5,1.7,2.7,Occasionally,Yes,0,0,4.9
+U01169,Washington,32,16.0,Good,,6.5,2.3,2.9,Occasionally,No,1,0,4.9
+U01170,Oklahoma,21,21.3,Poor,3–4 days/week,6.7,1.3,2.2,Never,No,0,0,7.2
+U01171,Vermont,22,18.6,Average,3–4 days/week,5.6,1.1,2.5,Weekly,No,0,1,7.4
+U01172,Mississippi,26,23.7,Good,3–4 days/week,9.4,1.5,1.8,Occasionally,No,1,0,6.7
+U01173,Iowa,31,28.5,Good,,8.1,1.5,1.8,Occasionally,Yes,0,0,5.6
+U01174,New Hampshire,31,31.9,Average,,4.5,3.4,2.1,Never,No,1,0,2.4
+U01175,Delaware,25,23.3,Good,1–2 days/week,8.6,0.3,2.9,Occasionally,No,0,0,6.7
+U01176,California,29,16.0,Good,1–2 days/week,5.2,1.8,2.1,Never,No,1,0,6.7
+U01177,New Hampshire,17,23.3,Average,3–4 days/week,7.6,2.5,2.3,Occasionally,No,0,0,5.9
+U01178,Washington,22,23.4,Good,,4.5,4.0,2.5,Occasionally,No,0,0,6.2
+U01179,Arkansas,22,26.1,Excellent,,6.5,1.1,2.3,Never,No,0,0,4.3
+U01180,Idaho,32,22.9,Good,1–2 days/week,8.6,0.6,3.0,Weekly,No,1,0,5.0
+U01181,Vermont,29,23.3,Average,1–2 days/week,8.7,2.6,1.8,Occasionally,No,1,0,4.3
+U01182,Alaska,26,20.2,Excellent,1–2 days/week,7.4,2.0,2.4,Never,No,0,0,5.3
+U01183,Nebraska,27,21.6,Good,3–4 days/week,7.9,1.6,2.6,Weekly,No,1,0,6.8
+U01184,New Mexico,33,25.3,Average,,5.3,2.3,1.2,Never,Yes,1,0,6.2
+U01185,Oklahoma,25,16.0,Good,3–4 days/week,7.6,2.7,2.5,Occasionally,No,0,0,3.9
+U01186,Oklahoma,19,21.6,Good,1–2 days/week,8.0,2.6,3.2,Occasionally,No,1,1,8.2
+U01187,Montana,31,26.1,Good,1–2 days/week,10.0,2.1,2.1,Never,No,0,0,5.8
+U01188,Texas,26,30.4,Good,5–6 days/week,6.3,3.2,1.5,Weekly,Yes,0,0,4.5
+U01189,Nebraska,30,21.2,Average,1–2 days/week,7.0,2.0,2.6,Occasionally,No,0,0,5.0
+U01190,California,25,28.3,Good,3–4 days/week,7.1,1.8,2.4,Never,No,0,1,4.7
+U01191,Maryland,21,30.6,Good,1–2 days/week,7.8,2.6,3.4,Weekly,No,0,0,5.8
+U01192,Hawaii,28,21.3,Average,3–4 days/week,8.1,0.4,2.6,Occasionally,No,0,0,3.5
+U01193,Georgia,26,20.5,Good,3–4 days/week,8.3,2.5,1.6,Occasionally,No,0,0,5.9
+U01194,South Carolina,26,22.2,Good,5–6 days/week,8.2,1.5,1.6,Occasionally,Yes,1,0,6.8
+U01195,Pennsylvania,34,22.6,Poor,3–4 days/week,5.2,0.3,2.9,Never,No,0,0,6.5
+U01196,Colorado,20,27.9,Good,3–4 days/week,4.5,2.3,2.5,Never,No,1,0,5.9
+U01197,Delaware,27,19.5,Average,1–2 days/week,6.4,1.3,2.3,Never,No,0,0,6.4
+U01198,Minnesota,21,29.9,Average,3–4 days/week,7.0,0.0,2.4,Occasionally,No,0,0,6.1
+U01199,Washington,16,19.4,Average,3–4 days/week,6.3,0.8,2.6,Never,No,1,1,7.1
+U01200,Montana,25,17.3,Average,,6.4,3.7,2.6,Never,No,0,0,5.1
+U01201,Virginia,26,25.4,Good,1–2 days/week,6.6,1.2,1.2,Never,No,0,0,4.1
+U01202,Texas,29,28.5,Average,3–4 days/week,7.7,2.2,3.2,Never,No,0,0,6.0
+U01203,Idaho,24,23.8,Good,1–2 days/week,5.8,0.6,3.2,Occasionally,No,0,0,7.1
+U01204,Montana,18,25.0,Poor,1–2 days/week,6.9,4.1,3.6,Weekly,No,0,0,4.9
+U01205,Illinois,21,31.8,Excellent,5–6 days/week,6.9,1.9,3.4,Never,No,0,0,7.9
+U01206,South Carolina,32,28.6,Good,,7.7,1.0,3.3,Never,No,0,0,6.1
+U01207,Louisiana,21,23.1,Good,1–2 days/week,8.4,2.8,2.1,Occasionally,No,1,0,6.9
+U01208,Missouri,33,21.1,Average,3–4 days/week,9.0,4.1,2.5,Never,No,1,0,3.8
+U01209,North Carolina,31,27.9,Average,1–2 days/week,6.1,1.4,3.1,Weekly,No,0,1,6.7
+U01210,Washington,24,26.7,Average,3–4 days/week,4.6,1.0,1.0,Occasionally,No,0,0,6.2
+U01211,South Carolina,22,24.9,Excellent,,6.7,4.3,2.1,Never,Yes,0,0,8.7
+U01212,Texas,31,21.5,Good,1–2 days/week,5.1,1.7,1.1,Weekly,No,1,0,6.3
+U01213,Idaho,24,22.7,Good,,10.0,1.5,2.5,Never,No,0,1,6.5
+U01214,Utah,18,22.3,Good,5–6 days/week,6.0,0.0,3.2,Never,No,0,0,4.3
+U01215,Oklahoma,28,21.6,Average,1–2 days/week,7.7,1.8,2.3,Never,No,0,0,6.0
+U01216,West Virginia,28,20.3,Good,1–2 days/week,8.1,0.3,1.9,Weekly,No,1,0,7.2
+U01217,Arkansas,31,24.2,Good,,7.4,1.2,2.5,Occasionally,No,0,0,5.0
+U01218,California,27,20.1,Good,,9.5,0.0,2.6,Never,No,0,0,4.4
+U01219,Oregon,23,23.8,Good,1–2 days/week,6.8,3.2,2.6,Occasionally,No,1,1,8.5
+U01220,Delaware,32,16.0,Average,,6.0,0.2,1.4,Occasionally,Yes,0,0,5.1
+U01221,Tennessee,32,20.3,Average,3–4 days/week,5.9,0.0,2.5,Never,No,1,0,6.9
+U01222,Wisconsin,27,27.9,Good,1–2 days/week,7.9,0.8,2.4,Occasionally,No,0,0,4.8
+U01223,Nevada,26,18.9,Good,3–4 days/week,6.8,3.2,3.0,Occasionally,No,1,0,4.8
+U01224,New Mexico,19,25.7,Average,3–4 days/week,5.9,1.3,2.2,Occasionally,No,0,0,5.3
+U01225,Florida,22,19.3,Excellent,1–2 days/week,7.5,1.5,3.7,Never,No,0,0,6.4
+U01226,New Hampshire,29,26.5,Poor,1–2 days/week,7.9,2.3,2.4,Never,No,0,0,7.3
+U01227,Indiana,23,21.7,Good,3–4 days/week,7.3,1.6,2.0,Occasionally,No,0,0,4.7
+U01228,South Carolina,18,21.5,Excellent,3–4 days/week,8.1,3.2,1.6,Occasionally,No,0,0,7.2
+U01229,South Dakota,43,23.2,Good,,7.1,1.5,1.9,Occasionally,No,0,0,5.7
+U01230,Michigan,18,17.0,Good,5–6 days/week,6.3,1.6,1.7,Occasionally,No,0,0,5.2
+U01231,Hawaii,37,27.4,Average,,8.0,4.3,2.2,Occasionally,No,0,0,6.3
+U01232,Minnesota,24,28.9,Average,,5.9,1.9,3.5,Occasionally,No,1,0,7.6
+U01233,Alabama,25,21.4,Good,,5.6,2.1,1.3,Never,No,0,0,6.3
+U01234,Virginia,22,25.4,Average,5–6 days/week,8.4,1.6,1.3,Never,No,1,0,4.4
+U01235,Oregon,29,26.5,Average,3–4 days/week,6.6,0.0,2.1,Occasionally,No,0,0,5.7
+U01236,Massachusetts,18,22.6,Good,3–4 days/week,9.0,2.8,1.3,Never,No,0,0,6.3
+U01237,Montana,16,18.0,Average,1–2 days/week,8.0,3.6,1.6,Occasionally,Yes,0,0,4.6
+U01238,Virginia,34,30.2,Excellent,1–2 days/week,6.5,3.2,2.5,Weekly,No,1,0,5.9
+U01239,Oklahoma,21,21.2,Good,1–2 days/week,7.6,1.2,2.3,Never,No,1,0,4.4
+U01240,Minnesota,29,20.3,Good,3–4 days/week,10.0,1.6,2.6,Weekly,No,1,0,6.5
+U01241,Alabama,20,30.4,Good,,7.9,2.2,2.7,Occasionally,No,0,0,7.7
+U01242,South Carolina,29,25.7,Good,1–2 days/week,7.7,2.1,3.2,Occasionally,No,0,0,5.4
+U01243,Iowa,34,24.2,Good,,6.3,2.5,2.6,Occasionally,No,1,1,6.6
+U01244,Massachusetts,23,18.6,Good,5–6 days/week,9.2,2.0,3.1,Never,No,1,0,7.0
+U01245,Washington,16,26.6,Average,1–2 days/week,8.6,1.4,2.4,Never,No,1,0,4.9
+U01246,Florida,34,36.0,Good,1–2 days/week,6.3,2.0,2.6,Occasionally,No,0,0,6.1
+U01247,Florida,30,27.0,Good,1–2 days/week,9.3,2.9,2.6,Weekly,No,1,0,7.2
+U01248,Georgia,23,25.2,Good,5–6 days/week,7.2,5.0,2.5,Occasionally,No,0,0,8.0
+U01249,Montana,24,26.2,Poor,5–6 days/week,6.0,1.3,2.4,Never,No,0,0,5.1
+U01250,South Dakota,20,21.5,Good,3–4 days/week,6.3,2.0,3.6,Never,No,0,0,3.8
+U01251,Ohio,33,21.5,Poor,1–2 days/week,8.1,1.4,2.8,Weekly,No,1,0,6.4
+U01252,Missouri,23,21.4,Excellent,,6.0,2.1,2.0,Occasionally,No,0,0,5.8
+U01253,Montana,18,20.4,Excellent,5–6 days/week,5.7,2.9,3.9,Weekly,No,0,0,5.5
+U01254,Hawaii,27,21.4,Average,1–2 days/week,6.5,1.6,2.0,Occasionally,No,0,0,4.7
+U01255,Pennsylvania,21,21.4,Good,1–2 days/week,6.7,0.0,2.3,Occasionally,No,0,0,6.8
+U01256,Alaska,20,21.9,Poor,1–2 days/week,6.2,2.9,1.7,Occasionally,No,0,0,4.6
+U01257,Connecticut,23,21.8,Good,5–6 days/week,6.5,1.9,2.8,Never,No,0,0,4.5
+U01258,Louisiana,26,24.1,Average,1–2 days/week,8.1,1.4,3.5,Occasionally,No,0,1,5.3
+U01259,Nebraska,19,23.4,Good,3–4 days/week,7.3,1.2,1.3,Occasionally,No,1,0,6.9
+U01260,North Dakota,32,23.8,Average,3–4 days/week,6.4,2.1,2.1,Occasionally,No,0,0,3.5
+U01261,Nebraska,29,29.9,Average,1–2 days/week,6.5,1.0,3.1,Occasionally,No,0,0,4.0
+U01262,Kentucky,24,23.3,Average,1–2 days/week,6.8,1.2,1.6,Never,No,1,0,4.3
+U01263,Texas,21,32.9,Average,5–6 days/week,6.9,0.4,2.7,Occasionally,No,0,0,8.5
+U01264,Utah,25,24.6,Good,5–6 days/week,6.9,1.0,1.4,Never,No,1,0,5.9
+U01265,Mississippi,30,21.0,Poor,3–4 days/week,8.1,2.5,2.6,Never,No,0,0,3.9
+U01266,Missouri,29,29.1,Good,3–4 days/week,7.2,0.3,2.4,Occasionally,No,1,0,5.3
+U01267,Connecticut,31,22.6,Good,1–2 days/week,7.3,3.1,4.5,Never,No,0,0,6.7
+U01268,Colorado,23,16.0,Good,5–6 days/week,8.7,0.5,2.8,Occasionally,No,1,0,8.5
+U01269,Mississippi,16,23.0,Good,1–2 days/week,9.3,2.0,0.8,Never,No,0,1,3.2
+U01270,North Carolina,32,21.9,Excellent,3–4 days/week,5.5,2.3,2.2,Never,No,1,0,3.9
+U01271,Wisconsin,25,30.2,Average,5–6 days/week,5.1,2.7,2.9,Never,No,0,1,5.0
+U01272,New Hampshire,29,19.0,Average,3–4 days/week,6.6,2.7,2.0,Never,No,0,1,5.0
+U01273,Texas,34,21.5,Good,3–4 days/week,7.9,1.7,2.0,Occasionally,No,0,0,5.0
+U01274,Michigan,38,28.7,Good,3–4 days/week,7.5,1.6,2.0,Occasionally,No,1,0,5.3
+U01275,Montana,22,24.8,Excellent,,8.3,2.5,2.7,Weekly,No,1,0,8.5
+U01276,Nevada,26,22.2,Poor,3–4 days/week,6.5,2.1,1.4,Never,No,0,0,3.6
+U01277,Wyoming,32,19.6,Average,,4.7,1.4,1.9,Occasionally,No,0,0,5.7
+U01278,Massachusetts,21,24.6,Average,3–4 days/week,5.4,2.2,3.0,Occasionally,No,0,0,6.3
+U01279,Wisconsin,23,22.9,Good,,7.7,1.6,2.0,Never,No,0,0,3.3
+U01280,Connecticut,23,19.5,Good,1–2 days/week,8.3,1.1,1.9,Occasionally,No,0,0,7.7
+U01281,Kentucky,25,19.8,Average,3–4 days/week,4.7,1.4,1.3,Occasionally,Yes,1,0,5.3
+U01282,Maryland,24,19.3,Good,5–6 days/week,8.7,2.3,2.8,Occasionally,No,1,0,3.9
+U01283,South Dakota,23,18.5,Good,1–2 days/week,7.6,0.8,2.6,Occasionally,No,1,0,7.8
+U01284,Wisconsin,21,27.2,Good,3–4 days/week,6.9,3.0,3.0,Never,No,0,0,6.5
+U01285,Maryland,30,26.6,Poor,3–4 days/week,6.2,1.2,2.2,Never,No,1,0,4.7
+U01286,Michigan,32,27.2,Good,5–6 days/week,8.9,0.0,2.5,Occasionally,No,0,0,6.6
+U01287,Nevada,33,23.0,Good,1–2 days/week,8.1,2.4,2.5,Occasionally,No,0,0,6.1
+U01288,South Carolina,23,21.9,Good,3–4 days/week,7.6,0.0,1.3,Never,No,0,0,3.2
+U01289,Wisconsin,30,22.0,Good,5–6 days/week,6.1,0.7,3.9,Never,No,0,0,3.3
+U01290,Connecticut,27,27.6,Average,1–2 days/week,8.9,4.5,3.0,Occasionally,No,1,1,6.0
+U01291,Alabama,23,16.0,Average,5–6 days/week,7.0,3.0,2.4,Occasionally,Yes,0,0,2.8
+U01292,New York,29,20.7,Good,5–6 days/week,7.4,2.9,2.1,Occasionally,No,1,1,7.0
+U01293,Illinois,22,19.0,Average,5–6 days/week,7.1,0.6,3.2,Never,No,1,0,3.4
+U01294,New Jersey,24,29.1,Good,1–2 days/week,6.1,1.6,2.4,Occasionally,Yes,0,0,6.9
+U01295,Minnesota,19,20.9,Good,1–2 days/week,7.4,3.2,2.9,Occasionally,No,0,0,7.6
+U01296,Maine,23,16.0,Good,5–6 days/week,7.8,2.5,1.9,Occasionally,No,0,0,6.2
+U01297,New York,27,24.0,Average,1–2 days/week,6.5,3.0,1.7,Occasionally,No,0,0,1.0
+U01298,New Jersey,33,21.3,Average,3–4 days/week,7.3,3.8,2.2,Occasionally,Yes,1,0,7.2
+U01299,New Hampshire,24,20.5,Good,,7.1,2.5,2.3,Occasionally,No,1,0,4.8
+U01300,Wisconsin,20,20.0,Poor,,8.1,0.4,2.6,Occasionally,No,0,0,5.4
+U01301,Vermont,33,19.9,Good,1–2 days/week,6.6,2.5,3.3,Occasionally,Yes,1,0,4.4
+U01302,New Hampshire,23,26.2,Good,3–4 days/week,7.3,1.5,3.1,Never,No,0,1,8.0
+U01303,New Jersey,17,24.0,Average,1–2 days/week,7.5,0.4,3.2,Never,No,0,0,5.8
+U01304,Kansas,26,22.1,Good,3–4 days/week,6.6,2.8,1.8,Weekly,No,0,0,4.9
+U01305,South Carolina,24,18.1,Average,3–4 days/week,6.0,3.1,2.1,Occasionally,No,0,0,7.5
+U01306,Maine,37,22.2,Average,3–4 days/week,6.2,1.7,3.0,Occasionally,No,0,0,6.8
+U01307,Louisiana,28,24.2,Excellent,3–4 days/week,7.5,2.2,3.2,Occasionally,No,0,0,3.8
+U01308,Alabama,25,24.3,Excellent,1–2 days/week,6.7,0.0,2.8,Never,No,0,0,6.0
+U01309,Indiana,21,23.7,Good,1–2 days/week,6.7,3.0,1.9,Occasionally,No,0,0,5.8
+U01310,Washington,27,18.8,Excellent,,7.7,2.7,1.6,Occasionally,No,0,0,3.3
+U01311,Wyoming,33,16.0,Good,3–4 days/week,8.2,2.1,2.5,Occasionally,No,0,0,6.7
+U01312,Alaska,27,31.1,Average,3–4 days/week,8.4,0.4,1.7,Never,No,0,0,5.5
+U01313,Nevada,21,17.1,Average,1–2 days/week,6.3,0.0,2.6,Occasionally,No,0,1,8.7
+U01314,Wisconsin,28,16.0,Excellent,1–2 days/week,8.1,4.0,3.2,Never,No,1,0,7.6
+U01315,Wyoming,25,23.6,Average,3–4 days/week,9.5,0.7,2.4,Occasionally,No,0,0,5.8
+U01316,New Jersey,28,16.0,Good,,7.2,1.9,1.4,Occasionally,No,0,0,5.4
+U01317,Pennsylvania,24,19.4,Good,5–6 days/week,6.9,0.7,1.9,Never,No,1,0,2.4
+U01318,Arkansas,24,25.5,Good,,6.7,0.0,2.9,Occasionally,No,0,0,6.8
+U01319,Alabama,23,31.0,Good,5–6 days/week,5.7,2.3,2.6,Never,No,1,0,5.4
+U01320,Delaware,30,24.7,Average,1–2 days/week,8.0,2.5,2.7,Occasionally,Yes,0,0,4.8
+U01321,New Hampshire,24,21.0,Average,1–2 days/week,6.9,0.0,3.5,Occasionally,No,0,0,5.5
+U01322,Rhode Island,23,22.8,Good,1–2 days/week,6.8,3.0,2.5,Never,No,0,0,7.8
+U01323,Arizona,21,16.0,Good,,7.8,1.2,2.5,Never,No,0,0,7.5
+U01324,New York,28,21.0,Good,1–2 days/week,7.9,0.6,2.9,Occasionally,Yes,1,0,7.5
+U01325,Georgia,27,21.0,Good,,6.3,0.5,1.5,Occasionally,No,0,0,3.9
+U01326,Georgia,23,23.7,Average,3–4 days/week,6.3,2.8,2.0,Never,No,1,0,7.9
+U01327,Maine,22,31.7,Good,1–2 days/week,6.3,0.0,1.8,Never,No,0,0,4.8
+U01328,Virginia,35,16.0,Good,3–4 days/week,9.5,0.4,2.8,Never,No,1,0,6.6
+U01329,North Dakota,16,21.2,Average,1–2 days/week,8.8,2.3,1.7,Occasionally,No,0,0,6.4
+U01330,North Carolina,28,16.0,Good,5–6 days/week,7.8,2.1,2.7,Occasionally,No,0,0,5.3
+U01331,Minnesota,32,20.7,Good,3–4 days/week,6.5,0.7,2.1,Never,No,0,0,5.8
+U01332,Nevada,16,19.1,Good,,6.7,3.2,2.1,Never,No,0,0,3.0
+U01333,New York,29,16.3,Average,1–2 days/week,7.4,0.6,2.9,Never,No,1,0,5.6
+U01334,Wyoming,24,27.1,Good,1–2 days/week,9.7,1.6,1.4,Weekly,No,0,0,5.1
+U01335,Connecticut,27,24.2,Poor,,7.3,1.4,2.0,Occasionally,No,1,0,8.8
+U01336,New Hampshire,24,26.6,Poor,3–4 days/week,7.6,1.4,4.4,Occasionally,No,0,0,5.5
+U01337,Delaware,31,20.6,Good,3–4 days/week,4.5,1.6,3.6,Occasionally,No,0,0,4.4
+U01338,Alabama,27,22.7,Good,5–6 days/week,7.3,1.6,1.0,Occasionally,No,0,0,5.7
+U01339,Arizona,26,30.2,Good,3–4 days/week,5.3,1.5,1.9,Weekly,No,1,0,4.5
+U01340,Mississippi,21,23.0,Average,5–6 days/week,6.4,1.6,2.3,Never,No,0,0,3.4
+U01341,Minnesota,35,26.6,Poor,5–6 days/week,7.1,3.0,1.3,Weekly,No,1,0,6.1
+U01342,Delaware,26,20.2,Good,5–6 days/week,6.6,1.5,3.7,Occasionally,No,1,0,5.5
+U01343,Washington,37,26.2,Poor,1–2 days/week,6.2,2.6,2.3,Never,No,1,0,7.0
+U01344,Oregon,35,20.5,Poor,,6.2,2.0,2.2,Occasionally,No,0,0,7.7
+U01345,Arizona,17,16.0,Average,1–2 days/week,6.7,2.2,2.6,Occasionally,No,0,0,8.3
+U01346,North Carolina,22,23.0,Average,3–4 days/week,6.7,2.7,2.6,Occasionally,No,0,0,5.8
+U01347,Nevada,20,20.9,Average,1–2 days/week,7.0,0.5,1.7,Never,No,1,0,6.5
+U01348,Washington,25,16.0,Good,,6.9,2.5,3.2,Occasionally,No,1,0,5.9
+U01349,Delaware,26,23.9,Poor,1–2 days/week,8.5,1.6,2.4,Never,No,0,0,2.0
+U01350,North Dakota,27,19.0,Average,,4.5,0.7,3.2,Occasionally,No,0,1,7.4
+U01351,Ohio,31,36.9,Good,3–4 days/week,7.3,2.7,1.9,Weekly,Yes,1,0,6.3
+U01352,New York,33,16.4,Average,,7.1,1.3,1.0,Occasionally,No,0,0,6.3
+U01353,Mississippi,30,17.5,Good,3–4 days/week,6.8,2.2,3.3,Occasionally,No,0,0,4.7
+U01354,Indiana,23,26.9,Poor,3–4 days/week,6.2,0.0,2.8,Occasionally,No,1,0,4.5
+U01355,New York,22,22.4,Average,,6.8,2.6,3.1,Never,No,1,0,5.4
+U01356,Virginia,26,26.8,Average,3–4 days/week,5.0,4.6,3.2,Occasionally,No,1,0,6.3
+U01357,Texas,28,24.7,Average,3–4 days/week,7.2,1.8,2.3,Occasionally,No,0,0,2.6
+U01358,Kansas,25,20.4,Good,1–2 days/week,7.5,1.5,2.0,Never,No,0,0,5.8
+U01359,Arkansas,19,16.8,Excellent,,6.2,1.3,2.2,Never,No,0,0,8.0
+U01360,Oregon,29,27.8,Poor,1–2 days/week,9.3,2.4,2.7,Occasionally,No,0,0,5.3
+U01361,Massachusetts,24,17.2,Average,3–4 days/week,6.9,1.5,2.5,Never,No,0,0,2.5
+U01362,Indiana,23,25.5,Good,3–4 days/week,7.1,2.5,1.0,Occasionally,Yes,1,0,5.2
+U01363,New Mexico,25,27.1,Good,,8.6,3.7,2.2,Never,No,1,1,5.9
+U01364,West Virginia,24,22.4,Good,1–2 days/week,9.6,2.7,3.3,Never,No,0,0,6.1
+U01365,Louisiana,24,21.6,Average,1–2 days/week,5.7,1.6,2.3,Occasionally,No,0,0,5.7
+U01366,Connecticut,19,18.6,Excellent,3–4 days/week,6.3,0.6,3.9,Occasionally,No,0,0,8.4
+U01367,Georgia,25,25.1,Average,1–2 days/week,6.9,1.4,1.6,Occasionally,Yes,0,0,5.7
+U01368,Connecticut,29,16.0,Average,3–4 days/week,6.1,1.6,2.5,Occasionally,No,0,0,5.8
+U01369,North Carolina,27,26.2,Good,1–2 days/week,8.0,0.3,1.6,Occasionally,No,0,0,4.6
+U01370,Minnesota,30,23.5,Good,3–4 days/week,6.0,3.0,1.7,Occasionally,No,0,0,6.9
+U01371,Massachusetts,22,22.0,Good,3–4 days/week,8.5,2.4,1.7,Never,No,1,0,8.0
+U01372,Maine,19,24.1,Good,3–4 days/week,7.7,0.6,3.8,Never,No,0,0,4.6
+U01373,West Virginia,24,16.8,Good,1–2 days/week,8.4,0.0,2.1,Never,No,0,0,5.3
+U01374,Maine,22,16.0,Average,3–4 days/week,6.0,2.6,1.8,Never,No,1,0,2.0
+U01375,Oklahoma,23,25.1,Good,1–2 days/week,6.5,0.0,2.3,Never,No,0,0,4.2
+U01376,New Hampshire,27,28.9,Average,1–2 days/week,8.1,1.9,2.1,Never,No,1,1,8.5
+U01377,Louisiana,23,16.0,Good,3–4 days/week,7.9,1.3,2.9,Weekly,No,0,0,5.1
+U01378,Alaska,19,18.3,Excellent,3–4 days/week,6.7,2.7,0.9,Never,No,1,0,5.8
+U01379,Alabama,23,26.4,Average,3–4 days/week,6.8,2.7,1.6,Never,No,0,0,4.4
+U01380,Washington,27,24.6,Average,1–2 days/week,6.5,0.9,2.9,Occasionally,No,0,0,6.2
+U01381,California,29,36.3,Poor,3–4 days/week,6.8,2.8,2.0,Never,No,0,1,5.2
+U01382,Maryland,29,27.8,Poor,3–4 days/week,5.8,1.5,1.8,Never,No,1,0,6.1
+U01383,Hawaii,28,26.8,Excellent,5–6 days/week,5.6,1.8,1.7,Never,Yes,0,0,5.7
+U01384,Tennessee,25,19.6,Average,3–4 days/week,8.2,1.8,2.8,Never,No,0,0,7.7
+U01385,Alaska,28,25.4,Average,3–4 days/week,6.8,4.3,2.8,Never,No,0,0,5.8
+U01386,Arizona,25,29.7,Good,1–2 days/week,8.4,1.7,3.0,Never,No,0,0,4.2
+U01387,Minnesota,26,22.3,Good,3–4 days/week,7.7,0.0,1.5,Occasionally,No,0,0,4.5
+U01388,Idaho,21,22.5,Good,3–4 days/week,7.4,1.0,1.4,Never,No,1,1,2.7
+U01389,Maryland,26,23.6,Good,5–6 days/week,6.1,2.6,3.1,Never,No,1,0,5.7
+U01390,California,27,20.0,Good,1–2 days/week,5.5,1.5,2.4,Occasionally,No,0,0,5.4
+U01391,Oregon,27,24.2,Excellent,,6.5,1.8,1.9,Never,No,0,0,7.8
+U01392,Pennsylvania,19,24.1,Good,,8.8,1.3,2.2,Never,No,0,0,3.7
+U01393,New Jersey,26,29.7,Good,3–4 days/week,8.1,0.0,1.4,Occasionally,No,0,0,4.5
+U01394,Florida,18,22.1,Poor,5–6 days/week,6.3,0.9,1.9,Weekly,No,1,0,4.5
+U01395,North Dakota,26,26.0,Poor,,6.5,1.7,2.4,Occasionally,No,1,0,5.1
+U01396,Utah,22,22.3,Good,3–4 days/week,5.9,0.0,2.5,Never,No,0,0,3.6
+U01397,Ohio,34,25.9,Excellent,3–4 days/week,5.1,0.5,2.2,Weekly,No,0,0,5.1
+U01398,Michigan,26,21.9,Good,3–4 days/week,7.1,1.4,2.2,Never,No,1,1,5.5
+U01399,Utah,30,25.6,Excellent,1–2 days/week,9.1,1.4,2.8,Never,No,0,0,5.6
+U01400,Mississippi,36,26.3,Good,3–4 days/week,9.1,2.2,2.2,Occasionally,No,0,0,7.4
+U01401,Kentucky,21,18.2,Good,,7.7,1.5,2.0,Occasionally,No,1,0,5.5
+U01402,Georgia,28,28.0,Good,3–4 days/week,6.3,2.2,1.8,Never,No,0,0,5.4
+U01403,New Jersey,20,22.3,Good,1–2 days/week,5.3,1.0,1.1,Occasionally,No,1,0,7.2
+U01404,Virginia,27,20.9,Average,1–2 days/week,8.3,2.0,2.8,Occasionally,No,0,0,5.5
+U01405,Minnesota,34,19.8,Good,3–4 days/week,7.5,3.4,3.3,Never,No,0,0,3.7
+U01406,New York,22,24.3,Good,1–2 days/week,6.6,2.1,1.7,Occasionally,No,0,0,3.9
+U01407,Kentucky,21,23.0,Average,,6.4,1.5,1.4,Never,No,0,0,3.9
+U01408,Wyoming,25,24.7,Excellent,3–4 days/week,7.7,0.8,1.9,Never,No,0,0,3.7
+U01409,Kentucky,36,24.8,Average,3–4 days/week,6.0,1.9,2.5,Never,No,1,0,8.5
+U01410,Indiana,29,25.7,Good,3–4 days/week,7.3,1.6,1.9,Occasionally,No,1,0,3.9
+U01411,Florida,21,35.5,Good,1–2 days/week,5.5,2.4,1.9,Never,No,0,0,5.4
+U01412,South Carolina,33,23.2,Good,,9.7,0.0,2.2,Occasionally,No,1,0,5.6
+U01413,Alaska,17,19.7,Average,1–2 days/week,6.2,1.6,2.4,Weekly,No,1,0,5.2
+U01414,Vermont,36,16.0,Excellent,,7.8,2.3,2.6,Weekly,No,1,0,4.3
+U01415,Missouri,30,17.6,Good,5–6 days/week,5.6,1.9,2.1,Never,No,1,0,6.2
+U01416,Rhode Island,34,28.6,Average,,6.8,1.4,2.1,Never,No,0,0,3.2
+U01417,Florida,17,26.2,Good,1–2 days/week,8.1,1.4,1.0,Never,No,0,1,3.9
+U01418,Michigan,26,16.9,Average,,8.3,0.6,3.0,Occasionally,Yes,1,0,7.2
+U01419,Texas,25,34.1,Average,,7.9,2.2,2.5,Weekly,No,0,0,3.9
+U01420,Virginia,20,24.5,Average,3–4 days/week,6.8,2.3,3.4,Occasionally,No,1,0,7.4
+U01421,Arkansas,19,25.1,Good,3–4 days/week,6.2,0.2,2.7,Occasionally,No,0,0,7.6
+U01422,Montana,28,33.1,Good,,5.7,2.6,2.2,Never,No,0,0,7.6
+U01423,New Hampshire,28,30.8,Good,,8.8,1.1,1.3,Occasionally,No,0,0,6.8
+U01424,Vermont,32,26.5,Average,,7.1,1.4,1.2,Never,No,0,1,3.4
+U01425,North Dakota,23,26.7,Average,3–4 days/week,7.3,3.8,3.0,Never,No,0,0,3.2
+U01426,Minnesota,25,27.2,Excellent,3–4 days/week,8.4,3.6,2.7,Occasionally,Yes,1,0,3.8
+U01427,Oregon,19,21.9,Good,,7.7,0.2,3.3,Occasionally,No,0,0,4.1
+U01428,Hawaii,33,24.3,Excellent,1–2 days/week,6.8,0.4,3.0,Never,Yes,0,0,3.5
+U01429,Colorado,26,25.6,Average,3–4 days/week,7.9,0.6,2.0,Never,No,0,0,4.5
+U01430,Louisiana,29,22.4,Average,5–6 days/week,6.3,3.5,0.8,Never,No,0,0,6.7
+U01431,Massachusetts,29,18.7,Good,5–6 days/week,5.1,1.1,2.7,Occasionally,No,0,0,6.5
+U01432,Tennessee,33,21.8,Good,1–2 days/week,8.7,0.2,1.6,Never,No,1,0,5.9
+U01433,Oklahoma,21,18.6,Average,,6.4,3.2,2.2,Occasionally,No,1,0,5.2
+U01434,South Dakota,29,23.3,Average,1–2 days/week,6.6,2.5,2.6,Never,No,1,0,5.4
+U01435,Pennsylvania,25,16.0,Good,3–4 days/week,6.7,4.3,1.9,Occasionally,No,0,0,6.0
+U01436,North Dakota,36,24.5,Good,5–6 days/week,6.3,2.5,1.7,Never,Yes,0,1,4.8
+U01437,Kentucky,21,16.0,Good,1–2 days/week,8.3,1.8,2.1,Never,No,1,0,7.0
+U01438,Oregon,31,21.2,Average,1–2 days/week,7.4,2.1,0.9,Occasionally,No,0,0,3.5
+U01439,Missouri,27,25.3,Average,1–2 days/week,6.6,1.3,1.6,Occasionally,No,0,0,4.3
+U01440,Pennsylvania,27,26.6,Excellent,1–2 days/week,5.5,3.2,1.6,Never,Yes,1,1,4.1
+U01441,Idaho,26,26.0,Average,1–2 days/week,7.4,3.3,2.1,Occasionally,No,1,0,6.2
+U01442,Minnesota,32,24.4,Good,3–4 days/week,4.5,0.1,1.6,Occasionally,No,0,0,3.7
+U01443,Tennessee,27,18.0,Good,,7.3,2.8,1.9,Never,No,0,0,4.1
+U01444,Michigan,18,27.4,Average,1–2 days/week,8.6,0.6,2.0,Never,No,0,0,6.1
+U01445,Massachusetts,32,18.1,Average,3–4 days/week,7.1,4.5,3.8,Never,No,0,0,4.2
+U01446,Nebraska,31,27.9,Good,,8.4,3.5,2.8,Occasionally,No,0,0,6.8
+U01447,New Mexico,28,25.8,Good,,5.5,0.5,2.2,Never,No,0,0,6.7
+U01448,Colorado,20,29.1,Good,1–2 days/week,9.4,2.1,2.6,Never,No,0,0,4.7
+U01449,Nebraska,21,23.1,Average,5–6 days/week,8.3,2.9,2.9,Occasionally,No,1,0,5.7
+U01450,South Carolina,16,19.3,Good,3–4 days/week,7.6,1.1,2.5,Weekly,No,1,0,8.6
+U01451,North Dakota,28,17.2,Good,,6.3,0.3,1.6,Never,Yes,0,0,6.8
+U01452,Idaho,19,17.7,Good,3–4 days/week,6.1,1.9,2.2,Never,No,0,0,6.2
+U01453,Vermont,17,16.0,Poor,1–2 days/week,6.9,1.6,1.6,Occasionally,No,0,0,7.8
+U01454,Connecticut,32,27.2,Good,3–4 days/week,8.4,0.8,2.1,Never,No,0,0,4.1
+U01455,Georgia,29,27.8,Excellent,3–4 days/week,5.4,3.2,2.2,Never,No,0,0,7.4
+U01456,Vermont,24,25.5,Good,5–6 days/week,7.0,0.4,3.0,Occasionally,No,1,0,6.0
+U01457,Kentucky,25,22.9,Good,1–2 days/week,7.9,1.7,1.7,Weekly,No,0,1,7.7
+U01458,Montana,16,32.3,Good,5–6 days/week,8.1,2.0,1.7,Occasionally,No,0,0,4.7
+U01459,Massachusetts,30,22.6,Good,5–6 days/week,7.9,2.1,1.8,Never,No,0,0,7.6
+U01460,Nevada,22,24.0,Excellent,5–6 days/week,5.3,3.0,1.9,Occasionally,No,0,0,2.9
+U01461,Virginia,27,22.8,Average,3–4 days/week,8.4,1.5,2.1,Never,No,0,0,4.9
+U01462,Alaska,16,21.5,Average,1–2 days/week,7.1,0.0,2.5,Never,No,0,0,5.9
+U01463,Texas,30,25.8,Average,1–2 days/week,5.7,1.4,1.8,Weekly,No,0,0,6.5
+U01464,Alabama,22,20.1,Average,,7.0,2.6,2.4,Weekly,No,0,0,2.4
+U01465,Oklahoma,19,19.8,Average,1–2 days/week,4.6,1.6,2.4,Never,No,0,0,3.6
+U01466,Montana,24,26.1,Good,3–4 days/week,7.7,1.6,2.7,Never,Yes,1,0,3.9
+U01467,New Hampshire,23,20.8,Poor,3–4 days/week,6.8,2.4,2.2,Never,No,0,0,4.1
+U01468,Massachusetts,31,23.6,Good,5–6 days/week,5.5,2.5,2.9,Occasionally,No,1,0,4.4
+U01469,Hawaii,23,21.5,Good,,6.7,0.0,2.6,Occasionally,No,0,0,5.7
+U01470,South Carolina,32,22.9,Average,,6.2,1.8,2.5,Never,No,1,0,7.7
+U01471,Hawaii,27,20.0,Excellent,3–4 days/week,6.2,1.6,1.9,Never,No,0,0,4.9
+U01472,Oklahoma,30,20.1,Good,1–2 days/week,4.5,1.9,2.5,Never,No,0,0,7.8
+U01473,Wisconsin,25,19.3,Good,,5.0,0.0,2.5,Never,Yes,0,0,5.6
+U01474,Rhode Island,32,26.8,Average,5–6 days/week,6.7,3.3,1.9,Occasionally,No,0,0,5.2
+U01475,South Carolina,20,23.8,Average,3–4 days/week,6.5,1.8,3.1,Occasionally,No,0,0,7.1
+U01476,Ohio,26,27.1,Good,1–2 days/week,8.2,2.3,4.1,Never,No,0,0,5.3
+U01477,North Dakota,24,27.6,Average,3–4 days/week,6.2,3.7,1.8,Never,No,1,0,4.3
+U01478,Washington,32,20.9,Good,3–4 days/week,6.4,2.3,2.0,Never,No,0,0,7.5
+U01479,Mississippi,33,27.0,Good,3–4 days/week,6.4,0.1,2.0,Occasionally,No,0,0,5.4
+U01480,Michigan,26,22.9,Average,3–4 days/week,6.8,1.7,1.4,Never,No,0,0,8.2
+U01481,California,19,22.3,Good,,7.1,2.5,1.7,Occasionally,Yes,0,0,5.0
+U01482,North Carolina,28,28.6,Poor,3–4 days/week,6.5,1.9,2.9,Never,No,1,0,3.5
+U01483,Oklahoma,17,25.5,Excellent,,7.7,3.7,2.2,Never,No,1,1,4.3
+U01484,Washington,34,21.4,Average,,9.8,0.9,3.6,Occasionally,No,0,0,4.5
+U01485,Maryland,23,25.2,Good,5–6 days/week,6.0,3.2,2.1,Never,No,0,0,5.4
+U01486,Maine,25,17.3,Average,3–4 days/week,7.5,2.7,2.6,Occasionally,No,1,0,4.3
+U01487,Ohio,22,24.1,Good,3–4 days/week,7.0,1.9,1.7,Occasionally,No,0,0,3.6
+U01488,Texas,21,16.3,Good,3–4 days/week,8.3,2.2,2.2,Occasionally,No,0,0,5.0
+U01489,Kentucky,29,18.6,Average,5–6 days/week,7.2,0.7,2.4,Never,No,1,0,5.6
+U01490,Vermont,25,25.6,Good,5–6 days/week,6.1,1.5,0.8,Occasionally,No,0,0,6.1
+U01491,Texas,26,16.0,Average,1–2 days/week,5.6,2.4,1.7,Never,No,0,0,5.5
+U01492,North Dakota,20,31.1,Good,1–2 days/week,7.7,1.6,2.7,Weekly,No,1,0,7.5
+U01493,Florida,30,26.8,Good,,5.7,1.9,2.7,Occasionally,No,1,0,5.6
+U01494,Montana,30,16.0,Average,1–2 days/week,8.4,2.9,1.4,Never,No,1,0,2.2
+U01495,Alaska,24,33.8,Average,1–2 days/week,7.7,0.0,2.0,Never,No,0,1,5.9
+U01496,Florida,32,35.0,Poor,3–4 days/week,7.1,2.2,0.8,Occasionally,No,1,0,5.5
+U01497,Florida,25,22.2,Good,3–4 days/week,5.4,3.8,2.3,Weekly,No,1,0,6.6
+U01498,South Carolina,29,18.8,Average,5–6 days/week,7.8,1.4,3.2,Occasionally,No,1,0,3.8
+U01499,Kentucky,17,30.6,Average,3–4 days/week,8.9,0.4,3.2,Occasionally,Yes,0,0,7.1
+U01500,Alabama,27,21.5,Average,3–4 days/week,6.5,1.4,3.2,Occasionally,No,1,0,5.9
+U01501,Missouri,24,23.7,Average,1–2 days/week,6.1,0.1,2.7,Occasionally,Yes,1,0,5.7
+U01502,Texas,26,28.5,Excellent,,6.9,2.0,3.1,Never,No,0,1,6.9
+U01503,South Carolina,26,22.3,Average,1–2 days/week,7.6,1.7,2.2,Never,No,0,0,7.2
+U01504,Tennessee,26,21.9,Good,3–4 days/week,6.4,2.2,1.9,Occasionally,No,1,0,7.1
+U01505,Missouri,29,17.3,Good,1–2 days/week,8.1,1.7,3.1,Never,No,1,0,2.0
+U01506,Rhode Island,23,20.2,Good,3–4 days/week,9.3,2.0,2.5,Occasionally,No,1,0,3.4
+U01507,Ohio,28,21.8,Average,3–4 days/week,7.4,2.3,1.0,Never,Yes,0,0,4.8
+U01508,Arizona,32,17.4,Good,,6.6,0.5,3.2,Occasionally,No,0,1,3.7
+U01509,Wyoming,18,17.8,Good,1–2 days/week,7.5,2.2,2.1,Never,Yes,0,0,4.5
+U01510,Oregon,22,23.2,Poor,1–2 days/week,8.4,3.4,1.8,Occasionally,No,1,0,5.4
+U01511,Utah,22,16.0,Average,1–2 days/week,7.2,0.7,3.0,Occasionally,Yes,0,0,4.8
+U01512,Utah,20,19.0,Average,3–4 days/week,7.6,2.1,2.9,Never,No,1,0,5.5
+U01513,New Jersey,23,31.8,Average,3–4 days/week,7.8,3.2,1.6,Occasionally,Yes,0,0,7.5
+U01514,Pennsylvania,31,21.4,Average,3–4 days/week,5.9,0.5,2.2,Occasionally,No,1,0,8.2
+U01515,North Dakota,33,20.9,Good,3–4 days/week,7.6,2.7,1.7,Occasionally,No,0,0,6.1
+U01516,Idaho,26,21.4,Poor,3–4 days/week,5.4,1.6,1.7,Never,No,1,0,7.5
+U01517,Maine,24,21.5,Good,5–6 days/week,6.2,2.9,0.8,Never,No,1,0,4.9
+U01518,Oregon,30,25.6,Good,1–2 days/week,8.4,0.9,1.6,Never,No,1,0,4.6
+U01519,Utah,16,25.3,Good,3–4 days/week,8.0,1.8,2.2,Never,No,0,0,5.4
+U01520,Wisconsin,20,21.2,Good,1–2 days/week,6.7,0.1,0.8,Never,No,0,0,5.0
+U01521,Kentucky,16,22.0,Average,1–2 days/week,9.0,2.3,1.3,Never,No,1,0,6.5
+U01522,Georgia,20,28.9,Excellent,,5.4,2.3,2.7,Occasionally,No,0,0,5.5
+U01523,Wisconsin,22,16.2,Good,3–4 days/week,6.8,2.4,1.3,Weekly,No,1,0,7.8
+U01524,Washington,33,22.7,Good,1–2 days/week,7.3,2.3,2.2,Weekly,No,1,0,5.7
+U01525,Idaho,16,23.6,Good,1–2 days/week,4.5,1.7,1.1,Weekly,No,1,0,4.4
+U01526,Kansas,23,19.5,Average,5–6 days/week,6.8,0.2,2.6,Occasionally,No,0,0,4.8
+U01527,Mississippi,29,22.5,Poor,3–4 days/week,5.7,2.9,2.1,Occasionally,No,1,1,4.6
+U01528,Maine,28,18.9,Good,3–4 days/week,5.7,1.8,1.7,Never,No,0,0,6.6
+U01529,Delaware,33,25.9,Good,3–4 days/week,6.7,2.2,0.8,Never,No,0,0,5.3
+U01530,New Mexico,26,17.0,Good,5–6 days/week,4.8,1.6,1.7,Occasionally,No,0,0,5.7
+U01531,Massachusetts,27,27.8,Excellent,3–4 days/week,6.0,4.0,2.8,Occasionally,No,1,0,6.1
+U01532,Kentucky,16,22.7,Average,1–2 days/week,4.8,1.2,3.4,Occasionally,Yes,1,0,6.3
+U01533,Minnesota,21,21.0,Average,5–6 days/week,7.1,1.1,2.1,Occasionally,No,0,0,7.1
+U01534,Oregon,17,18.5,Average,3–4 days/week,7.1,0.1,2.2,Never,No,0,0,6.0
+U01535,Kansas,28,27.6,Average,1–2 days/week,6.6,1.9,1.8,Occasionally,No,1,1,4.1
+U01536,Colorado,27,20.1,Good,1–2 days/week,8.2,3.8,3.2,Occasionally,No,1,0,4.8
+U01537,Delaware,27,17.7,Good,1–2 days/week,6.6,1.9,2.1,Weekly,No,1,0,4.8
+U01538,Missouri,21,27.7,Good,5–6 days/week,7.0,2.0,2.9,Weekly,No,1,0,4.4
+U01539,Louisiana,21,18.9,Poor,1–2 days/week,5.9,2.9,2.5,Occasionally,No,1,0,7.1
+U01540,Missouri,27,22.6,Average,5–6 days/week,4.5,2.0,2.4,Never,No,0,0,5.3
+U01541,Idaho,22,26.7,Average,5–6 days/week,6.8,3.1,1.6,Never,Yes,0,0,5.8
+U01542,Iowa,20,23.7,Good,3–4 days/week,6.7,3.3,3.5,Never,No,0,1,6.0
+U01543,Montana,23,30.8,Poor,3–4 days/week,9.1,1.1,3.3,Occasionally,No,1,1,5.8
+U01544,South Dakota,22,19.2,Good,1–2 days/week,7.8,0.2,3.9,Never,No,0,0,6.0
+U01545,Vermont,21,22.1,Good,,6.5,2.6,1.5,Never,Yes,1,0,9.1
+U01546,Montana,19,22.4,Good,,7.2,2.2,2.5,Never,No,0,0,6.5
+U01547,Washington,28,25.8,Average,3–4 days/week,8.1,0.6,1.7,Weekly,No,1,0,4.1
+U01548,New York,33,28.8,Good,1–2 days/week,7.6,1.1,2.6,Occasionally,No,1,0,6.0
+U01549,Georgia,25,23.3,Good,,9.0,1.1,2.5,Occasionally,No,0,0,5.7
+U01550,Kansas,27,22.4,Good,1–2 days/week,6.1,2.0,2.0,Never,No,0,0,3.4
+U01551,Connecticut,28,16.3,Average,5–6 days/week,8.2,2.9,2.1,Never,Yes,0,0,1.9
+U01552,Kentucky,27,23.5,Good,1–2 days/week,6.5,3.0,3.8,Never,No,1,0,5.7
+U01553,Minnesota,21,20.1,Good,5–6 days/week,7.2,2.7,2.2,Occasionally,No,1,1,5.1
+U01554,Montana,34,25.8,Average,1–2 days/week,6.3,1.5,0.8,Occasionally,No,0,0,3.8
+U01555,Massachusetts,22,21.2,Average,3–4 days/week,6.8,4.2,1.9,Occasionally,No,0,0,4.7
+U01556,Michigan,29,21.9,Excellent,,7.3,1.8,1.5,Never,No,0,0,5.1
+U01557,Connecticut,28,16.4,Poor,3–4 days/week,7.7,1.4,1.7,Occasionally,No,0,0,4.6
+U01558,Indiana,16,16.0,Average,3–4 days/week,7.1,0.3,2.8,Occasionally,No,0,0,5.9
+U01559,Iowa,24,31.4,Average,1–2 days/week,4.5,1.4,2.9,Never,No,0,0,5.8
+U01560,Connecticut,26,23.6,Good,3–4 days/week,6.9,2.3,1.7,Never,No,0,0,6.7
+U01561,Florida,26,24.8,Average,3–4 days/week,8.8,0.1,1.9,Occasionally,No,0,0,7.2
+U01562,West Virginia,27,18.9,Good,3–4 days/week,6.9,0.8,1.8,Occasionally,No,1,0,6.5
+U01563,Delaware,29,26.9,Poor,3–4 days/week,8.8,1.3,3.4,Weekly,No,1,0,4.5
+U01564,Wyoming,25,26.1,Poor,1–2 days/week,6.9,0.9,2.9,Occasionally,No,0,1,5.8
+U01565,Minnesota,27,19.4,Good,3–4 days/week,5.1,0.9,2.8,Never,No,1,0,3.1
+U01566,New Hampshire,25,18.2,Average,5–6 days/week,6.5,3.0,1.6,Occasionally,Yes,0,1,4.8
+U01567,Louisiana,20,19.7,Excellent,5–6 days/week,6.3,0.0,1.1,Never,No,0,0,1.7
+U01568,New Mexico,26,22.9,Poor,5–6 days/week,6.7,2.0,3.2,Occasionally,No,1,0,5.0
+U01569,New Jersey,29,23.8,Average,1–2 days/week,5.6,2.4,3.6,Occasionally,No,0,0,4.7
+U01570,Rhode Island,31,23.2,Average,3–4 days/week,7.0,1.3,1.1,Occasionally,No,0,0,6.5
+U01571,Ohio,28,28.8,Average,3–4 days/week,6.6,1.6,3.9,Occasionally,No,0,0,4.0
+U01572,Louisiana,32,19.8,Excellent,,8.5,1.8,2.2,Occasionally,No,0,0,5.8
+U01573,Tennessee,28,18.1,Good,3–4 days/week,5.5,2.5,2.4,Occasionally,No,1,0,4.9
+U01574,Rhode Island,30,23.0,Poor,3–4 days/week,7.3,3.5,1.4,Never,No,0,0,4.9
+U01575,Kentucky,30,16.0,Good,,7.5,0.4,1.1,Never,No,0,0,4.3
+U01576,Indiana,24,26.1,Good,,7.9,0.8,0.8,Occasionally,No,1,0,6.0
+U01577,New Mexico,29,23.4,Average,3–4 days/week,6.6,0.8,3.0,Weekly,No,0,0,5.3
+U01578,Mississippi,21,21.5,Average,,7.3,1.8,2.2,Never,Yes,0,0,4.1
+U01579,Ohio,27,21.2,Excellent,,7.4,1.4,2.6,Never,Yes,1,0,5.7
+U01580,Utah,28,27.1,Excellent,1–2 days/week,5.0,2.5,3.1,Never,No,0,0,6.0
+U01581,Vermont,31,27.0,Excellent,,6.6,1.1,2.2,Occasionally,No,1,0,7.8
+U01582,North Dakota,30,21.9,Good,5–6 days/week,7.0,0.8,3.5,Occasionally,Yes,1,0,4.6
+U01583,Arizona,31,25.7,Good,1–2 days/week,7.1,1.0,1.7,Occasionally,No,0,0,4.9
+U01584,Oregon,25,26.9,Average,3–4 days/week,7.1,1.9,2.0,Weekly,No,0,0,3.6
+U01585,Texas,24,24.5,Average,5–6 days/week,7.5,2.9,1.7,Occasionally,No,0,0,4.8
+U01586,South Carolina,24,22.1,Poor,3–4 days/week,9.3,1.8,2.9,Never,No,1,0,3.9
+U01587,Montana,27,24.7,Good,1–2 days/week,6.3,1.2,3.1,Occasionally,Yes,0,0,7.2
+U01588,Minnesota,16,18.3,Good,3–4 days/week,7.5,0.7,2.0,Occasionally,No,1,0,6.3
+U01589,Utah,32,23.3,Good,1–2 days/week,8.6,3.4,1.3,Weekly,No,1,0,3.9
+U01590,Rhode Island,26,22.0,Excellent,1–2 days/week,4.8,0.0,3.2,Never,No,1,0,4.0
+U01591,Iowa,23,21.2,Good,3–4 days/week,7.3,1.6,1.7,Never,Yes,1,0,4.7
+U01592,Wisconsin,16,16.0,Excellent,3–4 days/week,5.0,2.6,2.0,Never,No,1,0,7.4
+U01593,Arkansas,25,18.4,Average,3–4 days/week,9.6,1.6,1.5,Occasionally,No,1,0,4.6
+U01594,New Hampshire,25,20.8,Good,5–6 days/week,7.6,1.2,2.5,Never,No,0,0,5.2
+U01595,Michigan,21,27.0,Good,3–4 days/week,7.5,2.4,1.8,Occasionally,Yes,1,0,7.8
+U01596,Missouri,22,24.3,Average,3–4 days/week,4.8,0.6,2.8,Occasionally,No,1,0,6.1
+U01597,Illinois,25,27.2,Excellent,5–6 days/week,6.4,0.0,1.9,Never,No,0,0,3.3
+U01598,Louisiana,23,28.6,Good,,6.4,2.2,2.7,Occasionally,No,0,0,2.8
+U01599,North Carolina,28,24.5,Average,1–2 days/week,9.1,0.7,1.7,Weekly,No,0,0,5.6
+U01600,Kansas,22,23.6,Poor,3–4 days/week,7.9,1.9,3.2,Occasionally,No,0,0,9.0
+U01601,Vermont,26,18.6,Good,3–4 days/week,5.0,1.7,2.0,Never,No,0,0,7.5
+U01602,Tennessee,31,31.9,Good,,7.6,2.1,2.4,Never,No,0,0,6.1
+U01603,Utah,25,16.6,Excellent,1–2 days/week,5.2,1.6,1.5,Occasionally,No,1,0,6.7
+U01604,Alaska,27,23.5,Average,1–2 days/week,5.0,2.4,2.3,Never,No,0,0,6.8
+U01605,Ohio,27,26.7,Poor,3–4 days/week,7.5,1.0,1.5,Occasionally,No,1,0,3.0
+U01606,Tennessee,26,26.8,Average,3–4 days/week,7.9,2.7,2.3,Weekly,No,0,0,5.8
+U01607,North Dakota,25,17.8,Poor,5–6 days/week,7.6,0.5,1.6,Occasionally,No,0,0,7.5
+U01608,New Jersey,23,21.1,Poor,3–4 days/week,9.3,3.1,2.2,Never,No,0,0,8.6
+U01609,Illinois,26,19.4,Excellent,3–4 days/week,7.4,4.1,2.6,Never,No,0,0,6.3
+U01610,Illinois,24,16.0,Average,1–2 days/week,7.2,1.9,1.3,Weekly,No,1,0,3.5
+U01611,Louisiana,33,23.6,Average,1–2 days/week,5.5,3.5,2.3,Occasionally,No,1,0,6.4
+U01612,New York,30,19.8,Poor,1–2 days/week,8.0,3.8,2.6,Occasionally,No,1,0,6.3
+U01613,New York,18,29.8,Average,3–4 days/week,5.0,1.4,2.6,Never,No,0,0,6.8
+U01614,Ohio,19,25.8,Good,,9.4,1.9,3.6,Occasionally,No,1,0,6.1
+U01615,Rhode Island,25,23.2,Good,3–4 days/week,8.0,0.9,1.8,Never,No,0,0,8.3
+U01616,Virginia,24,20.9,Good,3–4 days/week,10.0,1.0,2.3,Never,No,0,0,5.8
+U01617,New Hampshire,25,23.5,Average,1–2 days/week,7.5,2.1,3.5,Never,No,1,0,5.6
+U01618,Wisconsin,29,21.8,Average,5–6 days/week,8.1,0.0,1.3,Never,No,1,0,5.1
+U01619,New Hampshire,27,23.3,Good,3–4 days/week,6.7,2.7,0.8,Never,No,0,0,5.6
+U01620,Utah,27,31.6,Average,1–2 days/week,6.9,2.0,2.7,Never,No,1,0,5.9
+U01621,Kansas,33,18.2,Good,1–2 days/week,5.7,2.5,3.0,Never,No,1,0,5.7
+U01622,Utah,19,22.2,Average,3–4 days/week,5.3,1.6,0.8,Occasionally,No,0,0,6.7
+U01623,Washington,26,26.2,Good,1–2 days/week,7.2,2.5,2.1,Occasionally,No,0,0,2.4
+U01624,Georgia,23,21.2,Average,,6.9,2.1,1.6,Never,Yes,1,0,5.3
+U01625,New Jersey,33,30.1,Good,3–4 days/week,5.7,2.4,2.5,Weekly,No,1,0,6.3
+U01626,Missouri,16,26.1,Excellent,5–6 days/week,5.9,2.8,2.3,Never,No,0,0,5.9
+U01627,Rhode Island,16,19.8,Good,1–2 days/week,7.0,0.4,3.2,Never,Yes,0,0,3.6
+U01628,Maryland,27,23.9,Good,5–6 days/week,5.7,1.0,1.4,Never,No,0,0,6.3
+U01629,California,31,19.8,Excellent,3–4 days/week,7.4,4.3,2.6,Occasionally,No,0,0,5.6
+U01630,Alabama,29,19.4,Good,,5.7,2.0,2.7,Never,No,0,0,6.6
+U01631,New Jersey,21,22.4,Average,3–4 days/week,7.3,0.0,2.3,Never,No,0,0,6.4
+U01632,Wisconsin,33,28.7,Average,1–2 days/week,5.6,0.0,0.9,Occasionally,No,1,0,6.0
+U01633,Arizona,19,26.4,Good,1–2 days/week,5.6,1.7,2.6,Occasionally,No,1,0,5.5
+U01634,Vermont,32,22.9,Good,3–4 days/week,4.5,1.2,1.8,Occasionally,No,1,0,5.9
+U01635,Indiana,20,26.5,Average,3–4 days/week,6.8,0.9,1.1,Occasionally,No,1,0,5.9
+U01636,New Jersey,24,24.2,Average,,8.7,3.8,2.6,Weekly,No,1,0,7.5
+U01637,Wyoming,29,17.7,Excellent,5–6 days/week,8.7,1.4,2.8,Never,No,1,0,10.0
+U01638,Arkansas,18,22.3,Average,3–4 days/week,7.4,2.7,1.9,Never,No,0,0,3.9
+U01639,Louisiana,33,22.7,Average,5–6 days/week,4.6,2.1,2.9,Weekly,No,1,0,1.5
+U01640,Oregon,24,26.4,Poor,1–2 days/week,8.0,1.5,2.9,Occasionally,No,0,0,4.7
+U01641,Missouri,26,20.5,Good,5–6 days/week,7.3,0.5,2.3,Occasionally,No,0,0,4.1
+U01642,West Virginia,31,18.9,Poor,1–2 days/week,6.5,2.6,2.7,Never,No,0,0,6.8
+U01643,Alabama,22,22.8,Good,,8.4,0.0,3.0,Never,No,0,0,7.7
+U01644,Virginia,31,20.1,Poor,3–4 days/week,7.7,2.8,2.7,Never,No,0,0,6.7
+U01645,Iowa,34,21.5,Good,3–4 days/week,9.4,2.0,0.8,Never,Yes,1,0,5.0
+U01646,Florida,22,22.6,Good,3–4 days/week,5.3,2.5,0.8,Never,No,0,0,6.6
+U01647,Iowa,32,21.3,Average,1–2 days/week,5.4,1.8,3.0,Never,No,1,0,7.3
+U01648,Wisconsin,17,27.3,Good,,5.6,0.4,1.8,Occasionally,No,0,0,6.5
+U01649,Mississippi,27,29.4,Average,3–4 days/week,6.7,2.2,2.0,Never,No,1,0,6.3
+U01650,Arkansas,19,26.9,Average,1–2 days/week,8.9,2.7,3.6,Never,No,0,0,5.3
+U01651,Idaho,30,16.0,Good,3–4 days/week,6.3,1.3,1.8,Never,No,0,0,3.7
+U01652,Oregon,30,20.1,Average,1–2 days/week,6.3,2.5,2.2,Never,No,0,0,7.1
+U01653,Oregon,36,22.2,Good,5–6 days/week,7.5,2.1,2.3,Never,No,1,0,8.0
+U01654,Texas,33,16.0,Average,3–4 days/week,8.0,2.3,2.2,Never,No,0,0,3.4
+U01655,Colorado,25,19.1,Average,3–4 days/week,4.5,0.9,3.2,Never,No,0,0,6.6
+U01656,Rhode Island,20,22.1,Average,5–6 days/week,8.2,3.2,2.0,Occasionally,No,0,0,4.3
+U01657,Virginia,28,21.0,Good,3–4 days/week,6.2,2.1,2.8,Never,No,0,0,6.2
+U01658,Mississippi,25,23.0,Good,,6.9,2.7,2.3,Occasionally,No,1,0,3.4
+U01659,Hawaii,33,16.8,Good,,8.7,1.4,3.0,Occasionally,No,0,0,6.7
+U01660,Illinois,16,20.9,Average,3–4 days/week,6.7,2.9,1.3,Occasionally,Yes,1,0,6.1
+U01661,North Dakota,36,23.7,Poor,1–2 days/week,5.2,1.3,0.8,Never,Yes,1,0,6.7
+U01662,Missouri,28,23.0,Good,3–4 days/week,5.2,0.8,2.3,Never,No,0,0,6.5
+U01663,Connecticut,21,25.0,Good,1–2 days/week,7.0,3.7,1.7,Occasionally,Yes,0,0,5.8
+U01664,Arkansas,29,24.7,Poor,1–2 days/week,6.6,0.0,3.3,Weekly,No,0,0,6.7
+U01665,Delaware,32,21.2,Good,3–4 days/week,7.1,5.1,2.2,Weekly,No,0,0,4.8
+U01666,Maryland,26,23.5,Average,5–6 days/week,6.5,2.6,2.5,Never,No,0,0,6.4
+U01667,New Hampshire,17,19.4,Good,3–4 days/week,8.5,1.5,2.1,Occasionally,No,0,0,4.7
+U01668,Vermont,24,21.8,Good,5–6 days/week,7.0,2.2,1.8,Occasionally,Yes,0,0,6.4
+U01669,Virginia,31,18.2,Good,5–6 days/week,4.9,2.6,2.3,Occasionally,No,1,1,5.2
+U01670,Georgia,28,27.8,Good,1–2 days/week,8.0,1.4,3.0,Occasionally,No,1,0,6.2
+U01671,Texas,25,21.8,Average,1–2 days/week,9.3,4.0,2.1,Never,No,1,0,5.1
+U01672,North Dakota,32,27.8,Good,3–4 days/week,7.2,3.4,2.0,Never,No,0,0,5.1
+U01673,Montana,29,24.4,Good,5–6 days/week,7.3,4.8,2.9,Occasionally,No,0,0,5.2
+U01674,South Dakota,30,19.0,Poor,3–4 days/week,6.1,0.5,1.1,Occasionally,No,0,0,3.5
+U01675,Wisconsin,23,24.1,Good,5–6 days/week,6.7,2.0,3.1,Weekly,No,0,1,6.8
+U01676,Arizona,23,26.6,Excellent,,7.6,0.3,1.7,Occasionally,No,0,1,5.6
+U01677,Colorado,17,22.7,Good,1–2 days/week,8.4,0.6,3.0,Never,No,1,0,3.6
+U01678,California,24,23.3,Average,3–4 days/week,7.5,1.4,2.5,Occasionally,No,0,0,4.7
+U01679,California,30,20.5,Good,1–2 days/week,9.2,1.5,0.8,Never,No,0,0,4.6
+U01680,Washington,24,23.1,Good,,7.1,2.2,2.3,Occasionally,Yes,1,0,6.1
+U01681,Minnesota,28,24.1,Average,1–2 days/week,5.7,1.7,3.2,Occasionally,No,1,0,5.2
+U01682,Wisconsin,31,20.4,Good,,5.7,2.7,2.1,Never,No,0,1,6.9
+U01683,Florida,27,18.1,Good,3–4 days/week,8.5,2.2,2.2,Never,No,0,0,3.7
+U01684,Ohio,28,28.8,Average,5–6 days/week,8.2,3.6,1.8,Never,No,1,1,6.2
+U01685,Maryland,19,25.7,Average,5–6 days/week,5.0,2.7,3.1,Never,No,0,0,6.0
+U01686,Wisconsin,24,20.5,Good,3–4 days/week,6.7,0.5,2.0,Occasionally,Yes,0,0,4.9
+U01687,Tennessee,34,24.0,Excellent,1–2 days/week,6.8,1.6,3.6,Never,No,1,1,5.9
+U01688,Ohio,26,16.3,Good,3–4 days/week,6.1,1.7,3.1,Never,Yes,1,0,5.4
+U01689,Wyoming,35,16.0,Good,,5.3,2.3,3.2,Never,Yes,0,0,7.3
+U01690,Louisiana,22,27.9,Average,1–2 days/week,6.1,3.0,2.4,Occasionally,No,0,0,5.6
+U01691,Kentucky,27,24.0,Average,,5.9,2.1,2.0,Never,No,0,0,7.2
+U01692,Mississippi,24,22.8,Good,3–4 days/week,5.3,2.4,2.6,Never,No,0,0,6.8
+U01693,Arizona,28,24.0,Average,5–6 days/week,8.0,0.6,3.4,Occasionally,No,0,0,3.6
+U01694,New York,30,37.5,Good,3–4 days/week,7.3,1.3,3.5,Never,No,1,0,5.4
+U01695,Ohio,29,26.9,Average,3–4 days/week,6.4,0.0,1.0,Never,No,0,0,6.7
+U01696,Pennsylvania,31,18.3,Average,,4.5,2.3,4.2,Occasionally,No,0,0,5.9
+U01697,Illinois,25,16.0,Average,3–4 days/week,6.6,2.7,2.5,Never,No,0,0,5.6
+U01698,Washington,25,27.7,Excellent,3–4 days/week,7.6,0.3,2.8,Occasionally,No,0,0,5.7
+U01699,Missouri,17,26.9,Average,1–2 days/week,6.1,2.0,1.7,Occasionally,No,0,0,6.4
+U01700,Florida,29,25.6,Poor,1–2 days/week,5.6,1.7,1.6,Occasionally,No,0,0,4.9
+U01701,Arkansas,26,19.3,Average,5–6 days/week,6.9,3.7,1.3,Never,No,1,0,5.1
+U01702,Indiana,25,24.6,Good,3–4 days/week,7.4,0.8,3.5,Occasionally,No,0,0,6.8
+U01703,Oregon,25,19.7,Average,5–6 days/week,4.6,2.8,1.8,Occasionally,No,0,0,5.8
+U01704,North Dakota,25,26.0,Average,3–4 days/week,8.6,3.1,2.2,Never,No,0,0,5.2
+U01705,Hawaii,24,27.4,Average,5–6 days/week,5.5,1.6,2.1,Never,No,0,0,5.6
+U01706,South Dakota,23,20.6,Good,,6.5,2.1,1.6,Occasionally,No,0,0,6.3
+U01707,Arizona,27,28.1,Poor,,8.4,3.0,2.2,Occasionally,No,1,0,5.5
+U01708,Nevada,28,23.5,Average,1–2 days/week,7.2,0.6,2.4,Weekly,No,1,1,5.7
+U01709,New Hampshire,22,25.2,Average,,8.3,1.3,3.2,Occasionally,No,0,0,2.9
+U01710,Florida,23,17.1,Good,3–4 days/week,8.9,2.0,1.6,Occasionally,No,1,0,5.9
+U01711,Arizona,24,24.0,Good,3–4 days/week,5.2,4.1,1.9,Never,No,0,0,5.3
+U01712,Missouri,26,20.0,Good,3–4 days/week,8.1,1.4,2.7,Occasionally,Yes,0,0,6.9
+U01713,North Dakota,25,25.1,Excellent,1–2 days/week,8.6,1.5,2.3,Weekly,No,1,0,5.4
+U01714,Idaho,29,29.6,Excellent,5–6 days/week,6.5,3.5,2.3,Occasionally,No,0,0,7.7
+U01715,Tennessee,17,24.3,Average,,6.6,2.5,1.6,Never,No,0,0,6.4
+U01716,Florida,18,18.9,Good,1–2 days/week,4.7,4.2,2.8,Never,No,0,1,4.4
+U01717,Iowa,26,25.8,Good,3–4 days/week,7.9,3.0,3.3,Never,No,0,0,3.6
+U01718,South Carolina,22,24.8,Good,3–4 days/week,4.5,1.6,3.2,Occasionally,No,0,0,5.4
+U01719,Missouri,30,32.3,Average,1–2 days/week,8.2,1.5,2.2,Weekly,No,0,0,5.5
+U01720,California,31,24.1,Good,,5.3,0.9,0.8,Never,No,0,1,3.0
+U01721,Hawaii,27,20.4,Average,3–4 days/week,8.7,0.4,2.5,Never,No,1,0,5.4
+U01722,North Dakota,20,26.5,Good,,7.5,2.2,2.4,Occasionally,No,0,0,5.0
+U01723,Mississippi,31,22.4,Average,,8.2,2.5,1.6,Weekly,No,0,0,5.8
+U01724,Iowa,26,23.4,Average,3–4 days/week,6.0,2.6,1.7,Never,Yes,0,0,8.5
+U01725,Pennsylvania,18,18.8,Average,1–2 days/week,5.4,1.7,1.6,Never,No,1,0,3.0
+U01726,Delaware,19,22.4,Average,1–2 days/week,4.9,3.9,2.5,Never,No,0,0,6.9
+U01727,California,33,23.1,Good,1–2 days/week,8.3,0.3,1.7,Occasionally,No,1,0,6.2
+U01728,West Virginia,32,22.4,Average,5–6 days/week,7.8,0.2,2.4,Occasionally,No,0,0,4.8
+U01729,Montana,16,20.3,Average,5–6 days/week,7.8,0.9,4.0,Never,No,1,0,5.5
+U01730,Louisiana,19,24.3,Excellent,1–2 days/week,7.3,1.8,2.2,Occasionally,No,0,0,6.9
+U01731,Colorado,31,18.8,Average,1–2 days/week,7.7,0.6,1.5,Occasionally,No,0,0,5.7
+U01732,Oregon,25,17.8,Good,1–2 days/week,6.7,3.3,1.3,Occasionally,No,0,0,2.6
+U01733,West Virginia,29,26.2,Average,1–2 days/week,7.4,1.0,2.5,Never,No,0,0,6.0
+U01734,Illinois,25,25.8,Average,3–4 days/week,6.0,0.8,3.7,Weekly,No,0,0,6.6
+U01735,Nevada,29,17.1,Good,3–4 days/week,6.6,3.0,1.7,Occasionally,No,0,0,4.9
+U01736,California,26,16.0,Good,1–2 days/week,10.0,2.0,0.8,Occasionally,No,0,0,6.8
+U01737,Illinois,23,18.5,Average,1–2 days/week,7.0,2.7,3.5,Occasionally,No,0,0,6.9
+U01738,Kentucky,31,22.4,Excellent,1–2 days/week,4.6,1.7,4.1,Weekly,No,1,0,7.5
+U01739,Wyoming,27,28.2,Excellent,1–2 days/week,6.5,2.1,2.8,Occasionally,No,1,0,7.0
+U01740,South Carolina,29,22.3,Excellent,1–2 days/week,5.7,0.2,2.6,Never,No,0,1,9.3
+U01741,Vermont,26,19.5,Average,3–4 days/week,7.2,1.6,2.3,Never,No,0,0,7.2
+U01742,New York,23,23.7,Average,3–4 days/week,5.9,0.6,2.8,Never,Yes,0,0,5.8
+U01743,New Hampshire,34,22.5,Good,3–4 days/week,6.7,3.9,2.7,Never,No,1,0,6.7
+U01744,Arizona,27,16.8,Good,1–2 days/week,6.1,3.2,2.5,Weekly,No,1,0,5.7
+U01745,South Carolina,24,16.8,Average,3–4 days/week,7.2,1.1,1.6,Occasionally,No,1,0,5.1
+U01746,North Dakota,32,16.9,Good,1–2 days/week,6.2,1.6,2.5,Never,No,0,0,3.9
+U01747,South Carolina,19,34.2,Poor,,7.4,1.6,2.2,Never,No,1,1,5.3
+U01748,Nebraska,37,26.9,Good,3–4 days/week,9.3,4.2,1.7,Never,Yes,1,0,6.8
+U01749,Illinois,25,20.3,Average,1–2 days/week,5.6,2.2,2.5,Occasionally,No,0,0,4.3
+U01750,Vermont,19,28.0,Good,3–4 days/week,7.9,1.3,2.0,Never,Yes,1,0,6.1
+U01751,North Carolina,35,20.4,Average,3–4 days/week,4.5,2.0,2.3,Occasionally,No,0,0,5.0
+U01752,Colorado,23,27.8,Good,5–6 days/week,6.7,0.1,2.6,Weekly,No,0,0,5.6
+U01753,Mississippi,27,23.4,Good,5–6 days/week,7.3,1.7,2.7,Never,No,1,0,5.5
+U01754,Maine,29,20.0,Good,,6.1,0.6,2.0,Occasionally,No,0,0,5.9
+U01755,Kansas,31,26.1,Excellent,5–6 days/week,4.9,0.0,2.6,Never,No,1,0,9.0
+U01756,South Carolina,27,23.6,Good,3–4 days/week,7.0,4.0,2.8,Occasionally,No,0,0,4.8
+U01757,Nevada,22,24.8,Excellent,3–4 days/week,8.8,1.8,3.0,Never,No,1,0,5.5
+U01758,North Carolina,27,24.0,Poor,,6.8,1.0,2.5,Never,No,1,1,5.3
+U01759,West Virginia,23,23.9,Average,5–6 days/week,7.7,0.0,2.7,Weekly,No,1,0,3.3
+U01760,South Dakota,27,26.6,Average,,8.4,1.6,2.0,Occasionally,No,1,0,6.9
+U01761,Illinois,34,34.6,Average,3–4 days/week,10.0,1.6,4.1,Never,No,0,0,4.3
+U01762,Texas,29,28.6,Good,,5.7,2.6,2.3,Never,No,0,0,7.6
+U01763,Vermont,27,24.0,Poor,3–4 days/week,5.9,0.8,3.1,Never,No,1,0,4.4
+U01764,Missouri,29,21.6,Good,1–2 days/week,6.6,1.2,2.0,Occasionally,No,0,0,6.2
+U01765,Tennessee,30,22.1,Good,1–2 days/week,7.7,0.8,2.6,Never,No,1,0,8.2
+U01766,Oklahoma,20,17.3,Good,,4.5,1.6,2.5,Occasionally,No,0,0,6.3
+U01767,Nebraska,26,26.0,Good,1–2 days/week,7.8,0.0,2.7,Never,No,1,0,4.7
+U01768,Pennsylvania,38,18.4,Good,,7.2,0.9,1.7,Never,No,0,0,4.2
+U01769,Connecticut,32,21.3,Average,1–2 days/week,6.4,2.5,2.6,Occasionally,No,1,0,2.3
+U01770,California,23,26.0,Average,3–4 days/week,7.5,0.5,2.0,Occasionally,No,1,0,5.0
+U01771,Texas,22,21.9,Good,3–4 days/week,8.1,2.9,2.9,Occasionally,Yes,0,1,3.5
+U01772,Vermont,22,20.8,Good,3–4 days/week,8.2,2.8,1.7,Occasionally,Yes,0,0,5.5
+U01773,New Mexico,30,17.6,Average,,7.0,2.9,2.5,Never,Yes,1,0,4.9
+U01774,Minnesota,34,28.4,Good,1–2 days/week,7.4,1.8,2.3,Occasionally,No,1,0,5.7
+U01775,Tennessee,28,19.3,Average,1–2 days/week,7.3,1.7,3.6,Never,No,0,0,3.9
+U01776,Georgia,26,20.4,Average,5–6 days/week,8.5,2.2,3.1,Never,No,1,0,4.8
+U01777,New York,23,16.0,Poor,5–6 days/week,7.5,3.3,3.3,Never,No,0,0,6.4
+U01778,Texas,27,22.9,Good,1–2 days/week,7.8,3.2,1.8,Occasionally,No,0,0,6.0
+U01779,New Jersey,21,21.5,Good,,8.1,0.0,2.0,Never,No,1,0,2.8
+U01780,Rhode Island,16,23.8,Average,5–6 days/week,9.4,0.8,2.3,Never,Yes,0,0,6.7
+U01781,New Mexico,34,17.7,Average,5–6 days/week,6.3,0.6,3.1,Never,No,0,0,4.0
+U01782,Louisiana,20,26.3,Good,5–6 days/week,9.0,2.6,2.6,Never,No,1,0,3.2
+U01783,Oklahoma,24,16.0,Average,3–4 days/week,10.0,1.1,1.8,Never,No,0,0,5.2
+U01784,Alaska,29,22.6,Average,1–2 days/week,6.4,1.6,1.8,Never,No,0,0,9.1
+U01785,Indiana,33,23.5,Good,,6.7,3.7,3.1,Never,No,0,0,5.0
+U01786,Illinois,27,23.3,Average,1–2 days/week,6.5,3.0,2.6,Never,No,0,1,5.7
+U01787,New Hampshire,20,23.7,Good,1–2 days/week,7.8,3.3,2.3,Never,No,0,0,6.5
+U01788,Idaho,24,26.5,Average,1–2 days/week,4.8,1.0,2.3,Occasionally,No,1,0,4.2
+U01789,Rhode Island,22,29.0,Good,3–4 days/week,6.4,0.0,2.9,Occasionally,No,0,0,6.0
+U01790,Alaska,25,22.3,Good,1–2 days/week,6.7,1.4,1.6,Occasionally,No,1,0,4.3
+U01791,New York,32,18.6,Good,1–2 days/week,6.6,0.2,2.3,Weekly,No,1,0,6.3
+U01792,Illinois,16,25.5,Average,1–2 days/week,6.6,0.0,2.4,Never,No,1,0,6.1
+U01793,Virginia,23,21.7,Good,,6.4,3.0,1.4,Never,No,0,1,6.0
+U01794,Nebraska,23,28.7,Good,1–2 days/week,7.9,0.8,2.2,Occasionally,No,0,0,5.8
+U01795,Wisconsin,19,20.3,Good,3–4 days/week,7.6,0.9,3.9,Occasionally,No,0,0,8.5
+U01796,South Dakota,28,19.1,Good,3–4 days/week,9.0,1.4,1.7,Weekly,No,1,0,5.9
+U01797,Kentucky,18,23.6,Good,1–2 days/week,7.9,3.6,2.4,Weekly,Yes,0,0,6.3
+U01798,South Carolina,19,16.0,Excellent,3–4 days/week,5.7,1.6,0.8,Never,No,0,0,6.1
+U01799,New Mexico,30,20.9,Poor,,6.8,2.8,2.2,Weekly,No,0,1,4.0
+U01800,North Dakota,33,21.5,Poor,3–4 days/week,6.7,1.5,1.5,Weekly,No,1,0,4.3
+U01801,Mississippi,25,24.0,Good,1–2 days/week,7.3,0.1,2.1,Never,No,0,0,3.9
+U01802,Vermont,19,18.5,Average,1–2 days/week,8.3,0.5,2.6,Weekly,No,1,0,4.3
+U01803,Ohio,22,19.0,Excellent,5–6 days/week,7.2,1.8,1.5,Never,No,0,1,4.7
+U01804,West Virginia,31,28.2,Good,1–2 days/week,7.2,1.9,2.5,Occasionally,No,0,0,5.2
+U01805,Colorado,26,22.9,Good,,7.0,2.4,1.8,Never,No,0,1,5.2
+U01806,Maine,25,26.9,Average,1–2 days/week,8.0,2.4,1.4,Never,No,0,0,6.4
+U01807,New Jersey,27,20.6,Average,1–2 days/week,6.3,2.8,3.0,Occasionally,No,1,0,7.5
+U01808,Connecticut,25,22.8,Good,1–2 days/week,5.3,1.0,1.6,Never,No,0,0,7.2
+U01809,Georgia,33,24.0,Excellent,5–6 days/week,7.8,3.8,2.0,Occasionally,No,0,0,5.9
+U01810,South Dakota,22,30.9,Excellent,3–4 days/week,7.5,3.9,1.9,Occasionally,No,1,0,4.3
+U01811,New York,21,22.0,Average,3–4 days/week,8.6,1.2,2.5,Never,No,1,0,7.1
+U01812,North Dakota,19,22.3,Average,1–2 days/week,4.5,0.9,2.3,Never,No,1,0,4.7
+U01813,Nevada,23,27.9,Poor,1–2 days/week,6.9,0.0,2.2,Occasionally,No,0,1,6.2
+U01814,Iowa,20,21.3,Good,1–2 days/week,7.1,2.0,1.8,Occasionally,No,0,0,5.9
+U01815,New Jersey,27,24.3,Average,1–2 days/week,5.2,2.3,2.1,Occasionally,No,0,1,3.9
+U01816,Oregon,26,27.5,Poor,3–4 days/week,6.9,1.2,2.5,Occasionally,No,1,0,4.7
+U01817,New Hampshire,20,20.4,Average,1–2 days/week,8.4,2.1,2.4,Occasionally,No,0,0,6.3
+U01818,Michigan,28,24.5,Average,5–6 days/week,9.5,0.3,3.1,Never,No,1,1,5.3
+U01819,Arkansas,33,30.9,Excellent,1–2 days/week,8.2,2.9,2.8,Occasionally,No,1,0,9.9
+U01820,Maryland,27,27.1,Good,,6.6,1.2,3.1,Weekly,No,1,0,4.8
+U01821,New York,16,24.3,Average,,8.5,2.1,3.2,Occasionally,Yes,1,0,4.0
+U01822,Oklahoma,35,22.0,Average,,8.1,2.0,2.4,Never,No,0,0,5.6
+U01823,Wyoming,29,20.3,Average,1–2 days/week,6.4,0.0,2.9,Occasionally,No,0,0,5.0
+U01824,Arkansas,35,18.6,Poor,,6.3,2.7,2.5,Occasionally,No,0,0,2.9
+U01825,Nebraska,31,29.8,Average,,6.8,0.9,3.2,Occasionally,Yes,0,0,6.8
+U01826,Kentucky,32,28.9,Good,3–4 days/week,5.7,2.0,1.1,Occasionally,No,0,0,7.0
+U01827,Idaho,27,20.0,Average,3–4 days/week,6.6,0.2,2.1,Occasionally,No,0,0,6.8
+U01828,Michigan,24,24.5,Average,,7.6,1.3,2.6,Never,No,0,0,6.0
+U01829,Kentucky,27,23.5,Average,1–2 days/week,8.2,2.2,2.7,Never,No,0,0,5.3
+U01830,Georgia,22,28.3,Good,3–4 days/week,6.5,0.6,2.3,Occasionally,No,0,0,5.8
+U01831,Alabama,28,24.7,Good,5–6 days/week,8.7,0.7,1.1,Never,Yes,0,0,5.3
+U01832,Michigan,16,22.9,Good,3–4 days/week,7.8,1.9,2.2,Weekly,No,0,0,4.5
+U01833,Montana,26,20.6,Good,1–2 days/week,7.8,1.6,2.9,Never,No,0,0,7.8
+U01834,Louisiana,32,24.5,Good,3–4 days/week,5.9,2.2,2.1,Never,No,0,0,7.4
+U01835,Wyoming,26,21.4,Poor,3–4 days/week,9.2,1.4,2.4,Occasionally,No,1,0,6.5
+U01836,Indiana,34,24.0,Excellent,1–2 days/week,7.7,2.5,3.6,Occasionally,Yes,0,0,4.9
+U01837,Washington,24,22.7,Average,5–6 days/week,6.6,1.2,2.2,Occasionally,No,1,0,6.4
+U01838,New Hampshire,31,21.3,Average,1–2 days/week,6.4,2.5,2.2,Never,No,0,0,5.1
+U01839,Idaho,21,18.6,Good,5–6 days/week,6.6,0.8,2.4,Never,No,0,0,5.1
+U01840,Oklahoma,30,25.3,Average,3–4 days/week,5.8,1.1,2.5,Occasionally,No,0,0,5.5
+U01841,Ohio,27,23.2,Excellent,3–4 days/week,8.2,2.6,2.4,Never,No,0,0,6.2
+U01842,Idaho,24,31.0,Good,3–4 days/week,5.9,1.2,2.6,Never,No,0,1,4.9
+U01843,Connecticut,16,18.4,Good,1–2 days/week,7.3,0.5,1.5,Occasionally,No,1,0,5.3
+U01844,New Hampshire,24,25.8,Good,3–4 days/week,6.5,3.7,2.2,Occasionally,No,1,0,7.5
+U01845,Hawaii,27,22.6,Excellent,5–6 days/week,7.8,1.8,1.4,Never,No,1,0,3.0
+U01846,North Carolina,30,32.4,Excellent,3–4 days/week,8.0,2.3,2.3,Never,No,1,0,7.0
+U01847,Colorado,33,25.5,Good,5–6 days/week,6.2,0.0,2.7,Never,No,0,0,5.3
+U01848,Washington,36,24.5,Good,5–6 days/week,7.0,3.3,2.2,Never,No,0,0,4.8
+U01849,Iowa,32,22.6,Average,5–6 days/week,5.3,4.7,1.6,Occasionally,Yes,1,0,5.0
+U01850,New York,23,19.8,Average,3–4 days/week,9.0,3.2,2.0,Occasionally,No,1,0,5.5
+U01851,Hawaii,24,24.4,Good,3–4 days/week,8.3,3.3,3.6,Never,No,0,0,6.9
+U01852,Minnesota,29,16.8,Excellent,,5.3,1.4,3.3,Never,No,1,0,5.8
+U01853,Montana,28,17.0,Good,3–4 days/week,6.0,2.1,1.9,Never,No,0,0,4.8
+U01854,North Dakota,34,27.6,Excellent,1–2 days/week,6.8,2.3,1.9,Occasionally,No,0,0,6.5
+U01855,Virginia,38,16.0,Good,1–2 days/week,7.0,1.0,2.2,Never,No,1,0,5.4
+U01856,North Dakota,37,21.6,Average,1–2 days/week,6.2,1.7,3.2,Weekly,No,1,0,6.3
+U01857,New Hampshire,33,18.3,Average,5–6 days/week,5.6,0.7,1.1,Never,Yes,1,0,5.9
+U01858,Arkansas,28,21.2,Average,5–6 days/week,7.5,1.4,1.9,Never,No,0,0,3.9
+U01859,Kentucky,32,23.8,Average,3–4 days/week,9.1,2.7,2.6,Never,No,0,0,6.4
+U01860,Ohio,34,27.4,Good,1–2 days/week,7.1,0.0,2.5,Occasionally,No,0,0,3.0
+U01861,Illinois,25,28.5,Excellent,3–4 days/week,6.6,2.8,2.0,Occasionally,No,1,1,5.3
+U01862,South Dakota,23,18.9,Good,3–4 days/week,6.5,0.1,2.1,Occasionally,No,0,0,4.0
+U01863,Rhode Island,22,20.9,Average,1–2 days/week,5.7,1.9,2.5,Never,Yes,0,0,2.5
+U01864,Iowa,21,41.2,Poor,1–2 days/week,6.2,2.0,2.0,Never,No,0,1,5.9
+U01865,New Hampshire,19,21.9,Average,1–2 days/week,8.4,2.4,1.6,Never,No,0,0,6.7
+U01866,New Hampshire,27,19.0,Good,3–4 days/week,4.5,1.6,2.2,Never,No,0,0,5.5
+U01867,Hawaii,21,19.8,Average,3–4 days/week,7.1,0.7,2.4,Never,No,1,0,7.4
+U01868,New York,22,21.9,Average,1–2 days/week,7.0,2.0,0.8,Occasionally,No,0,0,5.5
+U01869,Alaska,29,21.2,Average,5–6 days/week,7.1,4.2,2.6,Never,No,1,0,5.8
+U01870,Washington,26,21.9,Average,,7.9,1.8,3.0,Never,No,0,0,4.2
+U01871,Indiana,28,22.9,Excellent,1–2 days/week,7.1,0.8,2.0,Never,No,1,0,6.4
+U01872,Maryland,32,22.9,Average,1–2 days/week,6.5,1.3,2.1,Never,No,1,0,6.3
+U01873,Michigan,30,18.7,Poor,,6.2,2.0,1.8,Occasionally,No,0,0,4.9
+U01874,Hawaii,33,24.7,Poor,1–2 days/week,8.6,1.5,2.2,Never,No,0,0,3.6
+U01875,Nebraska,26,23.5,Average,1–2 days/week,8.2,1.4,1.9,Never,Yes,0,0,3.3
+U01876,Arizona,34,25.2,Good,3–4 days/week,10.0,3.3,3.3,Weekly,No,0,0,7.0
+U01877,Kentucky,27,16.0,Good,1–2 days/week,6.7,2.4,2.4,Never,No,1,0,3.8
+U01878,Utah,26,23.7,Good,3–4 days/week,6.2,1.7,0.8,Never,No,0,0,7.8
+U01879,Nevada,33,16.0,Good,3–4 days/week,7.5,1.7,2.7,Occasionally,No,0,0,4.3
+U01880,New Hampshire,21,22.2,Average,,7.5,2.0,3.5,Never,No,1,0,5.1
+U01881,Massachusetts,36,26.0,Good,3–4 days/week,7.8,2.4,2.7,Occasionally,No,0,0,9.7
+U01882,Washington,24,27.7,Poor,,8.0,3.2,3.1,Never,No,0,0,4.8
+U01883,Kansas,19,24.5,Average,3–4 days/week,7.8,1.3,2.8,Occasionally,No,0,0,4.1
+U01884,Oregon,29,26.0,Good,5–6 days/week,8.3,0.7,3.0,Occasionally,No,1,0,5.0
+U01885,Maryland,24,21.7,Good,1–2 days/week,8.4,1.2,3.0,Weekly,No,0,0,3.2
+U01886,Colorado,36,20.7,Good,5–6 days/week,8.5,0.8,3.0,Occasionally,No,0,0,5.1
+U01887,Maine,23,35.1,Average,3–4 days/week,4.5,0.1,2.5,Occasionally,No,1,0,5.6
+U01888,California,27,26.7,Average,5–6 days/week,7.3,3.4,1.1,Occasionally,No,0,0,7.0
+U01889,Arizona,18,17.7,Excellent,3–4 days/week,5.9,2.7,1.5,Never,No,1,0,6.3
+U01890,Alabama,30,16.0,Average,1–2 days/week,8.3,0.0,1.6,Occasionally,No,1,0,5.7
+U01891,Pennsylvania,22,20.9,Average,5–6 days/week,4.5,2.0,0.8,Never,No,1,0,8.7
+U01892,Iowa,29,28.4,Average,,8.8,1.4,2.0,Occasionally,Yes,1,0,6.4
+U01893,North Dakota,23,23.2,Average,1–2 days/week,6.0,1.3,3.3,Occasionally,No,1,0,7.7
+U01894,Ohio,16,16.0,Average,1–2 days/week,5.7,0.0,1.3,Occasionally,No,1,0,6.8
+U01895,Wisconsin,26,22.2,Good,1–2 days/week,7.4,1.8,2.8,Occasionally,No,1,0,7.6
+U01896,Missouri,26,23.0,Good,3–4 days/week,6.6,1.9,2.7,Occasionally,No,0,0,7.2
+U01897,Mississippi,30,16.0,Excellent,3–4 days/week,9.1,0.5,2.5,Never,No,0,0,6.8
+U01898,Idaho,33,23.1,Poor,5–6 days/week,8.6,3.6,3.1,Never,No,0,0,6.4
+U01899,Louisiana,35,18.4,Average,,6.4,2.7,2.3,Occasionally,No,0,0,7.7
+U01900,Iowa,30,16.0,Good,5–6 days/week,8.3,0.6,3.4,Occasionally,No,0,0,4.6
+U01901,Utah,27,30.2,Good,5–6 days/week,6.3,2.9,2.2,Occasionally,No,0,0,4.4
+U01902,Kansas,18,18.2,Good,,6.3,1.3,2.5,Occasionally,No,1,0,3.1
+U01903,Nebraska,27,20.0,Good,1–2 days/week,7.9,3.0,2.2,Never,No,1,0,6.3
+U01904,Delaware,27,19.9,Poor,3–4 days/week,8.7,0.2,1.7,Occasionally,No,1,0,7.2
+U01905,Virginia,25,23.0,Good,3–4 days/week,6.5,2.0,1.4,Never,No,1,0,3.9
+U01906,Missouri,29,30.9,Good,3–4 days/week,6.6,0.5,2.7,Never,No,1,0,4.4
+U01907,Kentucky,31,17.6,Average,3–4 days/week,7.4,0.9,3.2,Never,No,1,0,7.7
+U01908,New Hampshire,21,21.6,Good,1–2 days/week,5.9,0.0,2.5,Occasionally,No,0,0,6.5
+U01909,Delaware,21,23.5,Good,,8.9,0.4,2.7,Occasionally,No,0,0,6.5
+U01910,Iowa,25,19.1,Average,3–4 days/week,5.9,0.4,1.2,Never,No,0,0,6.1
+U01911,Nebraska,22,21.5,Poor,,6.2,0.3,2.6,Occasionally,No,0,0,5.2
+U01912,Virginia,17,25.7,Average,3–4 days/week,9.1,2.0,0.8,Never,No,1,0,3.2
+U01913,Wyoming,21,19.6,Good,3–4 days/week,7.3,0.0,1.5,Occasionally,No,0,0,6.4
+U01914,Connecticut,19,21.5,Average,3–4 days/week,9.3,2.1,3.2,Occasionally,No,0,0,8.7
+U01915,Arizona,32,21.1,Average,5–6 days/week,6.7,2.9,2.3,Never,No,0,0,5.9
+U01916,New Hampshire,34,22.5,Poor,1–2 days/week,10.0,0.8,2.4,Weekly,No,0,0,3.8
+U01917,Utah,20,24.1,Good,3–4 days/week,7.7,1.7,2.7,Never,No,0,0,5.2
+U01918,Mississippi,28,25.6,Good,3–4 days/week,6.1,1.4,2.9,Occasionally,No,1,0,6.9
+U01919,Arizona,30,31.7,Good,5–6 days/week,6.1,1.3,2.1,Never,No,0,0,7.1
+U01920,Maryland,18,16.0,Average,3–4 days/week,5.3,0.0,2.5,Never,No,0,0,7.8
+U01921,Virginia,26,22.2,Excellent,,5.4,0.6,2.3,Occasionally,No,1,0,7.1
+U01922,Iowa,38,16.9,Good,5–6 days/week,6.2,3.4,1.2,Never,No,1,1,2.5
+U01923,Missouri,29,21.3,Good,3–4 days/week,5.8,2.2,2.1,Occasionally,No,0,0,5.8
+U01924,New Jersey,24,27.0,Average,,4.5,1.5,2.6,Never,No,0,0,3.3
+U01925,Indiana,23,28.4,Average,3–4 days/week,8.0,0.0,2.0,Never,No,0,1,6.5
+U01926,Connecticut,16,28.6,Good,5–6 days/week,7.9,2.5,2.0,Occasionally,No,1,0,6.6
+U01927,Kentucky,28,28.6,Poor,3–4 days/week,7.4,0.8,2.8,Never,No,0,0,4.3
+U01928,Utah,35,22.2,Good,1–2 days/week,5.6,0.4,2.4,Occasionally,No,0,0,5.0
+U01929,Maryland,21,29.3,Good,3–4 days/week,9.0,0.5,2.5,Occasionally,No,0,0,4.5
+U01930,Oklahoma,16,30.2,Good,3–4 days/week,6.8,2.4,1.2,Occasionally,No,1,0,6.7
+U01931,Florida,22,23.6,Excellent,3–4 days/week,6.0,1.7,2.6,Never,No,0,0,5.4
+U01932,Pennsylvania,30,28.3,Good,,7.3,2.8,1.5,Occasionally,No,0,0,4.5
+U01933,West Virginia,23,23.2,Average,1–2 days/week,7.2,3.0,2.3,Weekly,Yes,0,1,6.7
+U01934,Michigan,21,29.3,Poor,3–4 days/week,4.5,1.0,1.6,Never,No,0,1,6.4
+U01935,Alaska,26,22.3,Good,3–4 days/week,7.0,1.8,3.0,Occasionally,No,0,0,6.7
+U01936,Mississippi,27,20.3,Good,1–2 days/week,7.1,1.5,3.6,Never,No,0,0,3.2
+U01937,Delaware,19,18.0,Average,1–2 days/week,6.5,0.3,2.2,Occasionally,No,0,0,4.6
+U01938,Hawaii,24,22.2,Average,,5.4,0.5,2.2,Occasionally,No,1,0,6.5
+U01939,Illinois,23,23.4,Good,3–4 days/week,5.4,1.6,3.0,Occasionally,No,0,0,3.0
+U01940,Kentucky,22,18.7,Good,,7.6,1.7,2.7,Weekly,No,1,0,3.0
+U01941,Delaware,20,21.9,Excellent,,7.9,1.7,2.3,Never,No,0,0,4.4
+U01942,Massachusetts,30,20.6,Good,,6.5,1.7,2.6,Never,No,0,0,6.7
+U01943,Louisiana,22,18.2,Good,3–4 days/week,7.5,0.9,3.7,Never,No,0,0,5.5
+U01944,New Jersey,16,27.7,Good,1–2 days/week,6.5,4.1,1.8,Never,No,1,0,6.3
+U01945,Louisiana,27,28.5,Excellent,1–2 days/week,6.0,2.1,1.9,Occasionally,No,0,0,4.0
+U01946,Virginia,29,27.6,Good,5–6 days/week,7.3,1.2,2.9,Occasionally,No,0,0,4.0
+U01947,Washington,22,22.6,Good,,5.6,2.2,3.8,Never,No,1,0,7.6
+U01948,New Mexico,23,22.9,Excellent,1–2 days/week,9.3,0.9,2.4,Occasionally,No,1,0,6.1
+U01949,Pennsylvania,22,18.2,Excellent,5–6 days/week,5.3,1.8,1.1,Occasionally,No,0,0,3.9
+U01950,New York,24,24.9,Average,1–2 days/week,7.3,2.2,2.6,Never,No,0,0,2.5
+U01951,Hawaii,31,23.8,Poor,3–4 days/week,7.2,2.4,1.9,Never,No,0,1,3.4
+U01952,Vermont,25,35.8,Average,,7.1,0.4,2.6,Occasionally,No,1,0,3.9
+U01953,Missouri,30,27.9,Poor,3–4 days/week,8.8,5.1,1.3,Never,No,0,0,3.6
+U01954,North Carolina,21,24.4,Average,1–2 days/week,4.5,3.1,1.3,Weekly,No,0,0,5.4
+U01955,Pennsylvania,24,22.8,Average,3–4 days/week,7.5,4.0,2.1,Never,Yes,0,0,6.5
+U01956,South Dakota,30,27.5,Average,1–2 days/week,6.7,1.5,3.5,Occasionally,No,0,0,5.4
+U01957,Delaware,21,18.9,Good,1–2 days/week,7.7,2.1,1.3,Occasionally,No,0,0,4.8
+U01958,Hawaii,31,28.1,Good,3–4 days/week,7.1,1.8,2.1,Never,No,0,0,6.0
+U01959,Michigan,22,18.1,Average,5–6 days/week,6.9,1.2,1.3,Never,No,0,0,5.0
+U01960,Mississippi,24,20.5,Good,,5.6,2.6,2.5,Never,No,0,0,2.9
+U01961,South Dakota,34,16.0,Good,3–4 days/week,6.2,0.8,2.5,Never,Yes,0,0,5.8
+U01962,Kentucky,23,25.8,Good,1–2 days/week,10.0,2.6,1.3,Never,No,1,0,6.1
+U01963,Idaho,26,24.1,Excellent,3–4 days/week,7.7,1.3,3.2,Occasionally,No,0,0,7.3
+U01964,Virginia,29,20.5,Average,1–2 days/week,8.3,2.2,1.0,Occasionally,No,0,0,6.9
+U01965,New York,27,18.8,Average,3–4 days/week,6.6,3.4,3.4,Occasionally,No,0,0,4.7
+U01966,Iowa,27,29.2,Average,1–2 days/week,6.0,1.7,3.3,Never,No,1,1,5.2
+U01967,Kansas,25,22.4,Average,1–2 days/week,7.9,2.7,2.5,Occasionally,No,1,0,5.6
+U01968,Michigan,19,19.5,Good,,4.7,1.2,2.9,Never,No,1,1,5.8
+U01969,Nevada,27,31.6,Average,,6.2,0.5,2.2,Weekly,Yes,0,0,7.7
+U01970,Maryland,22,20.0,Average,5–6 days/week,6.6,3.6,1.2,Weekly,No,0,0,5.4
+U01971,North Carolina,29,28.1,Average,5–6 days/week,8.1,2.6,2.5,Occasionally,Yes,1,0,4.7
+U01972,Georgia,32,17.8,Average,3–4 days/week,7.5,1.7,1.2,Occasionally,No,0,0,7.4
+U01973,South Carolina,16,21.4,Good,1–2 days/week,6.4,2.6,2.3,Never,No,0,0,7.3
+U01974,New York,32,25.3,Good,1–2 days/week,7.4,0.7,1.4,Never,No,1,1,6.9
+U01975,Wyoming,23,22.7,Average,3–4 days/week,6.6,2.3,3.0,Occasionally,No,0,0,3.1
+U01976,North Carolina,25,24.1,Average,5–6 days/week,8.3,2.0,2.6,Never,No,0,0,5.6
+U01977,Alaska,21,20.6,Poor,1–2 days/week,7.3,2.5,2.8,Occasionally,No,1,0,5.1
+U01978,North Carolina,26,16.0,Poor,3–4 days/week,9.1,3.6,2.5,Occasionally,No,0,0,6.2
+U01979,North Carolina,26,29.6,Good,5–6 days/week,6.7,3.4,3.6,Occasionally,No,0,1,4.2
+U01980,South Dakota,31,20.8,Poor,5–6 days/week,8.5,0.3,3.0,Never,No,0,0,6.7
+U01981,Illinois,22,24.3,Good,1–2 days/week,7.1,0.0,3.5,Never,No,0,0,6.0
+U01982,New Jersey,34,26.2,Good,,6.2,2.1,1.7,Never,No,0,0,6.8
+U01983,North Carolina,29,24.4,Poor,1–2 days/week,10.0,2.0,1.9,Occasionally,Yes,0,0,4.4
+U01984,Illinois,26,19.8,Average,3–4 days/week,8.6,0.6,0.8,Occasionally,No,0,0,5.9
+U01985,Montana,25,28.2,Excellent,1–2 days/week,7.3,0.7,2.0,Weekly,Yes,0,1,6.7
+U01986,Michigan,24,25.3,Good,1–2 days/week,7.9,1.0,2.3,Occasionally,No,0,1,1.7
+U01987,Rhode Island,24,23.9,Good,3–4 days/week,5.7,3.3,2.6,Never,No,0,0,6.5
+U01988,Alaska,26,23.8,Good,1–2 days/week,5.7,1.3,1.9,Never,No,0,0,5.0
+U01989,Pennsylvania,24,30.6,Good,1–2 days/week,8.3,0.1,2.8,Occasionally,No,0,0,5.5
+U01990,Rhode Island,22,19.7,Average,3–4 days/week,7.0,1.7,2.8,Weekly,No,0,0,7.4
+U01991,Montana,26,24.9,Good,3–4 days/week,6.8,1.8,2.0,Never,No,0,0,7.1
+U01992,Virginia,21,20.6,Good,3–4 days/week,6.7,0.7,1.6,Occasionally,No,1,0,4.6
+U01993,Wyoming,27,16.0,Good,,7.2,2.4,2.3,Never,Yes,0,0,3.0
+U01994,Iowa,24,16.0,Excellent,3–4 days/week,6.7,3.1,2.4,Never,No,0,0,5.4
+U01995,North Dakota,29,18.4,Good,3–4 days/week,4.6,1.4,1.9,Weekly,No,1,0,7.1
+U01996,Tennessee,30,20.0,Average,,8.7,0.1,2.1,Never,No,0,0,7.5
+U01997,Utah,30,32.8,Poor,3–4 days/week,6.9,1.5,1.3,Occasionally,No,0,0,2.4
+U01998,Wisconsin,27,26.1,Good,1–2 days/week,9.2,2.1,2.8,Never,No,1,0,6.4
+U01999,South Carolina,28,26.5,Good,1–2 days/week,4.9,0.0,2.8,Occasionally,No,0,0,6.2
+U02000,Hawaii,24,20.1,Good,1–2 days/week,4.9,2.3,2.3,Occasionally,No,1,0,6.7
