@@ -62,12 +62,11 @@ st.markdown("""
         border-radius: 12px;
         text-align: center;
         box-shadow: 0 2px 8px rgba(155,89,182,0.15);
-        height: 100%;
     }
 </style>
 """, unsafe_allow_html=True)
 
-# ─── CHARGEMENT DES DONNÉES ───────────────────────────────────────────────────
+# ─── CHARGEMENT ET TRAITEMENT DES DONNÉES ─────────────────────────────────────
 
 @st.cache_data
 def load_data():
@@ -115,7 +114,6 @@ def load_nlp_model(train_text):
     questions = df['instruction_clean'].tolist()
     answers = df['output'].tolist()
     question_embeddings = embed_model.encode(questions, convert_to_tensor=True)
-
     return embed_model, questions, answers, question_embeddings, df
 
 def smart_assistant(user_question, embed_model, question_embeddings, answers, top_k=3, threshold=0.4):
@@ -123,97 +121,147 @@ def smart_assistant(user_question, embed_model, question_embeddings, answers, to
     scores = util.cos_sim(user_emb, question_embeddings)[0]
     top_results = torch.topk(scores, k=min(top_k, len(answers)))
     best_score = top_results.values[0].item()
-
-    if best_score < threshold:
-        return None, []
-
+    if best_score < threshold: return None, []
     best_answers = [answers[idx.item()] for idx in top_results.indices]
     best_scores = [top_results.values[i].item() for i in range(len(top_results.indices))]
     return best_answers[0], list(zip(best_answers[1:], best_scores[1:]))
 
-# ─── SIDEBAR & NAVIGATION ─────────────────────────────────────────────────────
+# ─── SIDEBAR ──────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.markdown("## 🌸 Navigation")
-    # CORRECTION : Ajout d'un label non vide et masqué pour éviter l'erreur
-    page = st.radio(
-        "Menu", 
-        ["Accueil", "Assistant NLP", "Prédiction Ovulation", "Visualisations"],
-        label_visibility="collapsed"
-    )
+    page = st.radio("Navigation", [
+        "Accueil",
+        "Assistant NLP",
+        "Prédiction Ovulation",
+        "Visualisations"
+    ], label_visibility="collapsed")
     st.markdown("---")
-    st.markdown("### À propos")
-    st.info("Ce projet combine **Machine Learning** et **NLP**.\n\n⚠️ *Ne remplace pas un avis médical.*")
+    st.info("⚠️ *Ce projet est à but éducatif et ne remplace pas un avis médical.*")
 
 # ─── CHARGEMENT INITIAL ───────────────────────────────────────────────────────
-data_loaded = False
 try:
     period_log, train_text = load_data()
     data_loaded = True
 except Exception as e:
-    st.sidebar.error(f"Erreur de chargement : {e}")
+    data_loaded = False
+    st.sidebar.error(f"Erreur : {e}")
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# LOGIQUE DES PAGES (VÉRIFIER QUE LES NOMS CORRESPONDENT AU RADIO)
+# PAGE ACCUEIL
 # ═══════════════════════════════════════════════════════════════════════════════
-
 if page == "Accueil":
     st.markdown("# 🌸 Assistant Intelligent pour la Santé Menstruelle")
     st.markdown("### *Université Paris 1 Panthéon-Sorbonne — DABO Mami Monna*")
     st.markdown("---")
-
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.markdown("<div class='metric-card'><h3>Assistant NLP</h3><p>Posez vos questions sur la santé menstruelle</p></div>", unsafe_allow_html=True)
+        st.markdown("<div class='metric-card'><h3>Assistant NLP</h3><p>Questions en langage naturel</p></div>", unsafe_allow_html=True)
     with col2:
-        st.markdown("<div class='metric-card'><h3>Prédiction ML</h3><p>Prédisez l'ovulation via vos données</p></div>", unsafe_allow_html=True)
+        st.markdown("<div class='metric-card'><h3>Prédiction ML</h3><p>Analyse de l'ovulation</p></div>", unsafe_allow_html=True)
     with col3:
-        st.markdown("<div class='metric-card'><h3>Visualisations</h3><p>Explorez les cycles interactivement</p></div>", unsafe_allow_html=True)
-
+        st.markdown("<div class='metric-card'><h3>Visualisations</h3><p>Exploration interactive</p></div>", unsafe_allow_html=True)
+    
     st.markdown("---")
-    st.markdown("""
-    ### Approche Hybride
-    Ce projet repose sur deux composantes :
-    - **Machine Learning** : Analyse des données du cycle (Random Forest).
-    - **NLP** : Compréhension des questions (Sentence-BERT).
-    """)
+    st.markdown("### Approche Hybride")
+    st.write("Ce projet utilise le **Machine Learning** pour les prédictions et le **NLP** pour l'assistance.")
     if data_loaded:
-        st.success(f"✅ Données prêtes : {len(period_log)} entrées cycle.")
+        st.success(f"Données chargées : {len(period_log)} entrées.")
 
+# ═══════════════════════════════════════════════════════════════════════════════
+# PAGE ASSISTANT NLP
+# ═══════════════════════════════════════════════════════════════════════════════
 elif page == "Assistant NLP":
-    st.markdown("# 🤖 Assistant Santé Menstruelle")
+    st.markdown("# Assistant Santé Menstruelle")
     if data_loaded:
-        embed_model, questions, answers, question_embeddings, df_nlp = load_nlp_model(train_text)
-        
-        user_question = st.text_input("Posez votre question (ex: How to reduce cramps?) :")
+        with st.spinner("Chargement du modèle..."):
+            embed_model, questions, answers, question_embeddings, df_nlp = load_nlp_model(train_text)
+
+        st.markdown("#### Exemples de questions")
+        exemples = ["How can I reduce menstrual cramps?", "What causes irregular periods?"]
+        cols = st.columns(2)
+        if 'question' not in st.session_state: st.session_state.question = ""
+        for i, ex in enumerate(exemples):
+            if cols[i].button(ex): st.session_state.question = ex
+
+        user_question = st.text_input("Votre question :", value=st.session_state.question)
         if st.button("🌸 Obtenir une réponse") and user_question:
             main_answer, alternatives = smart_assistant(user_question, embed_model, question_embeddings, answers)
             if main_answer:
                 st.markdown(f"<div class='answer-box'>{main_answer}</div>", unsafe_allow_html=True)
+                for alt, score in alternatives:
+                    st.markdown(f"<div class='alt-box'>{alt} (Score: {score:.2f})</div>", unsafe_allow_html=True)
             else:
-                st.warning("Aucune réponse trouvée. Essayez de reformuler.")
+                st.warning("Aucune réponse pertinente trouvée.")
 
+# ═══════════════════════════════════════════════════════════════════════════════
+# PAGE PRÉDICTION ML (TOUS TES CHAMPS SONT ICI !)
+# ═══════════════════════════════════════════════════════════════════════════════
 elif page == "Prédiction Ovulation":
-    st.markdown("# 📈 Prédiction de l'Ovulation")
+    st.markdown("# Prédiction de l'Ovulation")
     if data_loaded:
-        model_rf, feature_cols, encoders, df_p = train_model(period_log)
+        model_rf, feature_cols, encoders, df_processed = train_model(period_log)
         
-        col1, col2 = st.columns(2)
+        col1, col2, col3 = st.columns(3)
         with col1:
-            cycle_len = st.slider("Durée du cycle", 20, 45, 28)
-            stress = st.slider("Niveau de stress", 0, 10, 5)
+            cycle_length = st.slider("Durée du cycle (jours)", 20, 45, 28)
+            pain_level = st.slider("Niveau de douleur (0-10)", 0, 10, 3)
+            stress_score = st.slider("Score de stress (0-10)", 0, 10, 4)
         with col2:
-            sleep = st.slider("Sommeil (heures)", 4, 12, 8)
-            pain = st.slider("Douleur", 0, 10, 2)
+            sleep_hours = st.slider("Heures de sommeil", 3.0, 12.0, 7.5, 0.5)
+            energy_level = st.slider("Niveau d'énergie (1-10)", 1, 10, 6)
+            mood_score = st.slider("Score d'humeur (1-10)", 1, 10, 6)
+        with col3:
+            estrogen = st.number_input("Œstrogène (pg/mL)", 0.0, 500.0, 120.0)
+            progesterone = st.number_input("Progestérone (ng/mL)", 0.0, 30.0, 5.0)
+            prev_cycle = st.slider("Durée cycle précédent (jours)", 20, 45, 28)
 
-        if st.button("Lancer la prédiction"):
-            # Simulation simplifiée pour test
-            st.metric("Probabilité d'ovulation", "72%")
-            st.success("Ovulation probable dans les prochaines 48h.")
+        if st.button("Prédire"):
+            sample = pd.DataFrame(columns=feature_cols)
+            sample.loc[0] = 0
+            mapping = {
+                'cycle_length_days': cycle_length, 'pain_level': pain_level,
+                'stress_score_cycle': stress_score, 'sleep_hours_cycle': sleep_hours,
+                'energy_level': energy_level, 'mood_score': mood_score,
+                'estrogen_pgml': estrogen, 'progesterone_ngml': progesterone,
+                'prev_cycle_length': prev_cycle
+            }
+            for col, val in mapping.items():
+                if col in sample.columns: sample[col] = val
 
+            prediction = model_rf.predict(sample)[0]
+            proba = model_rf.predict_proba(sample)[0]
+            
+            st.markdown("---")
+            if prediction == 1: st.success("**Ovulation probable**")
+            else: st.info("**Ovulation peu probable**")
+            st.metric("Confiance", f"{proba[1]*100:.1f}%")
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# PAGE VISUALISATIONS (TES GRAPHIQUES !)
+# ═══════════════════════════════════════════════════════════════════════════════
 elif page == "Visualisations":
-    st.markdown("# 📊 Exploration des Données")
+    st.markdown("# Exploration des Données")
     if data_loaded:
-        fig, ax = plt.subplots()
-        sns.histplot(period_log['cycle_length_days'], kde=True, color="#9B59B6")
+        viz = st.selectbox("Choisissez une visualisation :", [
+            "Distribution des longueurs de cycle",
+            "Répartition des phases du cycle",
+            "Niveau de douleur",
+            "Énergie vs Concentration",
+            "Corrélations entre variables"
+        ])
+        fig, ax = plt.subplots(figsize=(8, 5))
+        if viz == "Distribution des longueurs de cycle":
+            sns.histplot(period_log['cycle_length_days'], bins=15, kde=True, ax=ax, color='#9B59B6')
+        elif viz == "Répartition des phases du cycle":
+            sns.countplot(x='cycle_phase', data=period_log, ax=ax, palette='RdPu')
+        elif viz == "Niveau de douleur":
+            sns.histplot(period_log['pain_level'], bins=10, ax=ax, color='#E91E8C')
+        elif viz == "Énergie vs Concentration":
+            sns.scatterplot(x='energy_level', y='concentration_score', data=period_log, ax=ax, color='#9B59B6')
+        elif viz == "Corrélations entre variables":
+            plt.close()
+            fig, ax = plt.subplots(figsize=(10, 7))
+            sns.heatmap(period_log.select_dtypes(include=['number']).corr(), annot=True, cmap="RdPu", ax=ax)
+        
         st.pyplot(fig)
         st.dataframe(period_log.head(10))
