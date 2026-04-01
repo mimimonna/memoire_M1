@@ -129,7 +129,7 @@ def smart_assistant(user_question, embed_model, question_embeddings, answers, to
 with st.sidebar:
     st.markdown("## 🌸 Navigation")
     page = st.radio("", [
-        " Accueil",
+        "Accueil",
         "Assistant NLP",
         "Prédiction Ovulation",
         "Visualisations"
@@ -203,10 +203,10 @@ elif page == " Assistant NLP":
             "How long does a normal cycle last?"
         ]
         cols = st.columns(4)
-           if 'question' not in st.session_state:
+        if 'question' not in st.session_state:
                 st.session_state.question = ""
 
-            for i, ex in enumerate(exemples):
+        for i, ex in enumerate(exemples):
                 if cols[i].button(ex, key=f"ex_{i}"):
                     st.session_state.question = ex
 
