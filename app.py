@@ -1,0 +1,375 @@
+import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import re
+import joblib
+import torch
+from sentence_transformers import SentenceTransformer, util
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+
+# ─── CONFIG PAGE ──────────────────────────────────────────────────────────────
+st.set_page_config(
+    page_title="Assistant Santé Menstruelle",
+    page_icon="🌸",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+# ─── STYLE CSS ────────────────────────────────────────────────────────────────
+st.markdown("""
+<style>
+    .main { background-color: #fdf6f9; }
+    .stApp { background-color: #fdf6f9; }
+    h1 { color: #7B2D8B; }
+    h2, h3 { color: #9B59B6; }
+    .stButton > button {
+        background-color: #9B59B6;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        padding: 0.5rem 2rem;
+        font-size: 1rem;
+    }
+    .stButton > button:hover { background-color: #7B2D8B; }
+    .answer-box {
+        background-color: #f3e5f5;
+        border-left: 5px solid #9B59B6;
+        padding: 1rem 1.5rem;
+        border-radius: 10px;
+        margin: 1rem 0;
+    }
+    .alt-box {
+        background-color: #fce4ec;
+        border-left: 4px solid #e91e8c;
+        padding: 0.8rem 1.2rem;
+        border-radius: 8px;
+        margin: 0.5rem 0;
+        font-size: 0.9rem;
+    }
+    .metric-card {
+        background: white;
+        padding: 1rem;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(155,89,182,0.15);
+    }
+    .sidebar .sidebar-content { background-color: #f8f0fc; }
+</style>
+""", unsafe_allow_html=True)
+
+# ─── CHARGEMENT DES DONNÉES ───────────────────────────────────────────────────
+@st.cache_data
+def load_data():
+    period_log = pd.read_csv("Period_Log.csv")
+    train_text = pd.read_csv("Training Data.csv")
+    return period_log, train_text
+
+@st.cache_data
+def preprocess_data(period_log):
+    categorical_cols = ['cycle_phase', 'flow_level', 'pms_symptoms', 'ovulation_result']
+    df = period_log.copy()
+    encoders = {}
+    for col in categorical_cols:
+        le = LabelEncoder()
+        df[col] = le.fit_transform(df[col].astype(str))
+        encoders[col] = le
+    df['prev_cycle_length'] = df['prev_cycle_length'].fillna(df['prev_cycle_length'].mean())
+    return df, encoders
+
+@st.cache_resource
+def train_model(period_log):
+    df, encoders = preprocess_data(period_log)
+    y = df['ovulation_result']
+    X = df.drop(columns=['ovulation_result', 'user_id', 'start_date'], errors='ignore')
+    X = pd.get_dummies(X, drop_first=True)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+    model_rf = RandomForestClassifier(n_estimators=200, random_state=42)
+    model_rf.fit(X_train, y_train)
+    return model_rf, X.columns.tolist(), encoders, df
+
+@st.cache_resource
+def load_nlp_model(train_text):
+    def clean_text(text):
+        text = str(text).lower()
+        text = re.sub(r'\s+', ' ', text)
+        text = re.sub(r'[^a-z0-9?.! ]', '', text)
+        return text
+
+    df = train_text[['instruction (string)', 'output (string)']].rename(
+        columns={'instruction (string)': 'instruction', 'output (string)': 'output'}
+    ).dropna()
+
+    df['instruction_clean'] = df['instruction'].apply(clean_text)
+
+    embed_model = SentenceTransformer('all-MiniLM-L6-v2')
+    questions = df['instruction_clean'].tolist()
+    answers = df['output'].tolist()
+    question_embeddings = embed_model.encode(questions, convert_to_tensor=True)
+
+    return embed_model, questions, answers, question_embeddings, df
+
+def smart_assistant(user_question, embed_model, question_embeddings, answers, top_k=3, threshold=0.4):
+    user_emb = embed_model.encode(user_question.lower(), convert_to_tensor=True)
+    scores = util.cos_sim(user_emb, question_embeddings)[0]
+    top_results = torch.topk(scores, k=min(top_k, len(answers)))
+    best_score = top_results.values[0].item()
+
+    if best_score < threshold:
+        return None, []
+
+    best_answers = [answers[idx.item()] for idx in top_results.indices]
+    best_scores = [top_results.values[i].item() for i in range(len(top_results.indices))]
+    return best_answers[0], list(zip(best_answers[1:], best_scores[1:]))
+
+# ─── SIDEBAR ──────────────────────────────────────────────────────────────────
+with st.sidebar:
+    st.markdown("## 🌸 Navigation")
+    page = st.radio("", [
+        "🏠 Accueil",
+        "💬 Assistant NLP",
+        "🔮 Prédiction Ovulation",
+        "📊 Visualisations"
+    ])
+    st.markdown("---")
+    st.markdown("### ℹ️ À propos")
+    st.info("Ce projet combine **Machine Learning** et **NLP** pour accompagner la compréhension de la santé menstruelle.\n\n⚠️ *Ne remplace pas un avis médical.*")
+
+# ─── CHARGEMENT ───────────────────────────────────────────────────────────────
+try:
+    period_log, train_text = load_data()
+    data_loaded = True
+except Exception as e:
+    data_loaded = False
+    st.sidebar.error(f"Fichiers CSV non trouvés : {e}")
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# PAGE ACCUEIL
+# ═══════════════════════════════════════════════════════════════════════════════
+if page == "🏠 Accueil":
+    st.markdown("# 🌸 Assistant Intelligent pour la Santé Menstruelle")
+    st.markdown("### *Université Paris 1 Panthéon-Sorbonne — DABO Mami Monna*")
+    st.markdown("---")
+
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.markdown("""<div class='metric-card'>
+            <h2>💬</h2><h3>Assistant NLP</h3>
+            <p>Posez vos questions en langage naturel sur la santé menstruelle</p>
+        </div>""", unsafe_allow_html=True)
+    with col2:
+        st.markdown("""<div class='metric-card'>
+            <h2>🔮</h2><h3>Prédiction ML</h3>
+            <p>Prédisez l'ovulation à partir de vos données physiologiques</p>
+        </div>""", unsafe_allow_html=True)
+    with col3:
+        st.markdown("""<div class='metric-card'>
+            <h2>📊</h2><h3>Visualisations</h3>
+            <p>Explorez les données du cycle menstruel interactivement</p>
+        </div>""", unsafe_allow_html=True)
+
+    st.markdown("---")
+    st.markdown("""
+    ### 🧠 Approche Hybride
+    Ce projet repose sur deux composantes complémentaires :
+    - **Machine Learning** (Random Forest, XGBoost) pour analyser des données tabulaires et prédire l'ovulation
+    - **NLP** (Sentence-BERT) pour comprendre les questions en langage naturel et y répondre
+    """)
+
+    if data_loaded:
+        st.success(f"✅ Données chargées — {len(period_log):,} entrées cycle | {len(train_text):,} paires Q&R")
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# PAGE ASSISTANT NLP
+# ═══════════════════════════════════════════════════════════════════════════════
+elif page == "💬 Assistant NLP":
+    st.markdown("# 💬 Assistant Santé Menstruelle")
+    st.markdown("Posez votre question en anglais ou en français sur la santé menstruelle.")
+
+    if not data_loaded:
+        st.error("Impossible de charger les données. Vérifiez que 'Training Data.csv' est présent.")
+    else:
+        with st.spinner("Chargement du modèle NLP..."):
+            embed_model, questions, answers, question_embeddings, df_nlp = load_nlp_model(train_text)
+
+        st.markdown("#### 💡 Exemples de questions")
+        exemples = [
+            "How can I reduce menstrual cramps?",
+            "What causes irregular periods?",
+            "Is it normal to have mood swings?",
+            "How long does a normal cycle last?"
+        ]
+        cols = st.columns(4)
+        selected_example = None
+        for i, ex in enumerate(exemples):
+            if cols[i].button(ex, key=f"ex_{i}"):
+                selected_example = ex
+
+        st.markdown("---")
+        user_question = st.text_input(
+            "🔍 Votre question :",
+            value=selected_example if selected_example else "",
+            placeholder="Ex: How can I reduce menstrual cramps?"
+        )
+
+        if st.button("🌸 Obtenir une réponse") and user_question:
+            with st.spinner("Recherche de la meilleure réponse..."):
+                main_answer, alternatives = smart_assistant(
+                    user_question, embed_model, question_embeddings, answers
+                )
+
+            if main_answer is None:
+                st.warning("Je n'ai pas trouvé de réponse suffisamment pertinente. Essayez de reformuler votre question.")
+            else:
+                st.markdown("#### ✅ Réponse principale")
+                st.markdown(f"<div class='answer-box'>{main_answer}</div>", unsafe_allow_html=True)
+
+                if alternatives:
+                    st.markdown("#### 💡 Suggestions alternatives")
+                    for alt_answer, score in alternatives:
+                        st.markdown(f"<div class='alt-box'>🔹 {alt_answer}<br><small>Score de similarité : {score:.2f}</small></div>", unsafe_allow_html=True)
+
+        st.markdown("---")
+        st.caption("⚠️ Cet assistant fournit des informations générales uniquement. Il ne remplace pas un avis médical professionnel.")
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# PAGE PRÉDICTION ML
+# ═══════════════════════════════════════════════════════════════════════════════
+elif page == "🔮 Prédiction Ovulation":
+    st.markdown("# 🔮 Prédiction de l'Ovulation")
+    st.markdown("Renseignez vos données pour obtenir une prédiction basée sur le modèle Random Forest.")
+
+    if not data_loaded:
+        st.error("Données non disponibles.")
+    else:
+        with st.spinner("Entraînement du modèle..."):
+            model_rf, feature_cols, encoders, df_processed = train_model(period_log)
+
+        st.markdown("### 📝 Vos données")
+        col1, col2, col3 = st.columns(3)
+
+        with col1:
+            cycle_length = st.slider("Durée du cycle (jours)", 20, 45, 28)
+            pain_level = st.slider("Niveau de douleur (0-10)", 0, 10, 3)
+            stress_score = st.slider("Score de stress (0-10)", 0, 10, 4)
+
+        with col2:
+            sleep_hours = st.slider("Heures de sommeil", 3.0, 12.0, 7.5, 0.5)
+            energy_level = st.slider("Niveau d'énergie (1-10)", 1, 10, 6)
+            mood_score = st.slider("Score d'humeur (1-10)", 1, 10, 6)
+
+        with col3:
+            estrogen = st.number_input("Œstrogène (pg/mL)", 0.0, 500.0, 120.0)
+            progesterone = st.number_input("Progestérone (ng/mL)", 0.0, 30.0, 5.0)
+            prev_cycle = st.slider("Durée cycle précédent (jours)", 20, 45, 28)
+
+        if st.button("🔮 Prédire"):
+            # Créer un échantillon avec les mêmes colonnes que X_train
+            sample = pd.DataFrame(columns=feature_cols)
+            sample.loc[0] = 0  # initialiser à 0
+
+            # Remplir les colonnes disponibles
+            mapping = {
+                'cycle_length_days': cycle_length,
+                'pain_level': pain_level,
+                'stress_score_cycle': stress_score,
+                'sleep_hours_cycle': sleep_hours,
+                'energy_level': energy_level,
+                'mood_score': mood_score,
+                'estrogen_pgml': estrogen,
+                'progesterone_ngml': progesterone,
+                'prev_cycle_length': prev_cycle
+            }
+            for col, val in mapping.items():
+                if col in sample.columns:
+                    sample[col] = val
+
+            prediction = model_rf.predict(sample)[0]
+            proba = model_rf.predict_proba(sample)[0]
+
+            st.markdown("---")
+            col_res1, col_res2 = st.columns(2)
+            with col_res1:
+                if prediction == 1:
+                    st.success("✅ **Ovulation probable**")
+                else:
+                    st.info("ℹ️ **Ovulation peu probable**")
+
+            with col_res2:
+                st.metric("Probabilité d'ovulation", f"{proba[1]*100:.1f}%")
+
+            # Feature importance
+            st.markdown("### 📊 Variables les plus importantes")
+            importances = pd.Series(model_rf.feature_importances_, index=feature_cols).sort_values(ascending=False).head(10)
+            fig, ax = plt.subplots(figsize=(8, 4))
+            importances.plot(kind='bar', ax=ax, color='#9B59B6')
+            ax.set_title("Top 10 features importantes")
+            ax.set_ylabel("Importance")
+            plt.xticks(rotation=45, ha='right')
+            plt.tight_layout()
+            st.pyplot(fig)
+
+        st.caption("⚠️ Cette prédiction est indicative et ne remplace pas un suivi médical.")
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# PAGE VISUALISATIONS
+# ═══════════════════════════════════════════════════════════════════════════════
+elif page == "📊 Visualisations":
+    st.markdown("# 📊 Exploration des Données")
+
+    if not data_loaded:
+        st.error("Données non disponibles.")
+    else:
+        _, _, _, df_processed = train_model(period_log)
+
+        viz = st.selectbox("Choisissez une visualisation :", [
+            "Distribution des longueurs de cycle",
+            "Répartition des phases du cycle",
+            "Niveau de douleur",
+            "Énergie vs Concentration",
+            "Corrélations entre variables",
+            "Résultat d'ovulation"
+        ])
+
+        fig, ax = plt.subplots(figsize=(8, 5))
+
+        if viz == "Distribution des longueurs de cycle":
+            sns.histplot(df_processed['cycle_length_days'], bins=15, kde=True, ax=ax, color='#9B59B6')
+            ax.set_title("Distribution des longueurs de cycle")
+            ax.set_xlabel("Cycle length (days)")
+
+        elif viz == "Répartition des phases du cycle":
+            sns.countplot(x='cycle_phase', data=df_processed, ax=ax, palette='RdPu')
+            ax.set_title("Répartition des phases du cycle")
+            plt.xticks(rotation=45)
+
+        elif viz == "Niveau de douleur":
+            sns.histplot(df_processed['pain_level'], bins=10, kde=True, ax=ax, color='#E91E8C')
+            ax.set_title("Distribution du niveau de douleur")
+            ax.set_xlabel("Pain Level")
+
+        elif viz == "Énergie vs Concentration":
+            sns.scatterplot(x='energy_level', y='concentration_score',
+                          hue='cycle_phase', data=df_processed, ax=ax, palette='RdPu')
+            ax.set_title("Énergie vs Concentration selon phase du cycle")
+
+        elif viz == "Corrélations entre variables":
+            plt.close()
+            fig, ax = plt.subplots(figsize=(12, 8))
+            numeric_cols = df_processed.select_dtypes(include=['number'])
+            sns.heatmap(numeric_cols.corr(), annot=True, fmt=".2f", cmap="RdPu", ax=ax)
+            ax.set_title("Corrélations entre variables numériques")
+
+        elif viz == "Résultat d'ovulation":
+            sns.countplot(x='ovulation_result', data=df_processed, ax=ax, palette='RdPu')
+            ax.set_title("Résultat d'ovulation")
+
+        plt.tight_layout()
+        st.pyplot(fig)
+
+        st.markdown("---")
+        st.markdown("### 📋 Aperçu des données")
+        st.dataframe(period_log.head(10), use_container_width=True)
