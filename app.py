@@ -194,7 +194,7 @@ elif page == "Assistant NLP":
                 st.warning("Aucune réponse pertinente trouvée.")
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# PAGE PRÉDICTION ML (TOUS TES CHAMPS SONT ICI !)
+# PAGE PRÉDICTION ML 
 # ═══════════════════════════════════════════════════════════════════════════════
 elif page == "Prédiction Ovulation":
     st.markdown("# Prédiction de l'Ovulation")
@@ -237,7 +237,7 @@ elif page == "Prédiction Ovulation":
             st.metric("Confiance", f"{proba[1]*100:.1f}%")
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# PAGE VISUALISATIONS (TES GRAPHIQUES !)
+# PAGE VISUALISATIONS (LES GRAPHIQUES !)
 # ═══════════════════════════════════════════════════════════════════════════════
 elif page == "Visualisations":
     st.markdown("# Exploration des Données")
